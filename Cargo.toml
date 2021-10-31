@@ -1,0 +1,16 @@
+[package]
+name = "gourmand-web-viewer"
+version = "0.1.0"
+authors = ["Olivier ROLAND <newca12@users.noreply.github.com>"]
+description = "Gourmand web viewer"
+homepage = "https://github.com/newca12/VersatiList"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+iced = { version = "0.3.0", features = ["debug"] }
+iced_web = "0.4.0"
+structopt = "0.3.25"
+serde_derive = "1.0.130"
+serde = "1.0.130"
+serde-xml-rs = "0.5.1"
