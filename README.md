@@ -18,7 +18,7 @@ or built it yourself (replace src/data/recipes.xml with your own Gourmand export
 rustup target add wasm32-unknown-unknown
 cargo install -f wasm-bindgen-cli --version 0.2.69
 cargo build --target wasm32-unknown-unknown
-wasm-bindgen target/wasm32-unknown-unknown/debug/versatilist.wasm --out-dir VersatiList --web
+wasm-bindgen target/wasm32-unknown-unknown/debug/gourmand-web-viewer.wasm --out-dir GourmandWebViewer --web
 ```
 
 ## A GUI is also available ##
