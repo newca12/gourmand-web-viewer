@@ -24,7 +24,7 @@ pub struct IngredientList {
 #[derive(Serialize, Deserialize, Debug, Default, Clone, PartialEq)]
 pub struct Ingredient {
     #[serde(rename = "item")]
-    pub item: String,
+    pub item: Option<String>,
     #[serde(rename = "key")]
     pub key: String,
 }
