@@ -1,0 +1,35 @@
+on: [push]
+
+name: Continuous integration
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - uses: jetli/wasm-bindgen-action@v0.1.0
+        with:
+        # Optional version of wasm-bindgen to install(eg. '0.2.68', 'latest')
+        version: '0.2.69'          
+      - run: |
+          echo build
+          rustup target add wasm32-unknown-unknown
+          cargo install -f wasm-bindgen-cli --version 0.2.69
+          cargo build --target wasm32-unknown-unknown
+          wasm-bindgen target/wasm32-unknown-unknown/debug/gourmand-web-viewer.wasm --out-dir GourmandWebViewer --web
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'GourmandWebViewer'
+          destination-github-username: 'newca12'
+          destination-repository-name: 'newca12.github.com'
+          user-email: olivier.roland@edla.org
+          commit-message: Update recipes
+          target-branch: main
