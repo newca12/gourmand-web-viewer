@@ -28,4 +28,4 @@ jobs:
           destination-repository-name: 'newca12.github.com'
           user-email: olivier.roland@edla.org
           commit-message: Update recipes
-          target-branch: main
+          target-branch: master
