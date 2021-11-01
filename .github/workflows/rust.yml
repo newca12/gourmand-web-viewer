@@ -24,6 +24,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: 'GourmandWebViewer'
+          target-directory: 'GourmandWebViewer'
           destination-github-username: 'newca12'
           destination-repository-name: 'newca12.github.com'
           user-email: newca12@users.noreply.github.com
