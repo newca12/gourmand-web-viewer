@@ -11,6 +11,10 @@ pub struct GourmetDoc {
 pub struct Recipe {
     #[serde(rename = "title")]
     pub title: String,
+    #[serde(rename = "category")]
+    pub category: Option<String>,
+    #[serde(rename = "cuisine")]
+    pub cuisine: Option<String>,
     #[serde(rename = "ingredient-list")]
     pub ingredient_list: Option<IngredientList>,
 }

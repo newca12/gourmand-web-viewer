@@ -1,4 +1,4 @@
-use gourmand_web_viewer::recipe::Ingredient;
+use gourmand_web_viewer::recipe::Recipe;
 use iced::{
     text_input, Column, Container, Element, HorizontalAlignment, Length, Row, Sandbox, Settings,
     Text, TextInput,
@@ -20,7 +20,7 @@ struct VersatiList {
     state1: text_input::State,
     state2: text_input::State,
     state3: text_input::State,
-    recipes: HashMap<String, Vec<Ingredient>>,
+    recipes: HashMap<String, Recipe>,
     found: usize,
 }
 
@@ -42,7 +42,7 @@ impl Sandbox for VersatiList {
             state1: text_input::State::new(),
             state2: text_input::State::new(),
             state3: text_input::State::new(),
-            recipes: gourmand_web_viewer::load(),
+            recipes: gourmand_web_viewer::load(false),
             found: 0,
         }
     }
@@ -92,26 +92,39 @@ impl Sandbox for VersatiList {
         let result1: Vec<_> = recipes1
             .iter()
             .filter(|&(_, v)| {
-                v.iter()
+                v.clone()
+                    .ingredient_list
+                    .unwrap()
+                    .ingredients
+                    .iter()
                     .any(|e| e.key.to_ascii_lowercase().contains(&filter1))
             })
             .filter(|&(_, v)| {
-                v.iter()
+                v.clone()
+                    .ingredient_list
+                    .unwrap()
+                    .ingredients
+                    .iter()
                     .any(|e| e.key.to_ascii_lowercase().contains(&filter2))
             })
             .filter(|&(_, v)| {
-                v.iter()
+                v.clone()
+                    .ingredient_list
+                    .unwrap()
+                    .ingredients
+                    .iter()
                     .any(|e| e.key.to_ascii_lowercase().contains(&filter3))
             })
             .collect();
 
         let mut result = result1.clone();
-        for val in &result1 {
-            if !result.contains(val) {
-                result.push((val.0, val.1))
-            };
-        }
-
+        /*
+                for val in &result1 {
+                    if !result.contains(val) {
+                        result.push((val.0, val.1))
+                    };
+                }
+        */
         self.found = result.len();
         let result = result
             .iter_mut()
