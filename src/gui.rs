@@ -108,7 +108,7 @@ impl Sandbox for GourmandWebViewer {
 
         for (title, state) in self.categories_buttons.iter_mut() {
             if *self.category_filter.get(title).unwrap_or(&false) {
-                categorie_filter = categorie_filter //.push(Button::new(state, Text::new(title)));
+                categorie_filter = categorie_filter
                     .push(
                         Button::new(
                             state,
@@ -120,7 +120,7 @@ impl Sandbox for GourmandWebViewer {
                         .on_press(Message::ToggleFilterCategory(title.to_string()))
                         .style(style::Button::Selected),
                     )
-                    .padding(16);
+                    .padding(8);
             } else {
                 categorie_filter = categorie_filter
                     .push(
@@ -131,9 +131,10 @@ impl Sandbox for GourmandWebViewer {
                                 .size(16),
                         )
                         .padding(8)
-                        .on_press(Message::ToggleFilterCategory(title.to_string())),
+                        .on_press(Message::ToggleFilterCategory(title.to_string()))
+                        .style(style::Button::UnSelected),
                     )
-                    .padding(16);
+                    .padding(8);
             }
         }
 
@@ -151,7 +152,7 @@ impl Sandbox for GourmandWebViewer {
                         .on_press(Message::ToggleFilterCuisine(title.to_string()))
                         .style(style::Button::Selected),
                     )
-                    .padding(16);
+                    .padding(8);
             } else {
                 cuisine_filter = cuisine_filter
                     .push(
@@ -162,9 +163,10 @@ impl Sandbox for GourmandWebViewer {
                                 .size(16),
                         )
                         .padding(8)
-                        .on_press(Message::ToggleFilterCuisine(title.to_string())),
+                        .on_press(Message::ToggleFilterCuisine(title.to_string()))
+                        .style(style::Button::UnSelected),
                     )
-                    .padding(16);
+                    .padding(8);
             }
         }
 
@@ -309,6 +311,7 @@ mod style {
 
     pub enum Button {
         Selected,
+        UnSelected,
     }
 
     impl button::StyleSheet for Button {
@@ -316,17 +319,24 @@ mod style {
             button::Style {
                 background: Some(Background::Color(match self {
                     Button::Selected => Color::from_rgb(0.11, 0.42, 0.87),
+                    Button::UnSelected => Color::from_rgb(0.87, 0.87, 0.87),
                 })),
                 border_radius: 12.0,
                 shadow_offset: Vector::new(1.0, 1.0),
-                text_color: Color::from_rgb8(0xEE, 0xEE, 0xEE),
+                text_color: match self {
+                    Button::Selected => Color::WHITE,
+                    Button::UnSelected => Color::BLACK,
+                },
                 ..button::Style::default()
             }
         }
 
         fn hovered(&self) -> button::Style {
             button::Style {
-                text_color: Color::WHITE,
+                text_color: match self {
+                    Button::Selected => Color::from_rgb(0.87, 0.87, 0.87),
+                    Button::UnSelected => Color::from_rgb(0.11, 0.42, 0.87),
+                },
                 shadow_offset: Vector::new(1.0, 2.0),
                 ..self.active()
             }
