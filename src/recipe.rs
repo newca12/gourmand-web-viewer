@@ -30,7 +30,7 @@ pub struct Ingredient {
     #[serde(rename = "item")]
     pub item: Option<String>,
     #[serde(rename = "key")]
-    pub key: String,
+    pub key: Option<String>,
 }
 
 pub fn read_from_str(str: &str) -> Result<GourmetDoc, serde_xml_rs::Error> {

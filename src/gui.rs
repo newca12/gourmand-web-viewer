@@ -4,50 +4,70 @@ use iced::{
     Settings, Text, TextInput,
 };
 
-use std::collections::HashMap;
+use std::collections::BTreeMap;
+use std::collections::{HashMap, HashSet};
 
 pub fn run_gui() {
     let mut settings = Settings::default();
     settings.window.size = (525u32, 533u32);
-    VersatiList::run(settings).unwrap();
+    GourmandWebViewer::run(settings).unwrap();
 }
 
 #[derive(Debug)]
-struct VersatiList {
-    toggle_vg: button::State,
-    vg_filter: bool,
+struct GourmandWebViewer {
+    categories_buttons: BTreeMap<String, button::State>,
+    cuisines_buttons: BTreeMap<String, button::State>,
+    category_filter: HashMap<String, bool>,
+    cuisine_filter: HashMap<String, bool>,
     input1: String,
     input2: String,
     input3: String,
     state1: text_input::State,
     state2: text_input::State,
     state3: text_input::State,
+    categories: HashSet<String>,
+    cuisines: HashSet<String>,
     recipes: HashMap<String, Recipe>,
     found: usize,
 }
 
 #[derive(Debug, Clone)]
 enum Message {
-    ToggleVg,
+    ToggleFilterCategory(String),
+    ToggleFilterCuisine(String),
     Input1Changed(String),
     Input2Changed(String),
     Input3Changed(String),
 }
 
-impl Sandbox for VersatiList {
+impl Sandbox for GourmandWebViewer {
     type Message = Message;
 
     fn new() -> Self {
+        let (categories, cuisines, recipes) = gourmand_web_viewer::load(false);
+        let mut cuisines_buttons = BTreeMap::new();
+        for c in cuisines.clone() {
+            cuisines_buttons.insert(c, button::State::new());
+        }
+        let mut categories_buttons = BTreeMap::new();
+        for c in categories.clone() {
+            categories_buttons.insert(c, button::State::new());
+        }
+
         Self {
-            toggle_vg: button::State::new(),
-            vg_filter: false,
+            categories_buttons,
+            cuisines_buttons,
+            category_filter: HashMap::new(),
+            cuisine_filter: HashMap::new(),
             input1: String::new(),
             input2: String::new(),
             input3: String::new(),
             state1: text_input::State::new(),
             state2: text_input::State::new(),
             state3: text_input::State::new(),
-            recipes: gourmand_web_viewer::load(false),
+            categories,
+            cuisines,
+            recipes,
             found: 0,
         }
     }
@@ -58,8 +78,17 @@ impl Sandbox for VersatiList {
 
     fn update(&mut self, message: Self::Message) {
         match message {
-            Message::ToggleVg => {
-                self.vg_filter = !self.vg_filter;
+            Message::ToggleFilterCategory(title) => {
+                self.category_filter.insert(
+                    title.clone(),
+                    !self.category_filter.get(&title).unwrap_or(&false),
+                );
+            }
+            Message::ToggleFilterCuisine(title) => {
+                self.cuisine_filter.insert(
+                    title.clone(),
+                    !self.cuisine_filter.get(&title).unwrap_or(&false),
+                );
             }
             Message::Input1Changed(new_value) => {
                 self.input1 = new_value.to_ascii_lowercase();
@@ -74,34 +103,71 @@ impl Sandbox for VersatiList {
     }
 
     fn view(&mut self) -> Element<Message> {
-        let vg_button = if self.vg_filter {
-            Column::new()
-                .push(
-                    Button::new(
-                        &mut self.toggle_vg,
-                        Text::new("Végétarien")
-                            .horizontal_alignment(alignment::Horizontal::Center)
-                            .size(16),
+        let mut categorie_filter = Row::new();
+        let mut cuisine_filter = Row::new();
+
+        for (title, state) in self.categories_buttons.iter_mut() {
+            if *self.category_filter.get(title).unwrap_or(&false) {
+                categorie_filter = categorie_filter //.push(Button::new(state, Text::new(title)));
+                    .push(
+                        Button::new(
+                            state,
+                            Text::new(title)
+                                .horizontal_alignment(alignment::Horizontal::Center)
+                                .size(16),
+                        )
+                        .padding(8)
+                        .on_press(Message::ToggleFilterCategory(title.to_string()))
+                        .style(style::Button::Selected),
                     )
-                    .padding(8)
-                    .on_press(Message::ToggleVg)
-                    .style(style::Button::Selected),
-                )
-                .padding(16)
-        } else {
-            Column::new()
-                .push(
-                    Button::new(
-                        &mut self.toggle_vg,
-                        Text::new("Végétarien")
-                            .horizontal_alignment(alignment::Horizontal::Center)
-                            .size(16),
+                    .padding(16);
+            } else {
+                categorie_filter = categorie_filter
+                    .push(
+                        Button::new(
+                            state,
+                            Text::new(title)
+                                .horizontal_alignment(alignment::Horizontal::Center)
+                                .size(16),
+                        )
+                        .padding(8)
+                        .on_press(Message::ToggleFilterCategory(title.to_string())),
                     )
-                    .padding(8)
-                    .on_press(Message::ToggleVg),
-                )
-                .padding(16)
-        };
+                    .padding(16);
+            }
+        }
+
+        for (title, state) in self.cuisines_buttons.iter_mut() {
+            if *self.cuisine_filter.get(title).unwrap_or(&false) {
+                cuisine_filter = cuisine_filter
+                    .push(
+                        Button::new(
+                            state,
+                            Text::new(title)
+                                .horizontal_alignment(alignment::Horizontal::Center)
+                                .size(16),
+                        )
+                        .padding(8)
+                        .on_press(Message::ToggleFilterCuisine(title.to_string()))
+                        .style(style::Button::Selected),
+                    )
+                    .padding(16);
+            } else {
+                cuisine_filter = cuisine_filter
+                    .push(
+                        Button::new(
+                            state,
+                            Text::new(title)
+                                .horizontal_alignment(alignment::Horizontal::Center)
+                                .size(16),
+                        )
+                        .padding(8)
+                        .on_press(Message::ToggleFilterCuisine(title.to_string())),
+                    )
+                    .padding(16);
+            }
+        }
+
         let filter1 = self.input1.clone();
         let text_input1 = TextInput::new(
             &mut self.state1,
@@ -128,8 +194,33 @@ impl Sandbox for VersatiList {
         let result1: Vec<_> = recipes1
             .iter()
             .filter(|&(_, v)| {
-                !self.vg_filter
-                    || v.clone().category.is_some() && v.clone().category.unwrap().contains("VG")
+                let mut selected = false;
+                for (_, select) in self.cuisine_filter.clone() {
+                    if select {
+                        selected = true
+                    }
+                }
+                !selected
+                    || (v.clone().cuisine.is_some()
+                        && *self
+                            .cuisine_filter
+                            .get(&v.clone().cuisine.unwrap())
+                            .unwrap_or(&false))
+            })
+            .filter(|&(_, v)| {
+                let mut selected = false;
+                for (_, select) in self.category_filter.clone() {
+                    if select {
+                        selected = true
+                    }
+                }
+                !selected
+                    || (v.clone().category.is_some()
+                        && *self
+                            .category_filter
+                            .get(&v.clone().category.unwrap())
+                            .unwrap_or(&false))
+                // &&
             })
             .filter(|&(_, v)| {
                 v.clone()
@@ -137,7 +228,13 @@ impl Sandbox for VersatiList {
                     .unwrap()
                     .ingredients
                     .iter()
-                    .any(|e| e.key.to_ascii_lowercase().contains(&filter1))
+                    .any(|e| {
+                        e.key
+                            .as_ref()
+                            .unwrap()
+                            .to_ascii_lowercase()
+                            .contains(&filter1)
+                    })
             })
             .filter(|&(_, v)| {
                 v.clone()
@@ -145,7 +242,13 @@ impl Sandbox for VersatiList {
                     .unwrap()
                     .ingredients
                     .iter()
-                    .any(|e| e.key.to_ascii_lowercase().contains(&filter2))
+                    .any(|e| {
+                        e.key
+                            .as_ref()
+                            .unwrap()
+                            .to_ascii_lowercase()
+                            .contains(&filter2)
+                    })
             })
             .filter(|&(_, v)| {
                 v.clone()
@@ -153,18 +256,18 @@ impl Sandbox for VersatiList {
                     .unwrap()
                     .ingredients
                     .iter()
-                    .any(|e| e.key.to_ascii_lowercase().contains(&filter3))
+                    .any(|e| {
+                        e.key
+                            .as_ref()
+                            .unwrap()
+                            .to_ascii_lowercase()
+                            .contains(&filter3)
+                    })
             })
             .collect();
 
         let mut result = result1.clone();
-        /*
-                for val in &result1 {
-                    if !result.contains(val) {
-                        result.push((val.0, val.1))
-                    };
-                }
-        */
+
         self.found = result.len();
         let result = result
             .iter_mut()
@@ -185,7 +288,8 @@ impl Sandbox for VersatiList {
                 .color([0.7, 0.7, 0.7]),
         );
         let content = Column::new()
-            .push(vg_button)
+            .push(categorie_filter)
+            .push(cuisine_filter)
             .push(input1)
             .push(input2)
             .push(input3)
