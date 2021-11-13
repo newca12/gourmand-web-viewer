@@ -112,7 +112,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 Δ</instructions>
 	</recipe>
 	<recipe id="1161">
-		<title>Artichauts grillés</title>
+		<title>Artichauts violets grillés</title>
 		<link>https://menu-vegetarien.com/artichauts-grilles/</link>
 		<yields>4</yields>
 		<ingredient-list>
@@ -11770,7 +11770,11 @@ Laisser le mélange refroidir à température ambiante et servir.</instructions>
 	</recipe>
 	<recipe id="1136">
 		<title>Caramel de dattes</title>
+		<category>Dessert</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/caramel-de-dattes/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -12181,7 +12185,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1133">
 		<title>Carottes sauce asiatique</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/carottes-sauce-asiatique/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -12207,6 +12215,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>pignons de pin</item>
 				<key>pignons de pin</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>SAUCE</item>
+				<key>SAUCE</key>
 			</ingredient>
 			<ingredient>
 				<amount>15</amount>
@@ -16224,7 +16240,11 @@ Vous aimerez aussi
 	</recipe>
 	<recipe id="1125">
 		<title>Clémentines à la mousse au chocolat</title>
+		<category>Dessert</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/clementines-mousse-chocolat/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>15 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -16696,156 +16716,33 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
-	<recipe id="401">
-		<title>Conchiglioni farcis au pesto de brocoli</title>
-		<link>https://menu-vegetarien.com/conchiglioni-farcis-pesto-brocoli/</link>
+	<recipe id="1419">
+		<title>Compote pommes coing</title>
+		<category>Dessert</category>
+		<cuisine>Végétarienne</cuisine>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>300</amount>
-				<unit>g</unit>
-				<item>brocoli</item>
-				<key>brocoli,</key>
-			</ingredient>
-			<ingredient>
-				<amount>40</amount>
-				<unit>g</unit>
-				<item>parmesan râpé</item>
-				<key>parmesan râpé</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>gousse d'ail</item>
-				<key>gousse d'ail,</key>
-			</ingredient>
-			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
-				<item>jus de citron</item>
-				<key>citron, jusde</key>
-			</ingredient>
-			<ingredient>
-				<amount>60</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>10</amount>
-				<unit>g</unit>
-				<item>pignons de pin</item>
-				<key>pignons de pin</key>
-			</ingredient>
-			<ingredient>
-				<amount>300</amount>
-				<unit>g</unit>
-				<item>pâtes conchiglioni</item>
-				<key>conchiglioni</key>
+				<amount>3</amount>
+				<item>pommes</item>
+				<key>pommes</key>
 			</ingredient>
 			<ingredient>
 				<amount>400</amount>
 				<unit>g</unit>
-				<item>passata</item>
-				<key>passata</key>
+				<item>coing</item>
+				<key>coing</key>
 			</ingredient>
 			<ingredient>
-				<amount>100</amount>
-				<unit>g</unit>
-				<item>mozzarella râpée</item>
-				<key>mozzarella râpée</key>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>sirop d'agave</item>
+				<key>sirop d'agave</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Conchiglioni farcis au pesto de brocoli - Menu végétarien
-
-
-Les pâtes
-Imprimer 
-
-Evaluez cette recette !
-Les conchiglioni sont des grosses pâtes italiennes en forme de coquillages destinées à être farcies.
- Pour changer de la traditionnelle farce ricotta épinards, nous avons pensé au brocoli, dont c'est la pleine saison actuellement, sous la forme de pesto. Un peu de passata et de mozzarella pour nous assurer du côté gourmand de la recette et le tour est joué !
-
-Type de plat Plat principal
-
-Cuisine Automne, Eté
-
-Mots-clés Cuisine plaisir, Veggie kids
-
- Temps de préparation 15 minutes
-
- Temps de cuisson 25 minutes
-
- Temps total 40 minutes
-
- Portions
-Calories 584kcal
-Cuire le brocoli 10 minutes dans une casserole d'eau bouillante ou 5 minutes à la vapeur.
-
-Pendant ce temps, cuire les conchiglioni selon les indications du paquet.
-
-Déposer le brocoli dans le bol d'un robot avec le parmesan, l'ail, le jus de citron et les pignons puis mixer. Ajouter l'huile d'olive petit à petit tout en continuant à mixer jusqu'à obtenir une consistance lisse, saler.
-
-Préchauffer le four à 180°C. Mettre la passata au fond d'un plat allant au four. Farcir les conchiglioni avec le pesto puis les déposer dans le plat, saupoudrer de mozzarella fondue, puis enfourner pour 15 minutes.
-Calories : 584 kcal (29%)
-
-Glucides : 69 g (23%)
-
-Protéines : 24 g (48%)
-
-Lipides : 24 g (37%)
-
-Lipides saturés : 7 g (35%)
-
-Graisses polyinsaturées : 2 g
-
-Graisses monoinsaturées : 11 g
-
-Choléstérol : 22 mg (7%)
-
-Sodium : 854 mg (36%)
-
-Potassium : 544 mg (16%)
-
-Fibre : 3 g (12%)
-
-Sucre : 11 g (12%)
-
-Vitamine A : 1750 IU (35%)
-
-Vitamine C : 72.6 mg (88%)
-
-Calcium : 350 mg (35%)
-
-Fer : 1.4 mg (8%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Poivrons farcis aux lentilles beluga
-  Poivrons farcis à la polenta façon pizza
-  Menu végétarien . Semaine du 24 août 2020
-  Conchiglioni farcis à la courge, sauce à la crème
-  Mini calzone au brocoli
-  Bruschettas d'été
-Un commentaire pour &quot;Conchiglioni farcis au pesto de brocoli&quot;
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
 	</recipe>
 	<recipe id="1184">
 		<title>Conchiglioni farcis au pesto de brocoli</title>
@@ -22266,7 +22163,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1099">
 		<title>Crumble pommes coings</title>
+		<category>Dessert</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/crumble-pommes-coings/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>50 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -22291,6 +22193,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>sucre de canne complet</item>
 				<key>sucre de canne complet</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>CRUMBLE</item>
+				<key>CRUMBLE</key>
 			</ingredient>
 			<ingredient>
 				<amount>100</amount>
@@ -22750,12 +22660,17 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1107">
 		<title>Crème brûlée à la lavande</title>
+		<category>Dessert</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/creme-brulee-lavande/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>35 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>3</amount>
-				<item>œufs</item>
+				<item>œufs - jaunes</item>
 				<key>œuf,</key>
 			</ingredient>
 			<ingredient>
@@ -27931,135 +27846,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>riz basmati 1/2 complet</key>
 			</ingredient>
 		</ingredient-list>
-	</recipe>
-	<recipe id="1091">
-		<title>Curry épicé à l’ananas</title>
-		<link>https://menu-vegetarien.com/curry-epice-ananas/</link>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>2</amount>
-				<item>tomates</item>
-				<key>tomate,</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>ananas</item>
-				<key>ananas,</key>
-			</ingredient>
-			<ingredient>
-				<amount>100</amount>
-				<unit>g</unit>
-				<item>petits pois</item>
-				<key>petits pois</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>anis étoilées</item>
-				<key>anis étoilé,</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>bok choy</item>
-				<key>bok choy,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>branche de citronnelle</item>
-				<key>branche de citronnelle,</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>huile de tournesol</item>
-				<key>càs huile de tournesol</key>
-			</ingredient>
-			<ingredient>
-				<amount>40</amount>
-				<unit>cl</unit>
-				<item>lait de coco</item>
-				<key>lait de coco</key>
-			</ingredient>
-			<ingredient>
-				<amount>100</amount>
-				<unit>g</unit>
-				<item>champignons</item>
-				<key>champignons</key>
-			</ingredient>
-			<ingredient>
-				<amount>1/2</amount>
-				<item>bâton de cannelle</item>
-				<key>bâton de cannelle</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>clou de girofle</item>
-				<key>clou de girofle</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>pincée noix de muscade râpée</item>
-				<key>pincée noix de muscade râpée</key>
-			</ingredient>
-			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
-				<item>jus de citron vert</item>
-				<key>jus de citron vert</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<item>piments rouges séchés</item>
-				<key>piment rouge séché</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<item>échalotes</item>
-				<key>échalote,</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>gousses d'ail</item>
-				<key>gousse d'ail,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>graines de coriandre</item>
-				<key>càc graines de coriandre</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>curcuma</item>
-				<key>càc curcuma</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>gingembre</item>
-				<key>gingembre, càc</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>échalotes</item>
-				<key>échalote,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>coriandre fraîche</item>
-				<key>càs coriandre fraîche</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>riz demi-complet</item>
-				<key>riz demi-complet</key>
-			</ingredient>
-		</ingredient-list>
-		<instructions>Recette végétarienne - Curry épicé à l'ananas - Menu végétarien
+		<instructions>ecette végétarienne - Curry épicé à l'ananas - Menu végétarien
 
 
 Recettes indiennes . Recettes vegan
@@ -29797,7 +29584,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="548">
 		<title>Dips de courge pimenté</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/dips-courge-pimente/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -32782,6 +32574,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/fettuccine-potimarron-tofu-fume/</link>
+		<rating>1.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
@@ -33486,6 +33279,127 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>framboises</key>
 			</ingredient>
 		</ingredient-list>
+	</recipe>
+	<recipe id="1080">
+		<title>Fondant au chocolat coeur coulant framboises</title>
+		<category>Dessert</category>
+		<link>https://menu-vegetarien.com/gateau-chocolat-coeur-coulant-framboises/</link>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>70</amount>
+				<unit>g</unit>
+				<item>framboises</item>
+				<key>framboises</key>
+			</ingredient>
+			<ingredient>
+				<amount>170</amount>
+				<unit>g</unit>
+				<item>farine de blé</item>
+				<key>farine de blé</key>
+			</ingredient>
+			<ingredient>
+				<amount>30</amount>
+				<unit>g</unit>
+				<item>cacao en poudre</item>
+				<key>cacao en poudre</key>
+			</ingredient>
+			<ingredient>
+				<amount>120</amount>
+				<unit>g</unit>
+				<item>sucre</item>
+				<key>sucre</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>levure</item>
+				<key>càs levure</key>
+			</ingredient>
+			<ingredient>
+				<amount>20</amount>
+				<unit>cl</unit>
+				<item>lait végétal</item>
+				<key>lait végétal,</key>
+			</ingredient>
+			<ingredient>
+				<amount>8</amount>
+				<unit>cl</unit>
+				<item>huile végétale</item>
+				<key>huile végétale</key>
+			</ingredient>
+		</ingredient-list>
+		<instructions>Recette végétarienne - Gateau au chocolat coeur coulant framboises - Menu végétarien
+ 
+Recettes vegan . Desserts
+Imprimer 
+
+Evaluez cette recette !
+Un moelleux gâteau au chocolat vegan avec un coeur coulant framboises ... Tellement facile qu'on ne peut pas le rater et tellement bon qu'on ne peut plus s'arrêter !
+
+Type de plat Dessert
+
+Cuisine Vegan
+
+Mots-clés Cuisine plaisir, Veggie kids
+
+ Temps de préparation 10 minutes
+
+ Temps de cuisson 40 minutes
+
+ Temps total 2 heures 50 minutes
+
+ Portions
+Calories 484kcal
+Préchauffez le four à 180°C.
+
+Mixer les framboises. Les passer ensuite au chinois afin de retirer les grains. Verser cette préparation dans des moules à glaçons et mettre au congélateur 2h.
+
+Mettre la farine, le cacao, le sucre et la levure dans un saladier, mélanger. Ajouter le lait et l'huile et mélanger jusqu'à obtenir une pâte homogène.
+
+Mettre dans les moules huilés puis ajouter au centre les cubes de framboises congelés.
+
+Cuire 30 environ minutes et attendre qu'ils aient refroidi avant de les démouler.
+Calories : 484 kcal (24%)
+
+Glucides : 72 g (24%)
+
+Protéines : 8 g (16%)
+
+Lipides : 22 g (34%)
+
+Lipides saturés : 3 g (15%)
+
+Graisses polyinsaturées : 2 g
+
+Graisses monoinsaturées : 15 g
+
+Sodium : 414 mg (17%)
+
+Potassium : 199 mg (6%)
+
+Fibre : 8 g (32%)
+
+Sucre : 32 g (36%)
+
+Vitamine A : 100 IU (2%)
+
+Vitamine C : 6.6 mg (8%)
+
+Calcium : 290 mg (29%)
+
+Fer : 1.6 mg (9%)
+
+Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
+
+Vous aimerez aussi
+
+  Smoothie aux framboises
+  Glace aux framboises
+  Bruschettas d'été
+  Galette des rois vegan
+  Burger végétarien
+  Conchiglioni farcis au pesto de brocoli</instructions>
 	</recipe>
 	<recipe id="123">
 		<title>Fondue chinoise végétarienne</title>
@@ -35221,7 +35135,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1140">
 		<title>Galettes de quinoa et pois chiches aux poivrons</title>
+		<category>Accompagnement</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/galettes-quinoa-pois-chiches-poivrons/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -35260,7 +35179,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>2</amount>
 				<unit>cs</unit>
-				<item>coriandre fraîche</item>
+				<item>coriandre</item>
 				<key>càs coriandre fraîche,</key>
 			</ingredient>
 			<ingredient>
@@ -35368,6 +35287,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/galettes-sarrasin-fondue-poireau-chevre/</link>
+		<rating>1.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
@@ -35383,6 +35303,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>cl</unit>
 				<item>eau</item>
 				<key>eau</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>FONDUE</item>
+				<key>FONDUE</key>
 			</ingredient>
 			<ingredient>
 				<amount>30</amount>
@@ -35763,126 +35691,6 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
-	<recipe id="1080">
-		<title>Gateau au chocolat coeur coulant framboises</title>
-		<link>https://menu-vegetarien.com/gateau-chocolat-coeur-coulant-framboises/</link>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>70</amount>
-				<unit>g</unit>
-				<item>framboises</item>
-				<key>framboises</key>
-			</ingredient>
-			<ingredient>
-				<amount>170</amount>
-				<unit>g</unit>
-				<item>farine de blé</item>
-				<key>farine de blé</key>
-			</ingredient>
-			<ingredient>
-				<amount>30</amount>
-				<unit>g</unit>
-				<item>cacao en poudre</item>
-				<key>cacao en poudre</key>
-			</ingredient>
-			<ingredient>
-				<amount>120</amount>
-				<unit>g</unit>
-				<item>sucre</item>
-				<key>sucre</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>levure</item>
-				<key>càs levure</key>
-			</ingredient>
-			<ingredient>
-				<amount>20</amount>
-				<unit>cl</unit>
-				<item>lait végétal</item>
-				<key>lait végétal,</key>
-			</ingredient>
-			<ingredient>
-				<amount>8</amount>
-				<unit>cl</unit>
-				<item>huile végétale</item>
-				<key>huile végétale</key>
-			</ingredient>
-		</ingredient-list>
-		<instructions>Recette végétarienne - Gateau au chocolat coeur coulant framboises - Menu végétarien
- 
-Recettes vegan . Desserts
-Imprimer 
-
-Evaluez cette recette !
-Un moelleux gâteau au chocolat vegan avec un coeur coulant framboises ... Tellement facile qu'on ne peut pas le rater et tellement bon qu'on ne peut plus s'arrêter !
-
-Type de plat Dessert
-
-Cuisine Vegan
-
-Mots-clés Cuisine plaisir, Veggie kids
-
- Temps de préparation 10 minutes
-
- Temps de cuisson 40 minutes
-
- Temps total 2 heures 50 minutes
-
- Portions
-Calories 484kcal
-Préchauffez le four à 180°C.
-
-Mixer les framboises. Les passer ensuite au chinois afin de retirer les grains. Verser cette préparation dans des moules à glaçons et mettre au congélateur 2h.
-
-Mettre la farine, le cacao, le sucre et la levure dans un saladier, mélanger. Ajouter le lait et l'huile et mélanger jusqu'à obtenir une pâte homogène.
-
-Mettre dans les moules huilés puis ajouter au centre les cubes de framboises congelés.
-
-Cuire 30 environ minutes et attendre qu'ils aient refroidi avant de les démouler.
-Calories : 484 kcal (24%)
-
-Glucides : 72 g (24%)
-
-Protéines : 8 g (16%)
-
-Lipides : 22 g (34%)
-
-Lipides saturés : 3 g (15%)
-
-Graisses polyinsaturées : 2 g
-
-Graisses monoinsaturées : 15 g
-
-Sodium : 414 mg (17%)
-
-Potassium : 199 mg (6%)
-
-Fibre : 8 g (32%)
-
-Sucre : 32 g (36%)
-
-Vitamine A : 100 IU (2%)
-
-Vitamine C : 6.6 mg (8%)
-
-Calcium : 290 mg (29%)
-
-Fer : 1.6 mg (9%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Smoothie aux framboises
-  Glace aux framboises
-  Bruschettas d'été
-  Galette des rois vegan
-  Burger végétarien
-  Conchiglioni farcis au pesto de brocoli</instructions>
-	</recipe>
 	<recipe id="1203">
 		<title>Gaufres de pommes de terre, brocolis et œuf au plat</title>
 		<category>Plat principal</category>
@@ -35946,71 +35754,6 @@ Vous aimerez aussi
 				<amount>4</amount>
 				<item>œufs</item>
 				<key>œufs</key>
-			</ingredient>
-		</ingredient-list>
-	</recipe>
-	<recipe id="560">
-		<title>Gaufres pommes de terre, brocolis et oeuf au plat</title>
-		<link>https://menu-vegetarien.com/gaufres-pommes-de-terre-brocolis-oeuf-plat/</link>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>450</amount>
-				<unit>g</unit>
-				<item>brocoli</item>
-				<key>brocoli</key>
-			</ingredient>
-			<ingredient>
-				<amount>600</amount>
-				<unit>g</unit>
-				<item>pommes de terre</item>
-				<key>pomme de terre</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>œufs</item>
-				<key>œuf</key>
-			</ingredient>
-			<ingredient>
-				<amount>20</amount>
-				<unit>cl</unit>
-				<item>lait végétal</item>
-				<key>lait végétal</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>farine de blé T45</item>
-				<key>farine de blé t45</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<unit>cs</unit>
-				<item>huile de colza</item>
-				<key>càs huile de colza</key>
-			</ingredient>
-			<ingredient>
-				<amount>60</amount>
-				<unit>g</unit>
-				<item>emmental râpé</item>
-				<key>emmental râpé</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>persil</item>
-				<key>càs persil,</key>
-			</ingredient>
-			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<item>œufs</item>
-				<key>œuf</key>
 			</ingredient>
 		</ingredient-list>
 		<instructions>Recette végétarienne - Gaufres pommes de terre, brocolis et oeuf au plat - Menu végétarien
@@ -45727,7 +45470,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1054">
 		<title>Kaki aux grenades et noisettes</title>
+		<category>Dessert</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/kaki-grenades-noisettes/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -54071,7 +53818,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1039">
 		<title>Maïs grillé</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/mais-grille/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -54112,7 +53864,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>3</amount>
 				<unit>cs</unit>
-				<item>coriandre fraîche</item>
+				<item>coriandre</item>
 				<key>càs coriandre fraîche,</key>
 			</ingredient>
 			<ingredient>
@@ -55285,6 +55037,82 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
+	<recipe id="1226">
+		<title>Minestrone végétarien</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>15</amount>
+				<unit>ml</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>oignons</item>
+				<key>oignons</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>courgettes</item>
+				<key>courgettes</key>
+			</ingredient>
+			<ingredient>
+				<amount>250</amount>
+				<unit>g</unit>
+				<item>carottes</item>
+				<key>carottes</key>
+			</ingredient>
+			<ingredient>
+				<amount>250</amount>
+				<unit>g</unit>
+				<item>haricots blancs</item>
+				<key>haricots blancs</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>branches de céleri</item>
+				<key>branches de céleri</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>origan</item>
+				<key>origan</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>basilic</item>
+				<key>basilic</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>persil</item>
+				<key>persil</key>
+			</ingredient>
+			<ingredient>
+				<amount>400</amount>
+				<unit>g</unit>
+				<item>tomates</item>
+				<key>tomates</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>gousses d'ail</item>
+				<key>gousses d'ail</key>
+			</ingredient>
+			<ingredient>
+				<amount>350</amount>
+				<unit>g</unit>
+				<item>pâte coquillettes</item>
+				<key>pâte coquillettes</key>
+			</ingredient>
+		</ingredient-list>
+	</recipe>
 	<recipe id="468">
 		<title>Minestrone végétarien - haricots blancs</title>
 		<link>https://menu-vegetarien.com/minestrone-vegetarien/</link>
@@ -55528,82 +55356,6 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>pâtes</item>
 				<key>pâtes</key>
-			</ingredient>
-		</ingredient-list>
-	</recipe>
-	<recipe id="1226">
-		<title>Minestrone végétarin</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
-				<item>huile d'olive</item>
-				<key>huile d'olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>oignons</item>
-				<key>oignons</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>courgettes</item>
-				<key>courgettes</key>
-			</ingredient>
-			<ingredient>
-				<amount>250</amount>
-				<unit>g</unit>
-				<item>carottes</item>
-				<key>carottes</key>
-			</ingredient>
-			<ingredient>
-				<amount>250</amount>
-				<unit>g</unit>
-				<item>haricots blancs</item>
-				<key>haricots blancs</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>branches de céleri</item>
-				<key>branches de céleri</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>origan</item>
-				<key>origan</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>basilic</item>
-				<key>basilic</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>persil</item>
-				<key>persil</key>
-			</ingredient>
-			<ingredient>
-				<amount>400</amount>
-				<unit>g</unit>
-				<item>tomates</item>
-				<key>tomates</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>gousses d'ail</item>
-				<key>gousses d'ail</key>
-			</ingredient>
-			<ingredient>
-				<amount>350</amount>
-				<unit>g</unit>
-				<item>pâte coquillettes</item>
-				<key>pâte coquillettes</key>
 			</ingredient>
 		</ingredient-list>
 	</recipe>
@@ -68320,7 +68072,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		</ingredient-list>
 	</recipe>
 	<recipe id="1003">
-		<title>Oranges rôties au four</title>
+		<title>Oranges rôties</title>
 		<link>https://menu-vegetarien.com/oranges-roties-four/</link>
 		<yields>4</yields>
 		<ingredient-list>
@@ -68430,7 +68182,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="413">
 		<title>Orecchiette cacio e pepe aux panais</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/orecchiette-cacio-e-pepe-panais/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -70202,447 +69959,6 @@ Site web
 Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
-	</recipe>
-	<recipe id="40">
-		<title>Paella au quinoa et chou-fleur</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<link>https://menu-vegetarien.com/paella-quinoa-chou-fleur/</link>
-		<preptime>10 minutes</preptime>
-		<cooktime>20 minutes</cooktime>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>échalote,</item>
-				<key>échalote,</key>
-			</ingredient>
-			<ingredient>
-				<amount>300</amount>
-				<unit>g</unit>
-				<item>chou-fleur</item>
-				<key>chou-fleur,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>poivron rouge</item>
-				<key>poivron rouge,</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>quinoa</item>
-				<key>quinoa</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cc</unit>
-				<item>paprika fumé</item>
-				<key>càc paprika fumé</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>pincée safran en poudre</item>
-				<key>pincée safran en poudre</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>feuilles de laurier</item>
-				<key>feuille de laurier</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>gousse d'ail</item>
-				<key>gousse d'ail,</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>passata</item>
-				<key>passata</key>
-			</ingredient>
-			<ingredient>
-				<amount>5</amount>
-				<unit>cl</unit>
-				<item>vin blanc</item>
-				<key>vin blanc</key>
-			</ingredient>
-			<ingredient>
-				<amount>50</amount>
-				<unit>cl</unit>
-				<item>bouillon de légumes</item>
-				<key>bouillon de légumes</key>
-			</ingredient>
-			<ingredient>
-				<amount>50</amount>
-				<unit>g</unit>
-				<item>amande effilée</item>
-				<key>amande effilée</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>citron</item>
-				<key>citron,</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>càs persil,</item>
-				<key>càs persil,</key>
-			</ingredient>
-		</ingredient-list>
-		<instructions>Faire chauffer l’huile d’olive dans une sauteuse, ajouter l’échalote, le chou-fleur et les poivrons. Cuire pendant 3-4 minutes jusqu’à ce qu’ils commencent à prendre un peu de couleur. Ajouter le quinoa avec le paprika, le safran, le laurier et l’ail. Cuire 1 minute. Ajouter la passata et le vin blanc. Cuire 5 minutes.
-
-Ajouter le bouillon de légumes et laisser mijoter 15 minutes. Ajouter un peu d’eau si nécessaire. Ajouter un filet de jus de citron. Rectifier les assaisonnements.
-
-Pendant ce temps, faire griller les amandes dans une poêle à sec pendant 2-3 minutes, jusqu’à ce qu’elles soient dorées. Hacher et réserver.
-
-Servir avec le persil haché, le zeste de citron et les amandes.</instructions>
-	</recipe>
-	<recipe id="63">
-		<title>Paella aux artichauts</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<link>https://menu-vegetarien.com/paella-artichauts/</link>
-		<preptime>10 minutes</preptime>
-		<cooktime>40 minutes</cooktime>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>oignon</item>
-				<key>oignon,</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>gousses d'ail</item>
-				<key>gousse d'ail,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>poivron rouge</item>
-				<key>poivron rouge,</key>
-			</ingredient>
-			<ingredient>
-				<amount>150</amount>
-				<unit>g</unit>
-				<item>haricots verts</item>
-				<key>haricots verts,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>paprika fumé</item>
-				<key>càc paprika fumé</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>curcuma</item>
-				<key>càc curcuma</key>
-			</ingredient>
-			<ingredient>
-				<amount>300</amount>
-				<unit>g</unit>
-				<item>riz rond</item>
-				<key>riz rond</key>
-			</ingredient>
-			<ingredient>
-				<amount>75</amount>
-				<unit>cl</unit>
-				<item>bouillon de légumes</item>
-				<key>bouillon de légumes</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>coeurs d'artichauts</item>
-				<key>coeurs d'artichauts,</key>
-			</ingredient>
-			<ingredient>
-				<amount>50</amount>
-				<unit>g</unit>
-				<item>olives vertes</item>
-				<key>olives vertes</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>haricots blancs cuits</item>
-				<key>haricots blancs cuits</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>coriandre fraîche</item>
-				<key>càs coriandre fraîche</key>
-			</ingredient>
-		</ingredient-list>
-		<instructions>Faire chauffer l'huile dans une poêle et ajouter l'oignon. Cuire à feu moyen pendant 4 minutes, ajouter l'ail, le poivron et les haricots verts et cuire 2 minutes de plus.
-
-Ajouter le riz, le paprika fumé et le curcuma, et mélanger pour enrober, verser le bouillon de légumes, saler, poivrer. Mettre les artichauts et les olives, couvrir et laisser cuire à feu doux pendant environ 25-30 minutes ou jusqu'à ce que le riz soit complètement cuit. 5 minutes avant la fin ajouter les haricots cannellini. Terminer par la coriandre.</instructions>
-	</recipe>
-	<recipe id="997">
-		<title>Paella de printemps aux fèves</title>
-		<link>https://menu-vegetarien.com/paella-printemps-feves/</link>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>45</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>oignon</item>
-				<key>oignon,</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>gousses d'ail</item>
-				<key>gousse d'ail,</key>
-			</ingredient>
-			<ingredient>
-				<amount>350</amount>
-				<unit>g</unit>
-				<item>riz rond</item>
-				<key>riz rond</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>curcuma</item>
-				<key>càc curcuma</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>paprika fumé</item>
-				<key>càc paprika fumé</key>
-			</ingredient>
-			<ingredient>
-				<amount>800</amount>
-				<unit>ml</unit>
-				<item>bouillon de légumes</item>
-				<key>bouillon de légumes</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>romarin</item>
-				<key>càs romarin</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>tomates cerises</item>
-				<key>tomates cerises,</key>
-			</ingredient>
-			<ingredient>
-				<amount>150</amount>
-				<unit>g</unit>
-				<item>fèves écossées</item>
-				<key>fèves écossées</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>persil</item>
-				<key>càs persil,</key>
-			</ingredient>
-			<ingredient>
-				<amount>400</amount>
-				<unit>g</unit>
-				<item>coeurs d'artichauts</item>
-				<key>coeurs d'artichauts,</key>
-			</ingredient>
-			<ingredient>
-				<amount>80</amount>
-				<unit>g</unit>
-				<item>olives kalamata</item>
-				<key>olives kalamata,</key>
-			</ingredient>
-		</ingredient-list>
-		<instructions>Recette végétarienne - Paella de printemps aux fèves - Menu végétarien
-
-
-Recettes végétariennes . Recettes vegan
-Imprimer 
-
-Evaluez cette recette !
-Une paella, oui, mais avec des goûts originaux grâce aux coeurs d'artichauts, aux olives kalamata et aux fèves. Un plat savoureux, complet, et facile à faire !
-
-Type de plat Plat principal
-
-Cuisine Faible en calories, Printemps, Eté, Légumineuses
-
-Mots-clés Cuisine simple, Cuisine pour tous
-
- Temps de préparation 10 minutes
-
- Temps de cuisson 25 minutes
-
- Temps total 35 minutes
-
- Portions
-personnes
-
- Calories 369kcal
-Faire chauffer un peu d’huile végétale dans une sauteuse. Ajouter l’oignon et l’ail et faire revenir pendant 2-3 minutes.
-
-Ajouter le riz, le curcuma et le paprika fumé et mélanger. Ajouter le bouillon chaud et le romarin et porter le mélange à ébullition, en remuant bien. Réduire le feu à petite ébullition et laisser mijoter le mélange, en remuant de temps, pendant 18-20 minutes, ou jusqu’à ce que le riz paella ait absorbé la majeure partie du liquide.
-
-Pendant ce temps, blanchir les fèves 3 minutes, les passer sous l'eau froide et presser doucement chaque grain pour enlever la peau.
-
-Ajouter les tomates cerises, les coeurs d’artichauts, les fèves et les olives kalamata dans la sauteuse et laisser mijoter pendant encore 4-5 minutes, ou jusqu’à ce que le riz soit tendre.
-
-Retirer la casserole du feu et arroser d’huile d’olive, puis bien mélanger. Incorporer le persil et servir.
-Calories : 369 kcal (18%)
-
-Glucides : 42 g (14%)
-
-Protéines : 8 g (16%)
-
-Lipides : 19 g (29%)
-
-Lipides saturés : 3 g (15%)
-
-Graisses polyinsaturées : 2 g
-
-Graisses monoinsaturées : 9 g
-
-Sodium : 1093 mg (46%)
-
-Potassium : 367 mg (10%)
-
-Fibre : 7 g (28%)
-
-Sucre : 3 g (3%)
-
-Vitamine A : 750 IU (15%)
-
-Vitamine C : 17.3 mg (21%)
-
-Calcium : 70 mg (7%)
-
-Fer : 4.5 mg (25%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Penne aux fèves, morilles et citron confit
-  Lait aux fèves de cacao
-  Pâtes aux fèves et oignons grelots caramélisés
-  Menu végétarien - Semaine du 22 avril 2019
-  Sauté de riz aux légumes de printemps
-  Salade de printemps aux pommes de terre nouvelles
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
-	</recipe>
-	<recipe id="97">
-		<title>Paella végétarienne aux asperges</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<link>https://menu-vegetarien.com/paella-vegetarienne-asperges/</link>
-		<preptime>5 minutes</preptime>
-		<cooktime>1/2 hours</cooktime>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>oignon</item>
-				<key>oignon,</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>gousses d'ail</item>
-				<key>gousse d'ail,</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>asperges vertes</item>
-				<key>asperges vertes,</key>
-			</ingredient>
-			<ingredient>
-				<amount>100</amount>
-				<unit>g</unit>
-				<item>petits pois</item>
-				<key>petits pois</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>tomates</item>
-				<key>tomate,</key>
-			</ingredient>
-			<ingredient>
-				<amount>140</amount>
-				<unit>g</unit>
-				<item>maïs</item>
-				<key>maïs</key>
-			</ingredient>
-			<ingredient>
-				<amount>350</amount>
-				<unit>g</unit>
-				<item>riz rond</item>
-				<key>riz rond</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>l</unit>
-				<item>bouillon de légumes</item>
-				<key>bouillon de légumes</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>pincée safran en poudre</item>
-				<key>pincée safran en poudre</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>curcuma</item>
-				<key>càc curcuma</key>
-			</ingredient>
-		</ingredient-list>
-		<instructions>Faire chauffer l'huile d'olive dans une casserole. Ajouter l'oignon et l'ail, faire revenir 3 minutes. Ajouter les légumes, cuire 5 minutes.
-
-Ajouter le riz, le bouillon de légumes, le safran, le curcuma, saler, poivrer et cuire 25 minutes.</instructions>
 	</recipe>
 	<recipe id="105">
 		<title>Pains pita, avocat et haricots rouges</title>
@@ -72711,6 +72027,371 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
+	<recipe id="40">
+		<title>Paëlla au quinoa et chou-fleur</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<link>https://menu-vegetarien.com/paella-quinoa-chou-fleur/</link>
+		<preptime>10 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>30</amount>
+				<unit>ml</unit>
+				<item>huile d’olive</item>
+				<key>huile d’olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>échalote,</item>
+				<key>échalote,</key>
+			</ingredient>
+			<ingredient>
+				<amount>300</amount>
+				<unit>g</unit>
+				<item>chou-fleur</item>
+				<key>chou-fleur,</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>poivron rouge</item>
+				<key>poivron rouge,</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>quinoa</item>
+				<key>quinoa</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cc</unit>
+				<item>paprika fumé</item>
+				<key>càc paprika fumé</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>pincée safran en poudre</item>
+				<key>pincée safran en poudre</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>feuilles de laurier</item>
+				<key>feuille de laurier</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>gousse d'ail</item>
+				<key>gousse d'ail,</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>passata</item>
+				<key>passata</key>
+			</ingredient>
+			<ingredient>
+				<amount>5</amount>
+				<unit>cl</unit>
+				<item>vin blanc</item>
+				<key>vin blanc</key>
+			</ingredient>
+			<ingredient>
+				<amount>50</amount>
+				<unit>cl</unit>
+				<item>bouillon de légumes</item>
+				<key>bouillon de légumes</key>
+			</ingredient>
+			<ingredient>
+				<amount>50</amount>
+				<unit>g</unit>
+				<item>amande effilée</item>
+				<key>amande effilée</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>citron</item>
+				<key>citron,</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>càs persil,</item>
+				<key>càs persil,</key>
+			</ingredient>
+		</ingredient-list>
+		<instructions>Faire chauffer l’huile d’olive dans une sauteuse, ajouter l’échalote, le chou-fleur et les poivrons. Cuire pendant 3-4 minutes jusqu’à ce qu’ils commencent à prendre un peu de couleur. Ajouter le quinoa avec le paprika, le safran, le laurier et l’ail. Cuire 1 minute. Ajouter la passata et le vin blanc. Cuire 5 minutes.
+
+Ajouter le bouillon de légumes et laisser mijoter 15 minutes. Ajouter un peu d’eau si nécessaire. Ajouter un filet de jus de citron. Rectifier les assaisonnements.
+
+Pendant ce temps, faire griller les amandes dans une poêle à sec pendant 2-3 minutes, jusqu’à ce qu’elles soient dorées. Hacher et réserver.
+
+Servir avec le persil haché, le zeste de citron et les amandes.</instructions>
+	</recipe>
+	<recipe id="63">
+		<title>Paëlla aux artichauts</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<link>https://menu-vegetarien.com/paella-artichauts/</link>
+		<preptime>10 minutes</preptime>
+		<cooktime>40 minutes</cooktime>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>15</amount>
+				<unit>ml</unit>
+				<item>huile d’olive</item>
+				<key>huile d’olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>oignon</item>
+				<key>oignon,</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>gousses d'ail</item>
+				<key>gousse d'ail,</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>poivron rouge</item>
+				<key>poivron rouge,</key>
+			</ingredient>
+			<ingredient>
+				<amount>150</amount>
+				<unit>g</unit>
+				<item>haricots verts</item>
+				<key>haricots verts,</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cc</unit>
+				<item>paprika fumé</item>
+				<key>càc paprika fumé</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cc</unit>
+				<item>curcuma</item>
+				<key>càc curcuma</key>
+			</ingredient>
+			<ingredient>
+				<amount>300</amount>
+				<unit>g</unit>
+				<item>riz rond</item>
+				<key>riz rond</key>
+			</ingredient>
+			<ingredient>
+				<amount>75</amount>
+				<unit>cl</unit>
+				<item>bouillon de légumes</item>
+				<key>bouillon de légumes</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>coeurs d'artichauts</item>
+				<key>coeurs d'artichauts,</key>
+			</ingredient>
+			<ingredient>
+				<amount>50</amount>
+				<unit>g</unit>
+				<item>olives vertes</item>
+				<key>olives vertes</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>haricots blancs cuits</item>
+				<key>haricots blancs cuits</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>coriandre fraîche</item>
+				<key>càs coriandre fraîche</key>
+			</ingredient>
+		</ingredient-list>
+		<instructions>Faire chauffer l'huile dans une poêle et ajouter l'oignon. Cuire à feu moyen pendant 4 minutes, ajouter l'ail, le poivron et les haricots verts et cuire 2 minutes de plus.
+
+Ajouter le riz, le paprika fumé et le curcuma, et mélanger pour enrober, verser le bouillon de légumes, saler, poivrer. Mettre les artichauts et les olives, couvrir et laisser cuire à feu doux pendant environ 25-30 minutes ou jusqu'à ce que le riz soit complètement cuit. 5 minutes avant la fin ajouter les haricots cannellini. Terminer par la coriandre.</instructions>
+	</recipe>
+	<recipe id="997">
+		<title>Paëlla de printemps aux fèves et artichauts</title>
+		<link>https://menu-vegetarien.com/paella-printemps-feves/</link>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>45</amount>
+				<unit>ml</unit>
+				<item>huile d’olive</item>
+				<key>huile d’olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>oignon</item>
+				<key>oignon,</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>gousses d'ail</item>
+				<key>gousse d'ail,</key>
+			</ingredient>
+			<ingredient>
+				<amount>350</amount>
+				<unit>g</unit>
+				<item>riz rond</item>
+				<key>riz rond</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cc</unit>
+				<item>curcuma</item>
+				<key>càc curcuma</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cc</unit>
+				<item>paprika fumé</item>
+				<key>càc paprika fumé</key>
+			</ingredient>
+			<ingredient>
+				<amount>800</amount>
+				<unit>ml</unit>
+				<item>bouillon de légumes</item>
+				<key>bouillon de légumes</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>romarin</item>
+				<key>càs romarin</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>tomates cerises</item>
+				<key>tomates cerises,</key>
+			</ingredient>
+			<ingredient>
+				<amount>150</amount>
+				<unit>g</unit>
+				<item>fèves écossées</item>
+				<key>fèves écossées</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>persil</item>
+				<key>càs persil,</key>
+			</ingredient>
+			<ingredient>
+				<amount>400</amount>
+				<unit>g</unit>
+				<item>coeurs d'artichauts</item>
+				<key>coeurs d'artichauts,</key>
+			</ingredient>
+			<ingredient>
+				<amount>80</amount>
+				<unit>g</unit>
+				<item>olives kalamata</item>
+				<key>olives kalamata,</key>
+			</ingredient>
+		</ingredient-list>
+		<instructions>Recette végétarienne - Paella de printemps aux fèves - Menu végétarien
+
+
+Recettes végétariennes . Recettes vegan
+Imprimer 
+
+Evaluez cette recette !
+Une paella, oui, mais avec des goûts originaux grâce aux coeurs d'artichauts, aux olives kalamata et aux fèves. Un plat savoureux, complet, et facile à faire !
+
+Type de plat Plat principal
+
+Cuisine Faible en calories, Printemps, Eté, Légumineuses
+
+Mots-clés Cuisine simple, Cuisine pour tous
+
+ Temps de préparation 10 minutes
+
+ Temps de cuisson 25 minutes
+
+ Temps total 35 minutes
+
+ Portions
+personnes
+
+ Calories 369kcal
+Faire chauffer un peu d’huile végétale dans une sauteuse. Ajouter l’oignon et l’ail et faire revenir pendant 2-3 minutes.
+
+Ajouter le riz, le curcuma et le paprika fumé et mélanger. Ajouter le bouillon chaud et le romarin et porter le mélange à ébullition, en remuant bien. Réduire le feu à petite ébullition et laisser mijoter le mélange, en remuant de temps, pendant 18-20 minutes, ou jusqu’à ce que le riz paella ait absorbé la majeure partie du liquide.
+
+Pendant ce temps, blanchir les fèves 3 minutes, les passer sous l'eau froide et presser doucement chaque grain pour enlever la peau.
+
+Ajouter les tomates cerises, les coeurs d’artichauts, les fèves et les olives kalamata dans la sauteuse et laisser mijoter pendant encore 4-5 minutes, ou jusqu’à ce que le riz soit tendre.
+
+Retirer la casserole du feu et arroser d’huile d’olive, puis bien mélanger. Incorporer le persil et servir.
+Calories : 369 kcal (18%)
+
+Glucides : 42 g (14%)
+
+Protéines : 8 g (16%)
+
+Lipides : 19 g (29%)
+
+Lipides saturés : 3 g (15%)
+
+Graisses polyinsaturées : 2 g
+
+Graisses monoinsaturées : 9 g
+
+Sodium : 1093 mg (46%)
+
+Potassium : 367 mg (10%)
+
+Fibre : 7 g (28%)
+
+Sucre : 3 g (3%)
+
+Vitamine A : 750 IU (15%)
+
+Vitamine C : 17.3 mg (21%)
+
+Calcium : 70 mg (7%)
+
+Fer : 4.5 mg (25%)
+
+Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
+
+Vous aimerez aussi
+
+  Penne aux fèves, morilles et citron confit
+  Lait aux fèves de cacao
+  Pâtes aux fèves et oignons grelots caramélisés
+  Menu végétarien - Semaine du 22 avril 2019
+  Sauté de riz aux légumes de printemps
+  Salade de printemps aux pommes de terre nouvelles
+Laisser un commentaire Annuler la réponse
+
+Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
+
+ Notez la recette   Notez la recette          
+
+Commentaire 
+
+Nom * 
+
+E-mail * 
+
+Site web 
+
+Prévenez-moi par e-mail en cas de réponse à mon commentaire.
+
+Δ</instructions>
+	</recipe>
 	<recipe id="1245">
 		<title>Paëlla végétarienne</title>
 		<category>Plat principal</category>
@@ -72796,6 +72477,83 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>huile d'olive</key>
 			</ingredient>
 		</ingredient-list>
+	</recipe>
+	<recipe id="97">
+		<title>Paëlla végétarienne aux asperges</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<link>https://menu-vegetarien.com/paella-vegetarienne-asperges/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>30</amount>
+				<unit>ml</unit>
+				<item>huile d’olive</item>
+				<key>huile d’olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>oignon</item>
+				<key>oignon,</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>gousses d'ail</item>
+				<key>gousse d'ail,</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>asperges vertes</item>
+				<key>asperges vertes,</key>
+			</ingredient>
+			<ingredient>
+				<amount>100</amount>
+				<unit>g</unit>
+				<item>petits pois</item>
+				<key>petits pois</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>tomates</item>
+				<key>tomate,</key>
+			</ingredient>
+			<ingredient>
+				<amount>140</amount>
+				<unit>g</unit>
+				<item>maïs</item>
+				<key>maïs</key>
+			</ingredient>
+			<ingredient>
+				<amount>350</amount>
+				<unit>g</unit>
+				<item>riz rond</item>
+				<key>riz rond</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>l</unit>
+				<item>bouillon de légumes</item>
+				<key>bouillon de légumes</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>pincée safran en poudre</item>
+				<key>pincée safran en poudre</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cc</unit>
+				<item>curcuma</item>
+				<key>càc curcuma</key>
+			</ingredient>
+		</ingredient-list>
+		<instructions>Faire chauffer l'huile d'olive dans une casserole. Ajouter l'oignon et l'ail, faire revenir 3 minutes. Ajouter les légumes, cuire 5 minutes.
+
+Ajouter le riz, le bouillon de légumes, le safran, le curcuma, saler, poivrer et cuire 25 minutes.</instructions>
 	</recipe>
 	<recipe id="629">
 		<title>Penne all’arrabiata</title>
@@ -76688,7 +76446,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="411">
 		<title>Pizza aux poireaux et champignons</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/pizza-aux-poireaux-champignons/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -76697,15 +76460,15 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>pâte à pizza</key>
 			</ingredient>
 			<ingredient>
+				<amount>3</amount>
+				<item>poireaux</item>
+				<key>poireau,</key>
+			</ingredient>
+			<ingredient>
 				<amount>350</amount>
 				<unit>g</unit>
 				<item>champignons de Paris</item>
 				<key>champignons de paris,</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<item>poireaux</item>
-				<key>poireau,</key>
 			</ingredient>
 			<ingredient>
 				<amount>15</amount>
@@ -82195,57 +81958,57 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
-	<recipe id="651">
+	<recipe id="1261">
 		<title>Polenta aux asperges et oeuf poché</title>
-		<link>https://menu-vegetarien.com/polenta-asperges-oeuf-poche/</link>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>polenta</item>
-				<key>polenta</key>
+				<item>polent</item>
+				<key>polent</key>
 			</ingredient>
 			<ingredient>
 				<amount>30</amount>
 				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
 			</ingredient>
 			<ingredient>
 				<amount>450</amount>
-				<unit>g</unit>
 				<item>asperges vertes</item>
-				<key>asperges vertes,</key>
+				<key>asperges vertes</key>
 			</ingredient>
 			<ingredient>
 				<amount>3</amount>
-				<item>oignons nouveaux</item>
-				<key>oignon nouveau,</key>
+				<item>oignons nouveaux ou cébettes</item>
+				<key>oignons nouveaux ou cébettes</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
 				<item>aillet</item>
-				<key>aillet,</key>
+				<key>aillet</key>
 			</ingredient>
 			<ingredient>
 				<amount>1/2</amount>
 				<item>citron</item>
-				<key>citron,</key>
+				<key>citron</key>
 			</ingredient>
 			<ingredient>
 				<amount>4</amount>
 				<item>œufs</item>
-				<key>œuf</key>
+				<key>œufs</key>
 			</ingredient>
 			<ingredient>
 				<amount>3</amount>
 				<unit>cs</unit>
 				<item>vinaigre blanc</item>
-				<key>càs vinaigre blanc</key>
+				<key>vinaigre blanc</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Polenta aux asperges et oeuf poché - Menu végétarien
+		<instructions>olenta aux asperges et oeuf poché - Menu végétarien
 Polenta aux asperges et oeuf poché
 
 Recettes gastronomiques
@@ -82317,59 +82080,7 @@ Vous aimerez aussi
   Spaghettis aux asperges et tomates séchées
   Haricots blancs croustillants aux blettes et oeuf poché
   Polenta au maïs et haricots plats
-  Smoothie vert
-  Toasts de champignons et oeuf poché</instructions>
-	</recipe>
-	<recipe id="1261">
-		<title>Polenta aux asperges et oeuf poché</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>polent</item>
-				<key>polent</key>
-			</ingredient>
-			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d'olive</item>
-				<key>huile d'olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>450</amount>
-				<item>asperges vertes</item>
-				<key>asperges vertes</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<item>oignons nouveaux ou cébettes</item>
-				<key>oignons nouveaux ou cébettes</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>aillet</item>
-				<key>aillet</key>
-			</ingredient>
-			<ingredient>
-				<amount>1/2</amount>
-				<item>citron</item>
-				<key>citron</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<item>œufs</item>
-				<key>œufs</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>vinaigre blanc</item>
-				<key>vinaigre blanc</key>
-			</ingredient>
-		</ingredient-list>
+  Smoothie vert</instructions>
 	</recipe>
 	<recipe id="652">
 		<title>Polenta aux champignons</title>
@@ -88250,7 +87961,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="208">
 		<title>Pâtes au pesto de tomates séchées et épinards</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/pates-pesto-tomates-sechees-epinards/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>5 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -89233,7 +88949,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="613">
 		<title>Pâtes aux aubergines</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/one-pot-pasta-aubergines/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>25 minutes</preptime>
+		<cooktime>5 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -91241,7 +90962,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		</ingredient-list>
 	</recipe>
 	<recipe id="1248">
-		<title>Pâtes aux tomates séchées</title>
+		<title>Pâtes aux tomates séchées et épinards</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<yields>4</yields>
@@ -91727,7 +91448,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 Δ</instructions>
 	</recipe>
 	<recipe id="472">
-		<title>Pâtes à la carbonara</title>
+		<title>Pâtes à la carbonara végétarienne</title>
 		<link>https://menu-vegetarien.com/pates-a-la-carbonara/</link>
 		<yields>4</yields>
 		<ingredient-list>
@@ -92685,7 +92406,12 @@ Vous aimerez aussi
 	</recipe>
 	<recipe id="669">
 		<title>Quiche au fenouil, brie et noix</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/quiche-fenouil-brie-noix/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -92701,7 +92427,7 @@ Vous aimerez aussi
 			<ingredient>
 				<amount>250</amount>
 				<unit>g</unit>
-				<item>brie</item>
+				<item>fromage brie</item>
 				<key>brie,</key>
 			</ingredient>
 			<ingredient>
@@ -101469,7 +101195,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 Δ</instructions>
 	</recipe>
 	<recipe id="482">
-		<title>Ribs végétariens</title>
+		<title>Ribs végétariens au barbecue</title>
 		<link>https://menu-vegetarien.com/ribs-vegetariens/</link>
 		<yields>4</yields>
 		<ingredient-list>
@@ -102166,6 +101892,7 @@ Au printemps, vous pouvez utiliser des artichauts poivrade au lieu des artichaut
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/risotto-champignons-oeuf-poche/</link>
+		<rating>1.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
@@ -102184,12 +101911,12 @@ Au printemps, vous pouvez utiliser des artichauts poivrade au lieu des artichaut
 			<ingredient>
 				<amount>400</amount>
 				<unit>g</unit>
-				<item>champignons</item>
+				<item>champignons de Paris</item>
 				<key>champignons coupés en tranches</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<item>oignon émincé</item>
+				<item>oignon</item>
 				<key>oignon émincé</key>
 			</ingredient>
 			<ingredient>
@@ -102221,6 +101948,14 @@ Au printemps, vous pouvez utiliser des artichauts poivrade au lieu des artichaut
 				<unit>cs</unit>
 				<item>persil haché</item>
 				<key>persil haché</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>OEUFS POCHES</item>
+				<key>OEUFS POCHES</key>
 			</ingredient>
 			<ingredient>
 				<amount>4</amount>
@@ -103037,6 +102772,138 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
+	<recipe id="694">
+		<title>Risotto aux petits pois</title>
+		<link>https://menu-vegetarien.com/risotto-petits-pois/</link>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>400</amount>
+				<unit>g</unit>
+				<item>riz Arborio</item>
+				<key>riz arborio</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>l</unit>
+				<item>bouillon de légumes</item>
+				<key>bouillon de légumes</key>
+			</ingredient>
+			<ingredient>
+				<amount>400</amount>
+				<unit>g</unit>
+				<item>petits pois</item>
+				<key>petits pois</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>menthe</item>
+				<key>càs menthe</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>basilic</item>
+				<key>càs basilic</key>
+			</ingredient>
+			<ingredient>
+				<amount>30</amount>
+				<unit>ml</unit>
+				<item>huile d’olive</item>
+				<key>huile d’olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>oignon</item>
+				<key>oignon,</key>
+			</ingredient>
+			<ingredient>
+				<amount>12</amount>
+				<unit>cl</unit>
+				<item>vin blanc</item>
+				<key>vin blanc</key>
+			</ingredient>
+			<ingredient>
+				<amount>35</amount>
+				<unit>g</unit>
+				<item>parmesan râpé</item>
+				<key>parmesan râpé</key>
+			</ingredient>
+		</ingredient-list>
+		<instructions>Recette végétarienne - Risotto de petits pois - Menu végétarien
+
+
+Les risottos
+Imprimer 
+
+Evaluez cette recette !
+Type de plat Plat principal
+
+Cuisine Sans gluten, Printemps, Eté
+
+ Temps de préparation 5 minutes
+
+ Temps de cuisson 25 minutes
+
+ Temps total 30 minutes
+
+ Portions
+personnes
+
+ Calories 564kcal
+Faire cuire les petits pois dans une casserole d'eau bouillante. Égoutter et réserver. Porter le bouillon de légumes à ébullition dans une casserole.
+
+Mixer 1/5 du bouillon avec 1/4 des petits pois avec la menthe et le basilic. Réduire en purée lisse et mettre de côté.
+
+Faire chauffer l’huile d’olive dans une sauteuse à feu moyen-doux. Faire revenir l’oignon. Ajouter le riz, et remuer pendant 1 minute pour bien enrober les grains. Verser le vin blanc et faire cuire jusqu’à absorption complète.
+
+Ajouter une louche de bouillon chaud et laisser cuire jusqu’à ce que le liquide soit absorbé. Renouveler l’opération jusqu’à ce que le riz soit cuit. Cela devrait prendre 20 à 30 minutes.
+
+Incorporer la purée de pois, les petits pois restants et le parmesan. Assaisonner. Mélanger et servir immédiatement.
+Calories : 564 kcal (28%)
+
+Glucides : 93 g (31%)
+
+Protéines : 16 g (32%)
+
+Lipides : 12 g (18%)
+
+Lipides saturés : 3 g (15%)
+
+Graisses polyinsaturées : 1 g
+
+Graisses monoinsaturées : 6 g
+
+Choléstérol : 8 mg (3%)
+
+Sodium : 277 mg (12%)
+
+Potassium : 362 mg (10%)
+
+Fibre : 13 g (52%)
+
+Sucre : 7 g (8%)
+
+Vitamine A : 1150 IU (23%)
+
+Vitamine C : 60.2 mg (73%)
+
+Calcium : 140 mg (14%)
+
+Fer : 2.3 mg (13%)
+
+Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
+
+Vous aimerez aussi
+
+  Courgettes farcies aux 3 fromages et petits pois
+  Salade de quinoa, asperges et petits pois
+  Risotto aux tomates rôties et basilic
+  Velouté de cosses de petits pois
+  Salade citronnée aux pois chiches et fraises
+  Menu végétarien - Semaine du 22 avril 2019</instructions>
+	</recipe>
 	<recipe id="197">
 		<title>Risotto aux petits pois et radis rôtis</title>
 		<link>https://menu-vegetarien.com/risotto-petits-pois-radis-rotis/</link>
@@ -103492,7 +103359,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="318">
 		<title>Risotto aux tomates rôties et basilic</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/risotto-tomates-roties-basilic/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -104741,16 +104613,42 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
-	<recipe id="694">
-		<title>Risotto de petits pois</title>
-		<link>https://menu-vegetarien.com/risotto-petits-pois/</link>
+	<recipe id="1421">
+		<title>Risotto de petit épeautre aux topinambours</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>400</amount>
+				<amount>30</amount>
+				<unit>ml</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>oignon</item>
+				<key>oignon</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>gousse d'ail</item>
+				<key>gousse d'ail</key>
+			</ingredient>
+			<ingredient>
+				<amount>250</amount>
 				<unit>g</unit>
-				<item>riz Arborio</item>
-				<key>riz arborio</key>
+				<item>petit épeautre mondé</item>
+				<key>petit épeautre mondé</key>
+			</ingredient>
+			<ingredient>
+				<amount>10</amount>
+				<unit>cl</unit>
+				<item>vin blanc</item>
+				<key>vin blanc</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -104759,119 +104657,29 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>bouillon de légumes</key>
 			</ingredient>
 			<ingredient>
-				<amount>400</amount>
+				<amount>300</amount>
 				<unit>g</unit>
-				<item>petits pois</item>
-				<key>petits pois</key>
+				<item>topinambors</item>
+				<key>topinambors</key>
 			</ingredient>
 			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>menthe</item>
-				<key>càs menthe</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>basilic</item>
-				<key>càs basilic</key>
-			</ingredient>
-			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>oignon</item>
-				<key>oignon,</key>
-			</ingredient>
-			<ingredient>
-				<amount>12</amount>
-				<unit>cl</unit>
-				<item>vin blanc</item>
-				<key>vin blanc</key>
-			</ingredient>
-			<ingredient>
-				<amount>35</amount>
+				<amount>50</amount>
 				<unit>g</unit>
 				<item>parmesan râpé</item>
 				<key>parmesan râpé</key>
 			</ingredient>
+			<ingredient>
+				<amount>1/2</amount>
+				<item>citron vert - zeste</item>
+				<key>citron vert - zeste</key>
+			</ingredient>
+			<ingredient>
+				<amount>40</amount>
+				<unit>g</unit>
+				<item>noisettes</item>
+				<key>noisettes</key>
+			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Risotto de petits pois - Menu végétarien
-
-
-Les risottos
-Imprimer 
-
-Evaluez cette recette !
-Type de plat Plat principal
-
-Cuisine Sans gluten, Printemps, Eté
-
- Temps de préparation 5 minutes
-
- Temps de cuisson 25 minutes
-
- Temps total 30 minutes
-
- Portions
-personnes
-
- Calories 564kcal
-Faire cuire les petits pois dans une casserole d'eau bouillante. Égoutter et réserver. Porter le bouillon de légumes à ébullition dans une casserole.
-
-Mixer 1/5 du bouillon avec 1/4 des petits pois avec la menthe et le basilic. Réduire en purée lisse et mettre de côté.
-
-Faire chauffer l’huile d’olive dans une sauteuse à feu moyen-doux. Faire revenir l’oignon. Ajouter le riz, et remuer pendant 1 minute pour bien enrober les grains. Verser le vin blanc et faire cuire jusqu’à absorption complète.
-
-Ajouter une louche de bouillon chaud et laisser cuire jusqu’à ce que le liquide soit absorbé. Renouveler l’opération jusqu’à ce que le riz soit cuit. Cela devrait prendre 20 à 30 minutes.
-
-Incorporer la purée de pois, les petits pois restants et le parmesan. Assaisonner. Mélanger et servir immédiatement.
-Calories : 564 kcal (28%)
-
-Glucides : 93 g (31%)
-
-Protéines : 16 g (32%)
-
-Lipides : 12 g (18%)
-
-Lipides saturés : 3 g (15%)
-
-Graisses polyinsaturées : 1 g
-
-Graisses monoinsaturées : 6 g
-
-Choléstérol : 8 mg (3%)
-
-Sodium : 277 mg (12%)
-
-Potassium : 362 mg (10%)
-
-Fibre : 13 g (52%)
-
-Sucre : 7 g (8%)
-
-Vitamine A : 1150 IU (23%)
-
-Vitamine C : 60.2 mg (73%)
-
-Calcium : 140 mg (14%)
-
-Fer : 2.3 mg (13%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Courgettes farcies aux 3 fromages et petits pois
-  Salade de quinoa, asperges et petits pois
-  Risotto aux tomates rôties et basilic
-  Velouté de cosses de petits pois
-  Salade citronnée aux pois chiches et fraises
-  Menu végétarien - Semaine du 22 avril 2019</instructions>
 	</recipe>
 	<recipe id="417">
 		<title>Risotto de potimarron, noisettes et cranberries</title>
@@ -109325,6 +109133,87 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
+	<recipe id="1420">
+		<title>Rouleaux de chou farci végétarien</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>20 minutes</preptime>
+		<cooktime>40 minutes</cooktime>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>150</amount>
+				<unit>g</unit>
+				<item>millet</item>
+				<key>millet</key>
+			</ingredient>
+			<ingredient>
+				<amount>30</amount>
+				<unit>ml</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1/2</amount>
+				<item>oignon</item>
+				<key>oignon</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>gousse d'ail</item>
+				<key>gousse d'ail</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>carottes</item>
+				<key>carottes</key>
+			</ingredient>
+			<ingredient>
+				<amount>200</amount>
+				<unit>g</unit>
+				<item>champignons de Paris</item>
+				<key>champignons de Paris</key>
+			</ingredient>
+			<ingredient>
+				<amount>15</amount>
+				<unit>cl</unit>
+				<item>bouillon de légumes</item>
+				<key>bouillon de légumes</key>
+			</ingredient>
+			<ingredient>
+				<amount>5</amount>
+				<unit>cl</unit>
+				<item>sauce soja</item>
+				<key>sauce soja</key>
+			</ingredient>
+			<ingredient>
+				<amount>30</amount>
+				<unit>g</unit>
+				<item>noix</item>
+				<key>noix</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>persil</item>
+				<key>persil</key>
+			</ingredient>
+			<ingredient>
+				<amount>250</amount>
+				<unit>g</unit>
+				<item>chou vert</item>
+				<key>chou vert</key>
+			</ingredient>
+			<ingredient>
+				<amount>50</amount>
+				<unit>g</unit>
+				<item>gruyère râpé</item>
+				<key>gruyère râpé</key>
+			</ingredient>
+		</ingredient-list>
+	</recipe>
 	<recipe id="309">
 		<title>Rubans de courgettes grillées et haricots blancs au pesto</title>
 		<link>https://menu-vegetarien.com/rubans-courgettes-grillees-haricots-blancs-pesto/</link>
@@ -113598,61 +113487,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>huile d'olive</key>
 			</ingredient>
 		</ingredient-list>
-	</recipe>
-	<recipe id="911">
-		<title>Salade de chou Kale vinaigrette à l’orange</title>
-		<link>https://menu-vegetarien.com/salade-chou-kale-vinaigrette-orange/</link>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>chou kale</item>
-				<key>chou kale</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>graines de sésame</item>
-				<key>càs graines de sésame</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>miso blanc</item>
-				<key>càs miso blanc</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>sirop d'agave</item>
-				<key>càs sirop d'agave</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>vinaigre</item>
-				<key>càs vinaigre de riz</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>huile de sésame</item>
-				<key>càs huile de sésame</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>orange</item>
-				<key>orange,</key>
-			</ingredient>
-			<ingredient>
-				<amount>45</amount>
-				<unit>ml</unit>
-				<item>huile d'olive</item>
-				<key>huile d'olive</key>
-			</ingredient>
-		</ingredient-list>
-		<instructions>Recette végétarienne - Salade de chou Kale vinaigrette à l'orange - Menu végétarien
+		<instructions>ecette végétarienne - Salade de chou Kale vinaigrette à l'orange - Menu végétarien
 
 Recettes vegan . Entrées
 Imprimer 
@@ -113943,7 +113778,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="912">
 		<title>Salade de chou rave et pomme</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-chou-rave-pomme/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -113971,7 +113810,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<item>citron</item>
+				<item>citron - zeste et jus</item>
 				<key>citron,</key>
 			</ingredient>
 			<ingredient>
@@ -115448,12 +115287,16 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="914">
 		<title>Salade de fenouil, poires et grenade</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-fenouil-poires-grenade/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>1</amount>
-				<item>citron,</item>
+				<item>citron - jus et zeste</item>
 				<key>citron,</key>
 			</ingredient>
 			<ingredient>
@@ -119948,7 +119791,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="167">
 		<title>Salade de quinoa aux choux de Bruxelles</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-quinoa-choux-bruxelles/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -122409,27 +122257,28 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
-	<recipe id="897">
+	<recipe id="1399">
 		<title>Salade de topinambours, betteraves et orange</title>
-		<link>https://menu-vegetarien.com/salade-de-crosnes-betteraves-orange/</link>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>480</amount>
 				<unit>g</unit>
 				<item>topinambours</item>
-				<key>topinambour,</key>
+				<key>topinambours</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
 				<item>betteraves</item>
-				<key>betterave</key>
+				<key>betteraves</key>
 			</ingredient>
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>pois chiches cuits</item>
-				<key>pois chiches cuits</key>
+				<item>pois chiches</item>
+				<key>pois chiches</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -122439,7 +122288,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>2</amount>
 				<item>oranges</item>
-				<key>orange</key>
+				<key>oranges</key>
 			</ingredient>
 			<ingredient>
 				<amount>80</amount>
@@ -122450,40 +122299,48 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>30</amount>
 				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>60</amount>
 				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<item>orange</item>
-				<key>orange,</key>
+				<item>orange - jus</item>
+				<key>orange - jus</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
 				<unit>cs</unit>
 				<item>vinaigre de cidre</item>
-				<key>càs vinaigre de cidre</key>
+				<key>vinaigre de cidre</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
 				<unit>cs</unit>
 				<item>ciboulette</item>
-				<key>càs ciboulette,</key>
+				<key>ciboulette</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
 				<unit>cs</unit>
 				<item>persil</item>
-				<key>càs persil,</key>
+				<key>persil</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Salade de topinambours, betteraves et orange - Menu végétarien
+		<instructions>ecette végétarienne - Salade de topinambours, betteraves et orange - Menu végétarien
 
 Recettes d'hiver
 Imprimer 
@@ -122570,90 +122427,6 @@ Site web
 Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
-	</recipe>
-	<recipe id="1399">
-		<title>Salade de topinambours, betteraves et orange</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>480</amount>
-				<unit>g</unit>
-				<item>topinambours</item>
-				<key>topinambours</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>betteraves</item>
-				<key>betteraves</key>
-			</ingredient>
-			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>pois chiches</item>
-				<key>pois chiches</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>bulbe de fenouil</item>
-				<key>bulbe de fenouil</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>oranges</item>
-				<key>oranges</key>
-			</ingredient>
-			<ingredient>
-				<amount>80</amount>
-				<unit>g</unit>
-				<item>feta</item>
-				<key>feta</key>
-			</ingredient>
-			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d'olive</item>
-				<key>huile d'olive</key>
-			</ingredient>
-			<ingredient>
-				<item>-</item>
-				<key>-</key>
-			</ingredient>
-			<ingredient>
-				<item>VINAIGRETTE</item>
-				<key>VINAIGRETTE</key>
-			</ingredient>
-			<ingredient>
-				<amount>60</amount>
-				<unit>ml</unit>
-				<item>huile d'olive</item>
-				<key>huile d'olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>orange - jus</item>
-				<key>orange - jus</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>vinaigre de cidre</item>
-				<key>vinaigre de cidre</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>ciboulette</item>
-				<key>ciboulette</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>persil</item>
-				<key>persil</key>
-			</ingredient>
-		</ingredient-list>
 	</recipe>
 	<recipe id="898">
 		<title>Salade des caraibes</title>
@@ -123191,7 +122964,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="926">
 		<title>Salade d’avocat et maïs</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-avocat-mais/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>5 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -123225,7 +123003,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>2</amount>
 				<unit>cs</unit>
-				<item>coriandre fraîche</item>
+				<item>coriandre</item>
 				<key>càs coriandre fraîche</key>
 			</ingredient>
 			<ingredient>
@@ -123963,7 +123741,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="185">
 		<title>Salade d’hiver au blé et pois chiches</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-hiver-ble-pois-chiches/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -123975,7 +123758,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>5</amount>
 				<unit>cs</unit>
-				<item>vinaigre</item>
+				<item> vinaigre de rz</item>
 				<key>càs vinaigre de riz</key>
 			</ingredient>
 			<ingredient>
@@ -124005,19 +123788,19 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>pois chiches cuits</item>
+				<item>pois chiches</item>
 				<key>pois chiches cuits,</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>coriandre fraîche</item>
-				<key>càs coriandre fraîche,</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
 				<item>oignon rouge</item>
 				<key>oignon rouge,</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>coriandre</item>
+				<key>càs coriandre fraîche,</key>
 			</ingredient>
 		</ingredient-list>
 		<instructions>Recette végétarienne - Salade d'hiver au blé et pois chiches - Menu végétarien
@@ -125792,7 +125575,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		</ingredient-list>
 	</recipe>
 	<recipe id="1407">
-		<title>Salade maïs, tomates, sauce miso</title>
+		<title>Salade maïs tomates, sauce miso</title>
 		<category>Entrée</category>
 		<cuisine>Végétarienne</cuisine>
 		<preptime>10 minutes</preptime>
@@ -126602,7 +126385,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		</ingredient-list>
 	</recipe>
 	<recipe id="1414">
-		<title>Salade quinoa et pois chiches</title>
+		<title>Salade quinoa et pois chiches d'été</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<yields>4</yields>
@@ -127730,13 +127513,18 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="866">
 		<title>Samoussas à la betterave</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/samoussas-betterave/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>300</amount>
 				<unit>g</unit>
-				<item>betteraves cuite,s</item>
+				<item>betteraves cuites</item>
 				<key>betterave cuite,</key>
 			</ingredient>
 			<ingredient>
@@ -127873,9 +127661,18 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="492">
 		<title>Sandwich aux lentilles corail, houmous et légumes</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/sandwich-ultra-proteine/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
+			<ingredient>
+				<item>GARNITURE</item>
+				<key>GARNITURE</key>
+			</ingredient>
 			<ingredient>
 				<amount>80</amount>
 				<unit>g</unit>
@@ -127931,6 +127728,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>cs</unit>
 				<item>levure nutritionnelle</item>
 				<key>càs levure nutritionnelle</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>SANDWICH</item>
+				<key>SANDWICH</key>
 			</ingredient>
 			<ingredient>
 				<amount>1/4</amount>
@@ -133019,15 +132824,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="821">
 		<title>Soupe de chou-fleur et noix de cajou</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/soupe-de-chou-fleur-noix-de-cajou/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
-			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
 			<ingredient>
 				<amount>2</amount>
 				<item>oignons</item>
@@ -134723,7 +134527,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="819">
 		<title>Soupe de maïs à l’indienne</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/soupe-de-a-lindienne/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -135159,6 +134968,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Entrée</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/soupe-pois-chiches/</link>
+		<rating>1.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
@@ -139225,7 +139035,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="806">
 		<title>Soupe à la courge et aux lentilles corail</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/soupe-courge-lentilles-corail/</link>
+		<rating>1.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -142614,6 +142429,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/spaghettis-noirs-bolognaise-halloween/</link>
+		<rating>1.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
@@ -147681,6 +147497,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/tarte-rustique-celeri-rave-oignons-rouges/</link>
+		<rating>1.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
@@ -148044,7 +147861,6 @@ Laisser refroidir un peu avant de démouler.</instructions>
 	</recipe>
 	<recipe id="1354">
 		<title>Tarte tatin sauce soja</title>
-		<category>de</category>
 		<cuisine>Végétarienne</cuisine>
 		<yields>4</yields>
 		<ingredient-list>
@@ -156423,6 +156239,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Entrée</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/veloute-de-patates-douces-carottes-lait-de-coco/</link>
+		<rating>1.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
