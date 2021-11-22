@@ -3238,6 +3238,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/ble-aux-legumes-grilles/</link>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
@@ -3283,8 +3284,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>champignons de paris,</key>
 			</ingredient>
 			<ingredient>
-				<amount>250</amount>
-				<unit>g</unit>
+				<amount>2</amount>
 				<item>carottes</item>
 				<key>carotte,</key>
 			</ingredient>
@@ -5012,7 +5012,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1151">
 		<title>Boulgour de safran aux légumes</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/boulgour-safran-legumes/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -5027,8 +5032,8 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>pincée safran en poudre</key>
 			</ingredient>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
+				<amount>1</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -12342,7 +12347,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="524">
 		<title>Carottes à la marocaine</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/carottes-marocaine/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -12352,15 +12361,15 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>carotte,</key>
 			</ingredient>
 			<ingredient>
-				<amount>100</amount>
+				<amount>200</amount>
 				<unit>g</unit>
-				<item>pois chiches cuits</item>
+				<item>pois chiches</item>
 				<key>pois chiches cuits,</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
 				<unit>cs</unit>
-				<item>coriandre fraîche</item>
+				<item>coriandre</item>
 				<key>càs coriandre fraîche,</key>
 			</ingredient>
 			<ingredient>
@@ -12370,16 +12379,24 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>raisins secs</key>
 			</ingredient>
 			<ingredient>
-				<amount>30</amount>
+				<amount>50</amount>
 				<unit>g</unit>
 				<item>pistaches</item>
 				<key>pistaches,</key>
 			</ingredient>
 			<ingredient>
-				<amount>50</amount>
+				<amount>100</amount>
 				<unit>g</unit>
 				<item>feta</item>
 				<key>feta,</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>30</amount>
@@ -12395,107 +12412,28 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>1/2</amount>
-				<unit>cac</unit>
+				<unit>cc</unit>
 				<item>cumin</item>
 				<key>càc cumin</key>
 			</ingredient>
 			<ingredient>
 				<amount>1/2</amount>
-				<unit>cac</unit>
+				<unit>cc</unit>
 				<item>muscade</item>
 				<key>càc muscade</key>
 			</ingredient>
 			<ingredient>
 				<amount>1/2</amount>
-				<unit>cac</unit>
+				<unit>cc</unit>
 				<item>curcuma</item>
 				<key>càc curcuma</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette entrée végétarienne - Carottes à la marocaine - Menu végétarien
+		<instructions>Dans un petit bol, fouetter ensemble les ingrédients de la vinaigrette avec du sel et du poivre.
 
+Dans un saladier, mélanger les carottes, les pois chiches, les oignons verts, la coriandre et les raisins secs. Verser la vinaigrette et mélanger.
 
-Entrées
-Imprimer 
-
-Evaluez cette recette !
-Type de plat Entrées
-
-Cuisine Automne, Hiver, Moins de 30 minutes, Printemps, Eté 
-Mots-clés Cuisine simple, Cuisine pour tous 
- Temps de préparation 5 minutes
-
- Temps total 5 minutes
-
- Portions
-personnes
-
- Calories 278kcal
-Vinaigrette
-Dans un petit bol, fouetter ensemble les ingrédients de la vinaigrette avec du sel et du poivre.
-
-Dans un saladierl, mélanger les carottes, les pois chiches, les oignons verts, la coriandre et les raisins secs. Verser la vinaigrette et mélanger.
-
-Saupoudrer de pistaches et de feta.
-Calories : 278 kcal (14%)
-
-Glucides : 28 g (9%)
-
-Protéines : 7 g (14%)
-
-Lipides : 17 g (26%)
-
-Lipides saturés : 4 g (20%)
-
-Graisses polyinsaturées : 3 g
-
-Graisses monoinsaturées : 9 g
-
-Choléstérol : 11 mg (4%)
-
-Sodium : 321 mg (13%)
-
-Potassium : 507 mg (14%)
-
-Fibre : 7 g (28%)
-
-Sucre : 10 g (11%)
-
-Vitamine A : 12950 IU (259%)
-
-Vitamine C : 15.7 mg (19%)
-
-Calcium : 120 mg (12%)
-
-Fer : 3.1 mg (17%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  One pot riz et haricots blancs à la marocaine
-  Haricots blancs d'hiver
-  Orecchiette cacio e pepe aux panais
-  Soupe de pâtes aux pois chiches
-  Smoothie vert
-  Poêlée de blettes à l'oignon rouge
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Saupoudrer de pistaches et de feta.</instructions>
 	</recipe>
 	<recipe id="69">
 		<title>Casserole crémeuse asperges, champignons, pommes de terre</title>
@@ -13590,6 +13528,7 @@ Fermer le couvercle et cuire 1 heure. Enlever le couvercle et vérifier si les h
 		<title>Champignons  la hongroise</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>15 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
@@ -13632,6 +13571,16 @@ Fermer le couvercle et cuire 1 heure. Enlever le couvercle et vérifier si les h
 				<key>persil</key>
 			</ingredient>
 		</ingredient-list>
+		<instructions>Ôter la peau des poivrons en les laissant griller, les couper en dés.
+Peler et épépiner les tomates et les couper en dés.
+Laver les champignons, les couper en quatre.
+Hacher les oignons.
+
+Dans une casserole spéciale, faire chauffer l’huile, y faire revenir les oignons, ajouter les champignons et faire cuire à feu vif jusqu’à évaporation de l’eau.
+
+Ajouter les poivrons et les tomates, saupoudrer de paprika, laisser cuire 10 minutes à couvert. 
+
+Ajouter la crème au moment de servir puis saupoudrer de persil haché.</instructions>
 	</recipe>
 	<recipe id="73">
 		<title>Champignons bourguignon et purée de céleri</title>
@@ -14057,6 +14006,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/champignons-stroganoff/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
@@ -14064,7 +14014,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>340</amount>
 				<unit>g</unit>
-				<item>pâtes fettuccini</item>
+				<item>fettuccini</item>
 				<key>pâtes fettuccini</key>
 			</ingredient>
 			<ingredient>
@@ -14086,7 +14036,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>540</amount>
 				<unit>g</unit>
-				<item>champignons</item>
+				<item>champignons de Paris</item>
 				<key>champignons</key>
 			</ingredient>
 			<ingredient>
@@ -14126,9 +14076,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>vinaigre balsamique</key>
 			</ingredient>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
-				<item>jus de citron (1 cs)</item>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>jus de citron (15 ml)</item>
 				<key>jus de citron (1 cs)</key>
 			</ingredient>
 			<ingredient>
@@ -15073,7 +15023,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="529">
 		<title>Chili végétarien</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/chili-vegetarien/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>1 hour</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -15095,7 +15050,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>400</amount>
 				<unit>g</unit>
-				<item>haricots rouges cuits</item>
+				<item>haricots rouges</item>
 				<key>haricots rouges cuits</key>
 			</ingredient>
 			<ingredient>
@@ -15105,9 +15060,8 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>maïs</key>
 			</ingredient>
 			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>patates douces</item>
+				<amount>1</amount>
+				<item>patate douce</item>
 				<key>patate douce,</key>
 			</ingredient>
 			<ingredient>
@@ -18149,7 +18103,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="310">
 		<title>Courgettes et haricots blancs, sauce tomate</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/courgettes-haricots-blancs-sauce-tomate/</link>
+		<rating>3.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -18215,93 +18174,10 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>tomate,</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Courgettes et haricots blancs, sauce tomate - Menu végétarien
+		<instructions>Préparer la sauce tomates. Monder les tomates et enlever leur peau, les pépins et couper en morceaux. Faire chauffer l’huile d’olive à feu doux dans une casserole. Mettre l’ail, l’oignon et faire suer pendant 3 minutes. Ajouter le concentré de tomates et laisser caraméliser. Ajouter les tomates et les herbes, saler, poivrer, couvrir et laisser mijoter 10 minutes. Mixer. En fonction des tomates que vous aurez choisi, il sera peut-être nécessaire d’ajouter un peu d’eau.
 
-Recettes végétariennes . Recettes vegan
-Imprimer 
-
-Evaluez cette recette !
-Cette recette végétarienne de courgettes et haricots blancs à la sauce tomate est tout simplement idéale pour manger sainement, rapidement, tout en ayant des goûts prononcés.
-
- Les haricots blancs ont mauvaise presse et si vous n’êtes pas végétariens, ils ne doivent pas souvent faire partie de vos menus. Pourtant, c’est une légumineuse aux multiples bienfaits. Ils sont dépourvus de graisses, riches en protéines végétales, en fibres, en fer, en calcium, …
-
- Vous pouvez acheter des haricots blancs secs, puis les faire tremper avant de les cuire ou bien les acheter déjà prêts, c’est ce que nous avons choisi de faire dans cette recette pour optimiser le timing !
-
-Type de plat Plat principal
-
-Cuisine Vegan, Moins de 30 minutes, Faible en calories, Sans gluten, Printemps, Eté, Légumineuses
-
-Mots-clés Cuisine rapide, Cuisine pour tous, Recette équilibrée
-
- Temps de préparation 5 minutes
-
- Temps de cuisson 20 minutes
-
- Temps total 25 minutes
-
- Portions
-personnes
-
- Calories 347kcal
-Sauce tomates
-Préparer la sauce tomates. Monder les tomates et enlever leur peau, les pépins et couper en morceaux. Faire chauffer l’huile d’olive à feu doux dans une casserole. Mettre l’ail, l’oignon et faire suer pendant 3 minutes. Ajouter le concentré de tomates et laisser caraméliser. Ajouter les tomates et les herbes, saler, poivrer, couvrir et laisser mijoter 10 minutes. Mixer. En fonction des tomates que vous aurez choisi, il sera peut-être nécessaire d’ajouter un peu d’eau.
-
-Faire chauffer l’huile d’olive dans une casserole. Ajouter les courgettes et faites sauter pendant 5 minutes. Ajouter les haricots blancs et la sauce tomate. Mélanger et laisser mijoter 5 minutes. Ajouter le basilic, mélanger et cuire 2 minutes de plus. Assaisonner et servir.
-Si vous n’avez pas le temps de faire votre sauce tomate, il en existe de très bonnes bio et peu sucrée en supermarché.
-Calories : 347 kcal (17%)
-
-Glucides : 53 g (18%)
-
-Protéines : 17 g (34%)
-
-Lipides : 9 g (14%)
-
-Lipides saturés : 1 g (5%)
-
-Sodium : 28 mg (1%)
-
-Potassium : 1536 mg (44%)
-
-Fibre : 13 g (52%)
-
-Sucre : 7 g (8%)
-
-Vitamine A : 1431 IU (29%)
-
-Vitamine C : 38 mg (46%)
-
-Calcium : 198 mg (20%)
-
-Fer : 7 mg (39%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  One pot d'été quinoa et haricots blancs
-  Courgettes, maïs et tofu sautés
-  Salade de lentilles et légumes d’été
-  One Pot haricots rouges et blettes, sauce beurre de cacahuètes
-  Chili d’haricots blancs et maïs
-  Sucettes de courgettes, sauce citronnée
-Un commentaire pour &quot;Courgettes et haricots blancs, sauce tomate&quot;
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Faire chauffer l’huile d’olive dans une casserole. Ajouter les courgettes et faites sauter pendant 5 minutes. Ajouter les haricots blancs et la sauce tomate. Mélanger et laisser mijoter 5 minutes. Ajouter le basilic, mélanger et cuire 2 minutes de plus. Assaisonner et servir.</instructions>
+		<modifications>Si vous n’avez pas le temps de faire votre sauce tomate, il en existe de très bonnes bio et peu sucrée en supermarché.</modifications>
 	</recipe>
 	<recipe id="450">
 		<title>Courgettes farcies aux 3 fromages et petits pois</title>
@@ -32974,13 +32850,18 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="331">
 		<title>Flageolets aux tomates et figues</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/flageolets-tomates-figues/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>huile d’olive </item>
 				<key>huile d’olive</key>
 			</ingredient>
 			<ingredient>
@@ -33002,7 +32883,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>600</amount>
 				<unit>g</unit>
-				<item>flageolets cuits</item>
+				<item>flageolets</item>
 				<key>flageolets cuits</key>
 			</ingredient>
 			<ingredient>
@@ -33029,91 +32910,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>figue,</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Flageolets aux tomates et figues - Menu végétarien
+		<instructions>Faire chauffer l'huile d'olive dans une grande poêle, ajouter le romarin, le thym et l'ail. Chauffer à feu vif et cuire quelques minutes jusqu'à ce que l'huile devienne parfumée.
 
-
-Recettes végétariennes
-Imprimer 
-
-Evaluez cette recette !
-Une recette sucré-salé, bourrée de protéines et de fibres, et faible en calories et en lipides. Si on ajoute à ça une grande facilité à la préparer et des saveurs originales, tout est réunit pour en faire une recette parfaite !
-
-Type de plat Plat principal
-
-Cuisine Moins de 30 minutes, Faible en calories, Sans gluten, Eté, Légumineuses
-
-Mots-clés Cuisine rapide, Cuisine simple, Régime, Sucré salé
-
- Temps de préparation 5 minutes
-
- Temps de cuisson 20 minutes
-
- Temps total 25 minutes
-
- Portions
-Calories 390kcal
-Faire chauffer l'huile d'olive dans une grande poêle, ajouter le romarin, le thym et l'ail. Chauffer à feu vif et cuire quelques minutes jusqu'à ce que l'huile devienne parfumée.
-
-Incorporer les flageolets et baisser le feu. Cuire 5 minutes. Ajouter le parmesan, et cuire 2 minutes. Ajouter les tomates, le persil, saler, poivrer et cuire encore 5 minutes. Ajouter les figues et cuire 2 minutes de plus. Servir chaud.
-Calories : 390 kcal (20%)
-
-Glucides : 51 g (17%)
-
-Protéines : 21 g (42%)
-
-Lipides : 13 g (20%)
-
-Lipides saturés : 4 g (20%)
-
-Graisses polyinsaturées : 1 g
-
-Graisses monoinsaturées : 7 g
-
-Choléstérol : 13 mg (4%)
-
-Sodium : 590 mg (25%)
-
-Potassium : 1144 mg (33%)
-
-Fibre : 12 g (48%)
-
-Sucre : 10 g (11%)
-
-Vitamine A : 900 IU (18%)
-
-Vitamine C : 19 mg (23%)
-
-Calcium : 330 mg (33%)
-
-Fer : 6.3 mg (35%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Tofu croustillant, épinards, sauce au sésame
-  Salade d'été aux pois chiches, sauce tahin
-  Spaghettis aux asperges et tomates séchées
-  Minestrone d'été
-  Salade de lentilles et légumes d’été
-  Nouilles soba aux légumes, sauce au beurre de cacahuètes
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Incorporer les flageolets et baisser le feu. Cuire 5 minutes. Ajouter le parmesan, et cuire 2 minutes. Ajouter les tomates, le persil, saler, poivrer et cuire encore 5 minutes. Ajouter les figues et cuire 2 minutes de plus. Servir chaud.</instructions>
 	</recipe>
 	<recipe id="1081">
 		<title>Flageolets aux tomates séchées</title>
@@ -34942,6 +34741,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Galettes de patate douce et lentilles vertes</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>35 minutes</cooktime>
 		<yields>2</yields>
 		<ingredient-list>
 			<ingredient>
@@ -34974,6 +34776,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>parmesan</key>
 			</ingredient>
 		</ingredient-list>
+		<instructions>Faire chauffer l'huile d'olive dans une grande poêle, ajouter le romarin, le thym et l'ail. Chauffer à feu vif et cuire quelques minutes jusqu'à ce que l'huile devienne parfumée. 
+
+Incorporer les flageolets et baisser le feu. Cuire 5 minutes. Ajouter le parmesan, et cuire 2 minutes. Ajouter les tomates, le persil, saler, poivrer et cuire encore 5 minutes. Ajouter les figues et cuire 2 minutes de plus. Servir chaud.</instructions>
 	</recipe>
 	<recipe id="558">
 		<title>Galettes de pois cassés</title>
@@ -35348,7 +35153,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>80</amount>
 				<unit>g</unit>
-				<item>fromage de chèvre,</item>
+				<item>fromage de chèvre</item>
 				<key>fromage de chèvre,</key>
 			</ingredient>
 		</ingredient-list>
@@ -37470,7 +37275,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="163">
 		<title>Gratin de chou fleur</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/gratin-chou-fleur/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -37500,7 +37310,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>100</amount>
 				<unit>g</unit>
-				<item>emmental râpé</item>
+				<item>fromage râpé</item>
 				<key>emmental râpé</key>
 			</ingredient>
 		</ingredient-list>
@@ -37847,24 +37657,29 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="564">
 		<title>Gratin de farfalle aux petit pois</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/gratin-farfalle-petit-pois/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>250</amount>
 				<unit>g</unit>
-				<item>pâte farfalle</item>
+				<item>farfalle</item>
 				<key>farfalle</key>
 			</ingredient>
 			<ingredient>
-				<amount>450</amount>
+				<amount>200</amount>
 				<unit>g</unit>
-				<item>petits pois frais</item>
+				<item>petits pois</item>
 				<key>petits pois frais,</key>
 			</ingredient>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
+				<amount>1</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -37891,8 +37706,8 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>oignon,</key>
 			</ingredient>
 			<ingredient>
-				<amount>30</amount>
-				<unit>g</unit>
+				<amount>3</amount>
+				<unit>cs</unit>
 				<item>farine de blé T45</item>
 				<key>farine de blé t45</key>
 			</ingredient>
@@ -37914,100 +37729,17 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>citron</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Gratin de farfalle aux petit pois
-
-
-Pizzas, tartes et gratins
-Imprimer 
-
-Evaluez cette recette !
-Un gratin bien réconfortant !
-
-Type de plat Plat principal
-
-Cuisine Printemps, Eté
-
-Mots-clés Cuisine plaisir, Cuisine pour tous 
- Temps de préparation 10 minutes
-
- Temps de cuisson 30 minutes
-
- Temps total 40 minutes
-
- Portions
-personnes
-
- Calories 497kcal
-Préchauffer le four à 200°C.
+		<instructions>Préchauffer le four à 200°C.
 
 Faire cuire les farfalle Al dente. Égoutter dans une passoire et mettre de côté. 3 minutes avant la fin, ajouter les petits pois.
 
 Faire chauffer l’huile d'olive dans une poêle à feu moyen, ajouter les champignons et faire sauter pendant environ une minute. Mettre de côté.
 
-Faire chauffer le beurre dans une casserole à feu moyen, ajouter l’ail puis l’oignon. Faire revenir 3 à 4 minutes jusqu'à ce que les oignons deviennent transparents. Ajouter la farine et fouetter en continu pendant une minute, ajouter le lait en petite quantité et continuer de sorte qu’aucun grumeaux ne se forment. Laisser mijoter pendant environ 5 minutes. Saler, poivrer. Eteindre le feu et ajouter la moitié du parmesan et bien mélanger. Enfin, ajouter le jus du citron et fouetter à nouveau.
+Faire chauffer le beurre dans une casserole à feu moyen, ajouter l’ail puis l’oignon. Faire revenir 3 à 4 minutes jusqu'à ce que les oignons deviennent transparents. Ajouter la farine et fouetter en continu pendant une minute, ajouter le lait en petite quantité et continuer de sorte qu’aucun grumeaux ne se forment. Laisser mijoter pendant environ 5 minutes. Saler, poivrer. Éteindre le feu et ajouter la moitié du parmesan et bien mélanger. Enfin, ajouter le jus du citron et fouetter à nouveau.
 
 Dans un saladier mélanger les pâtes, les champignons, les petits pois et la sauce, puis transvaser dans un plat huilé allant au four.
 
-Ajouter le reste du parmesan râpé, et cuire 20 minutes.
-Calories : 497 kcal (25%)
-
-Glucides : 64 g (21%)
-
-Protéines : 17 g (34%)
-
-Lipides : 19 g (29%)
-
-Lipides saturés : 9 g (45%)
-
-Graisses polyinsaturées : 1 g
-
-Graisses monoinsaturées : 7 g
-
-Choléstérol : 36 mg (12%)
-
-Sodium : 325 mg (14%)
-
-Potassium : 387 mg (11%)
-
-Fibre : 7 g (28%)
-
-Sucre : 8 g (9%)
-
-Vitamine A : 750 IU (15%)
-
-Vitamine C : 41.3 mg (50%)
-
-Calcium : 170 mg (17%)
-
-Fer : 4 mg (22%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Menu végétarien - Semaine du 25 février 2019
-  Gratin de riz, courgettes et tomates
-  Gratin de quinoa aux champignons et brocoli
-  Salade de petit épeautre aux fraises
-  Gratin de quinoa enchiladas
-  Petit épeautre aux aubergines grillées et yaourt à la menthe
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Ajouter le reste du parmesan râpé, et cuire 20 minutes.</instructions>
 	</recipe>
 	<recipe id="1072">
 		<title>Gratin de légumes d’hiver</title>
@@ -38677,19 +38409,22 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="177">
 		<title>Gratin de pâtes, chou-fleur et champignons</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/gratin-pates-chou-fleur-champignons/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>50 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>450</amount>
-				<unit>g</unit>
+				<amount>1</amount>
 				<item>chou-fleur</item>
 				<key>chou-fleur,</key>
 			</ingredient>
 			<ingredient>
-				<amount>200</amount>
-				<unit>g</unit>
-				<item>pommes de terre</item>
+				<amount>1</amount>
+				<item>pomme de terre</item>
 				<key>pomme de terre,</key>
 			</ingredient>
 			<ingredient>
@@ -38752,6 +38487,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>chou kale,</key>
 			</ingredient>
 			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>GARNITURE</item>
+				<key>GARNITURE</key>
+			</ingredient>
+			<ingredient>
 				<amount>4</amount>
 				<unit>cs</unit>
 				<item>chapelure</item>
@@ -38762,6 +38505,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>parmesan râpé</item>
 				<key>parmesan râpé</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>thym</item>
+				<key>thym</key>
 			</ingredient>
 		</ingredient-list>
 		<instructions>Recette végétarienne - Gratin de pâtes, chou-fleur et champignons - Menu végétarien
@@ -40237,6 +39986,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Grosse salade d'été</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -40257,13 +40009,13 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>champignons de Paris</key>
 			</ingredient>
 			<ingredient>
-				<amount>2985</amount>
+				<amount>285</amount>
 				<unit>g</unit>
 				<item>maïs</item>
 				<key>maïs</key>
 			</ingredient>
 			<ingredient>
-				<amount>125</amount>
+				<amount>150</amount>
 				<unit>g</unit>
 				<item>olives noires</item>
 				<key>olives noires</key>
@@ -40286,10 +40038,18 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>tomates cerises</key>
 			</ingredient>
 			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
 				<amount>3</amount>
 				<unit>cs</unit>
 				<item>graines de courge</item>
 				<key>graines de courge</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>60</amount>
@@ -40781,6 +40541,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Hachis de potimarron aux lentilles</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>20 minutes</preptime>
+		<cooktime>1 hour</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -40845,17 +40608,32 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>huile d'olive</key>
 			</ingredient>
 		</ingredient-list>
+		<instructions>Éplucher le potimarron et ôter la partie centrale. Couper la chair en dés. Éplucher les pommes de terre et les couper en morceaux. Mettre le tout à cuire à la vapeur environ 15 minutes. Écraser au presse-purée.
+
+Placer cette purée dans une casserole et la faire chauffer sur feu doux. Ajouter l’huile d’olive et 10 cl de lait. Mélanger et laisser chauffer quelques instants tout en remuant, afin que la purée épaississe. Hors du feu, saler, poivrer et ajouter le cumin et la muscade. Réserver.
+
+Préchauffer le four à 180*C. Éplucher et couper en dés les carottes et les champignons. Peler et émincer l’oignon. Dégermer et hacher l’ail. Dans un fait-tout, verser les lentilles, les dés de carottes, l’oignon, l’ail et le bouillon. Cuire à couvert dans 50 cl d’eau jusqu’à ce que l’eau s’évapore. Si les lentilles sont encore dures quand toute l’eau s’est évaporée, en ajouter régulièrement jusqu’à l’obtention de la cuisson désirée. Réduire alors le feu, ajouter les dés de champignons et verser le lait restant. Laisser évaporer tout en remuant régulièrement délicatement.
+
+Verser la préparation aux lentilles dans des ramequins individuels. Tapisser le dessus de purée. Étaler et lisser à l’aide d’une maryse. Enfourner 40 minutes.</instructions>
 	</recipe>
 	<recipe id="1206">
 		<title>Hachis parmentier végétarien</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>25 minutes</preptime>
+		<cooktime>50 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>4</amount>
 				<item>pommes de terre</item>
 				<key>pommes de terre</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>poireau moyen</item>
+				<key>poireau moyen</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -40912,12 +40690,19 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<item>parmesan</item>
 				<key>parmesan</key>
 			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>poireau moyen</item>
-				<key>poireau moyen</key>
-			</ingredient>
 		</ingredient-list>
+		<instructions>Dans un robot, mixer en hachis moyen les légumes épluchés et coupés grossièrement : navet, carottes, céleri, champignons, oignons, ail.
+
+Préchauffer le four à 220°C.
+
+Peler les pommes de terre, et les couper en morceaux et cuire à l'eau 20 min. Cuire à la vapeur au-dessus des pommes de terre le blanc de poireau émincé. Pendant ce temps, dans un faitout, chauffer à feu vif l'huile d'olive et faites revenir le hachis de légume 15 min en remuant souvent. Les légumes vont cuire dans leur jus et leur vapeur. Bien saler et poivrer. 
+
+Dans la même cuve du robot, mixer ensemble la tranche de pain de mie et le persil. 
+Éteindre le feu sous les légumes lorsqu'ils sont cuits mais encore un peu fermes, puis rajouter la sauce soja, le mélange persil-pain, rectifier l'assaisonnement.
+
+Monter le hachis parmentier dans un plat graissé, avec par-dessus le hachis les pommes de terre en purée épaisse mélangée avec le poireau. Cuisez 35 mn à 220°C. Servir avec une salade verte.
+
+Pour une recette encore plus savoureuse, ajouter dans la farce 2 cc de parmesan.</instructions>
 	</recipe>
 	<recipe id="1069">
 		<title>Hachis parmentier végétarien bis</title>
@@ -46712,6 +46497,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/lentilles-curry-pommes-terre-petits-pois/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
@@ -46973,12 +46759,13 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Lentilles au miel et à la moutarde</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>75</amount>
+				<amount>15</amount>
 				<unit>ml</unit>
 				<item>huile d'olive</item>
 				<key>huile d'olive</key>
@@ -47016,6 +46803,20 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>lentilles</item>
 				<key>lentilles</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
+			</ingredient>
+			<ingredient>
+				<amount>60</amount>
+				<unit>ml</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -47567,6 +47368,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/lentilles-champignons-oignons-caramelises/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
@@ -47595,13 +47397,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>lentilles beluga</key>
 			</ingredient>
 			<ingredient>
-				<amount>50</amount>
-				<unit>cl</unit>
-				<item>bouillon de légumes</item>
+				<amount>1</amount>
+				<item>cube de bouillon de légumes</item>
 				<key>bouillon de légumes</key>
 			</ingredient>
 			<ingredient>
-				<amount>50</amount>
+				<amount>20</amount>
 				<unit>g</unit>
 				<item>pignons de pin</item>
 				<key>pignons de pin</key>
@@ -47613,13 +47414,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>câpres</key>
 			</ingredient>
 			<ingredient>
-				<item>roquette</item>
+				<amount>2</amount>
+				<item>poignées de roquette</item>
 				<key>roquette</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
 				<unit>cs</unit>
-				<item>ciboulette hachée</item>
+				<item>ciboulette</item>
 				<key>ciboulette hachée</key>
 			</ingredient>
 		</ingredient-list>
@@ -47633,7 +47435,12 @@ Mélanger les lentilles cuites, les champignons et les oignons. Ajuster le sel, 
 	</recipe>
 	<recipe id="593">
 		<title>Lentilles aux haricots verts</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/lentilles-aux-haricots-verts/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -47836,18 +47643,22 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1050">
 		<title>Lentilles aux patates douces rôties et olives</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/lentilles-patates-douces-roties-olives/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>400</amount>
-				<unit>g</unit>
+				<amount>2</amount>
 				<item>patates douces</item>
 				<key>patate douce,</key>
 			</ingredient>
 			<ingredient>
-				<amount>45</amount>
-				<unit>ml</unit>
+				<amount>3</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -47890,6 +47701,10 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>olives noires</item>
 				<key>olives noires</key>
+			</ingredient>
+			<ingredient>
+				<item>persil</item>
+				<key>persil</key>
 			</ingredient>
 		</ingredient-list>
 		<instructions>Recette végétarienne - Lentilles aux patates douces rôties et olives - Menu végétarien
@@ -48477,7 +48292,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="342">
 		<title>Lentilles bourguignon</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/lentilles-bourguignon/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -50515,17 +50335,23 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="234">
 		<title>Lentilles et quinoa à la courge</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/lentilles-quinoa-courge/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>450</amount>
+				<unit>g</unit>
 				<item>courge butternut</item>
 				<key>courge butternut,</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
-				<item>oignos verts</item>
+				<item>oignons verts</item>
 				<key>oignon vert,</key>
 			</ingredient>
 			<ingredient>
@@ -50861,8 +50687,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/lentilles-kung-pao/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
-		<cooktime>1/2 hours</cooktime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -50876,6 +50703,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>riz</item>
 				<key>riz</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>LEGUMES</item>
+				<key>LEGUMES</key>
 			</ingredient>
 			<ingredient>
 				<amount>30</amount>
@@ -50896,7 +50731,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
-				<item>gousses d'ail hachées</item>
+				<item>gousses d'ail</item>
 				<key>gousses d'ail hachées</key>
 			</ingredient>
 			<ingredient>
@@ -50920,6 +50755,50 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<item>branches de céleri</item>
 				<key>branches de céleri coupées en morceaux</key>
 			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>SAUCE</item>
+				<key>SAUCE</key>
+			</ingredient>
+			<ingredient>
+				<amount>60</amount>
+				<unit>ml</unit>
+				<item>sauce soja</item>
+				<key>sauce soja</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>huile de sésame</item>
+				<key>huile de sésame</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>sirop d'érable</item>
+				<key>sirop d'érable</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>vinaigre de rz</item>
+				<key>vinaigre de rz</key>
+			</ingredient>
+			<ingredient>
+				<amount>15</amount>
+				<unit>ml</unit>
+				<item>jus de citron vert</item>
+				<key>jus de citron vert</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>fécule de maïs</item>
+				<key>fécule de maïs</key>
+			</ingredient>
 		</ingredient-list>
 		<instructions>Cuire les lentilles selon les indications du paquet ou 25 minutes. Cuire le riz selon les indications du paquet. 
 
@@ -50935,49 +50814,62 @@ Servir le riz avec les lentilles kung pao.</instructions>
 		<title>Lentilles noires aux courgettes, tomates cerises et pignons de pin</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
+			<ingredient>
+				<item>SALADE DE COURGETTES</item>
+				<key>SALADE DE COURGETTES</key>
+			</ingredient>
 			<ingredient>
 				<amount>3</amount>
 				<item>courgettes</item>
 				<key>courgettes</key>
 			</ingredient>
 			<ingredient>
-				<amount>250</amount>
+				<amount>200</amount>
 				<unit>g</unit>
 				<item>tomates cerises</item>
 				<key>tomates cerises</key>
 			</ingredient>
 			<ingredient>
-				<amount>6</amount>
-				<item>feuilles de basilic</item>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>basilic</item>
 				<key>feuilles de basilic</key>
 			</ingredient>
 			<ingredient>
-				<amount>5</amount>
+				<amount>3</amount>
 				<unit>cs</unit>
 				<item>huile d'olive</item>
 				<key>huile d'olive</key>
 			</ingredient>
 			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>jus de citron</item>
+				<amount>1</amount>
+				<item>citron - jus</item>
 				<key>jus de citron</key>
 			</ingredient>
 			<ingredient>
-				<amount>50</amount>
+				<amount>15</amount>
 				<unit>g</unit>
 				<item>pignons de pin</item>
 				<key>pignons de pin</key>
 			</ingredient>
 			<ingredient>
-				<amount>60</amount>
+				<amount>50</amount>
 				<unit>g</unit>
 				<item>parmesan en copeaux</item>
 				<key>parmesan en copeaux</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>LENTILLES</item>
+				<key>LENTILLES</key>
 			</ingredient>
 			<ingredient>
 				<amount>200</amount>
@@ -50997,9 +50889,27 @@ Servir le riz avec les lentilles kung pao.</instructions>
 				<key>thym</key>
 			</ingredient>
 			<ingredient>
-				<amount>1/2</amount>
-				<item>bouquet de persil</item>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>persil</item>
 				<key>bouquet de persil</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>citron - zeste et jus</item>
+				<key>citron</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cc</unit>
+				<item>miel</item>
+				<key>miel</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -51011,17 +50921,6 @@ Servir le riz avec les lentilles kung pao.</instructions>
 				<unit>cs</unit>
 				<item>câpres</item>
 				<key>câpres</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>citron</item>
-				<key>citron</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
-				<item>miel</item>
-				<key>miel</key>
 			</ingredient>
 		</ingredient-list>
 	</recipe>
@@ -51099,6 +50998,9 @@ Mettre les lentilles au fond des assiettes, ajouter la roquette, puis le fenouil
 		<title>Lentilles à la grecque</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -51112,7 +51014,7 @@ Mettre les lentilles au fond des assiettes, ajouter la roquette, puis le fenouil
 				<key>oignon rouge</key>
 			</ingredient>
 			<ingredient>
-				<amount>3</amount>
+				<amount>1</amount>
 				<unit>cs</unit>
 				<item>huile d'olive</item>
 				<key>huile d'olive</key>
@@ -51158,6 +51060,20 @@ Mettre les lentilles au fond des assiettes, ajouter la roquette, puis le fenouil
 				<unit>g</unit>
 				<item>feta</item>
 				<key>feta</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
@@ -56711,13 +56627,22 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="1030">
 		<title>Nouilles aux brocolis et champignons</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/nouilles-brocolis-champignons/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
+				<item>LES NOUILLES</item>
+				<key>LES NOUILLES</key>
+			</ingredient>
+			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>nouilles udon</item>
+				<item>nouilles de riz</item>
 				<key>nouilles udon</key>
 			</ingredient>
 			<ingredient>
@@ -56747,6 +56672,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<amount>1</amount>
 				<item>cébette</item>
 				<key>cébette,</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>LA SAUCE</item>
+				<key>LA SAUCE</key>
 			</ingredient>
 			<ingredient>
 				<amount>6</amount>
@@ -64514,7 +64447,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="610">
 		<title>Omelette champignons pommes de terre</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/omelette-champignons-pommes-de-terre/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -64553,88 +64491,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>càs persil,</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Omelette champignons pommes de terre - Menu végétarien
-
-Recettes végétariennes
-Imprimer 
-
-Evaluez cette recette !
-Type de plat Plat principal
-
-Cuisine Automne, Hiver, Moins de 30 minutes, Moins de 5 ingrédients, Faible en calories
-
- Temps de préparation 10 minutes
-
- Temps total 10 minutes
-
- Portions
-personnes
-
- Calories 214kcal
-Mettre les pommes de terre en tranches dans une casserole d'eau bouillante et cuire 5 minutes, égoutter.
+		<instructions>Mettre les pommes de terre en tranches dans une casserole d'eau bouillante et cuire 5 minutes, égoutter.
 
 Dans un bol, fouetter légèrement les œufs, le lait, le persil, saler, poivrer.
 
-Faire chauffer l'huile d'olive dans une poêle, cuire les champignons émincés jusqu'à ce qu'ils soient tendres, environ 5 minutes. Ajouter les pommes de terre puis le mélange d'oeufs et cuire à feu très doux jusqu'à ce que l'omelette ait la consistance voulue.
-Calories : 214 kcal (11%)
-
-Glucides : 15 g (5%)
-
-Protéines : 12 g (24%)
-
-Lipides : 12 g (18%)
-
-Lipides saturés : 3 g (15%)
-
-Graisses polyinsaturées : 2 g
-
-Graisses monoinsaturées : 6 g
-
-Choléstérol : 317 mg (106%)
-
-Sodium : 171 mg (7%)
-
-Potassium : 514 mg (15%)
-
-Fibre : 2 g (8%)
-
-Sucre : 2 g (2%)
-
-Vitamine A : 450 IU (9%)
-
-Vitamine C : 21.5 mg (26%)
-
-Calcium : 50 mg (5%)
-
-Fer : 2.2 mg (12%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Salade de printemps aux pommes de terre nouvelles
-  Pommes de terre et oeufs au four
-  Tian de betteraves, pommes de terre et pommes
-  Casserole crémeuse asperges, champignons, pommes de terre
-  Spaghettis crémeux aux champignons et poireaux
-  Quinoa aux champignons rôtis et graines de courges
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Faire chauffer l'huile d'olive dans une poêle, cuire les champignons émincés jusqu'à ce qu'ils soient tendres, environ 5 minutes. Ajouter les pommes de terre puis le mélange d'œufs et cuire à feu très doux jusqu'à ce que l'omelette ait la consistance voulue.</instructions>
 	</recipe>
 	<recipe id="609">
 		<title>Omelette champignons épinards</title>
@@ -68338,7 +68199,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="340">
 		<title>Orecchiette sauce brocoli</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/orecchiette-sauce-brocoli/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -68473,7 +68339,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="616">
 		<title>Orge au potimarron et champignons</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/orge-potimarron-champignons/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -69806,12 +69677,23 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="262">
 		<title>Orzotto poireaux et gorgonzola</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/orzotto-poireaux-gorgonzola/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
+				<amount>50</amount>
+				<unit>g</unit>
+				<item>noix</item>
+				<key>noix,</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
 				<item>huile d'olive</item>
 				<key>huile d'olive</key>
 			</ingredient>
@@ -69844,121 +69726,31 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>bouillon de légumes</key>
 			</ingredient>
 			<ingredient>
-				<amount>100</amount>
-				<unit>g</unit>
-				<item>gorgonzola</item>
-				<key>gorgonzola,</key>
-			</ingredient>
-			<ingredient>
-				<amount>50</amount>
-				<unit>g</unit>
-				<item>noix</item>
-				<key>noix,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>citron</item>
-				<key>citron,</key>
-			</ingredient>
-			<ingredient>
 				<amount>2</amount>
 				<unit>cs</unit>
 				<item>persil</item>
 				<key>càs persil,</key>
 			</ingredient>
+			<ingredient>
+				<amount>150</amount>
+				<unit>g</unit>
+				<item>gorgonzola</item>
+				<key>gorgonzola,</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>citron - jus</item>
+				<key>citron,</key>
+			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Orzotto poireaux et gorgonzola - Menu végétarien
-
-
-Les pâtes
-Imprimer 
-
-Evaluez cette recette !
-Dans cette recette végétarienne, l’orzo remplace le riz. Associé au gorgonzola et aux noix, c’est un vrai régal. Certes, pas très léger, mais il faut bien se faire plaisir de temps en temps !
-
-Type de plat Plat principal
-
-Cuisine Hiver, Moins de 30 minutes
-
-Mots-clés Cuisine plaisir, Veggie kids
-
- Temps de préparation 5 minutes
-
- Temps de cuisson 20 minutes
-
- Temps total 25 minutes
-
- Portions
-personnes
-
- Calories 572kcal
-Faire chauffer l’huile d’olive dans une poêle à feu moyen-vif. Ajouter l’oignon et cuire pendant 3 minutes. Ajouter les poireaux et cuire 5 minutes, ajouter l’orzo et bien mélanger pour l’imprégner d’huile. Augmenter le feu, verser le vin blanc et mélanger jusqu’à évaporation presque complète.
+		<instructions>Faire chauffer l’huile d’olive dans une poêle à feu moyen-vif. Ajouter l’oignon et cuire pendant 3 minutes. Ajouter les poireaux et cuire 5 minutes, ajouter l’orzo et bien mélanger pour l’imprégner d’huile. Augmenter le feu, verser le vin blanc et mélanger jusqu’à évaporation presque complète.
 
 Verser une louche de bouillon chaud, laisser l’orzo l’absorber et renouveler une louche à la fois, jusqu’à ce que l’orzo soit cuit, soit 15 minutes. S’il manque du bouillon, ajouter un peu d’eau.
 
 Pendant ce temps, faire griller les noix à sec dans une poêle.
 
-Ajouter les noix, le gorgonzola et le jus de citron à l'orzotto, mélanger et servir avec le persil haché.
-L’orzo se fait également appelé “Langue d’oiseaux”. Vous en trouverez en magasin bio ou dans des épicerie italienne.
-Calories : 572 kcal (29%)
-
-Glucides : 83 g (28%)
-
-Protéines : 18 g (36%)
-
-Lipides : 17 g (26%)
-
-Lipides saturés : 1 g (5%)
-
-Graisses polyinsaturées : 4 g
-
-Graisses monoinsaturées : 3 g
-
-Choléstérol : 18 mg (6%)
-
-Sodium : 432 mg (18%)
-
-Potassium : 263 mg (8%)
-
-Fibre : 5 g (20%)
-
-Sucre : 6 g (7%)
-
-Vitamine A : 1600 IU (32%)
-
-Vitamine C : 19.8 mg (24%)
-
-Calcium : 170 mg (17%)
-
-Fer : 5 mg (28%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Menus végétariens - Semaine du 24 décembre
-  Orzotto aux choux de Bruxelles
-  Risotto à la courge musquée et gorgonzola
-  Polenta de millet aux poireaux
-  Spaghettis crémeux aux champignons et poireaux
-  Poireaux poêlés et oeufs au zaatar
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Ajouter les noix, le gorgonzola et le jus de citron à l'orzotto, mélanger et servir avec le persil haché.</instructions>
+		<modifications>&amp;lt;i&amp;gt;L’orzo se fait également appelé “Langue d’oiseaux”. Vous en trouverez en magasin bio ou dans des épicerie italienne.&amp;lt;/i&amp;gt;</modifications>
 	</recipe>
 	<recipe id="105">
 		<title>Pains pita, avocat et haricots rouges</title>
@@ -72396,8 +72188,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Paëlla végétarienne</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
-		<cooktime>25 minutes</cooktime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -72461,7 +72254,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>1</amount>
 				<unit>g</unit>
-				<item>de safran</item>
+				<item>safran</item>
 				<key>de safran</key>
 			</ingredient>
 			<ingredient>
@@ -72483,7 +72276,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/paella-vegetarienne-asperges/</link>
-		<rating>1.0/5 étoiles</rating>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
@@ -79479,6 +79272,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Pois chiches aux haricots verts et tomates</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -79514,6 +79310,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<amount>3</amount>
 				<item>oignons verts</item>
 				<key>oignons verts</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>3</amount>
@@ -81967,7 +81771,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>polent</item>
+				<item>polenta</item>
 				<key>polent</key>
 			</ingredient>
 			<ingredient>
@@ -85646,12 +85450,17 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="260">
 		<title>Poêlée aux haricots blancs, artichauts et champignons</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/poelee-haricots-blancs-artichauts-champignons/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
+				<amount>2</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -85673,7 +85482,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>8</amount>
-				<item>tomates séchées,</item>
+				<item>tomates séchées</item>
 				<key>tomates séchées,</key>
 			</ingredient>
 			<ingredient>
@@ -85685,7 +85494,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>400</amount>
 				<unit>g</unit>
-				<item>haricots blancs cuits</item>
+				<item>haricots blancs</item>
 				<key>haricots blancs cuits,</key>
 			</ingredient>
 			<ingredient>
@@ -85695,7 +85504,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>coeurs d'artichauts</key>
 			</ingredient>
 			<ingredient>
-				<amount>1 1/2</amount>
+				<amount>1/2</amount>
 				<unit>cs</unit>
 				<item>origan</item>
 				<key>0,5 càs origan</key>
@@ -85708,97 +85517,16 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<unit>cs</unit>
+				<unit>cc</unit>
 				<item>sucre</item>
 				<key>càs sucre</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Poêlée aux haricots blancs, artichauts et champignons - Menu végétarien
-
-Recettes vegan . Recettes d'hiver
-Imprimer 
-
-Evaluez cette recette !
-Des ingrédients faciles à trouver, une préparation très facile, voici une recette idéale pour les soirs de la semaine. Haricots blancs, champignons, tomates séchées, artichauts, aromates, cette recette de poêlée aux inspirations toscanes sera sans aucun doute, un succès.
-
-Type de plat Plat principal
-
-Cuisine Hiver, Vegan, Moins de 30 minutes, Légumineuses
-
-Mots-clés Cuisine rapide, Cuisine simple, Cuisine pour tous
-
- Temps de préparation 10 minutes
-
- Temps de cuisson 15 minutes
-
- Temps total 25 minutes
-
- Portions
-personnes
-
- Calories 362kcal
-Faire chauffer la moitié de l’huile dans une sauteuse sur feu moyen-vif. Ajouter les champignons, cuire 2 minutes. Réserver.
+		<instructions>Faire chauffer la moitié de l’huile dans une sauteuse sur feu moyen-vif. Ajouter les champignons, cuire 2 minutes. Réserver.
 
 Mettre le reste d’huile d’olive, ajouter l’oignon, cuire 3 minutes, ajouter l’ail et les tomates séchées et cuire 2 minutes. Ajouter les tomates concassées, les haricots, les cœurs d’artichauts, l’origan, le thym et le sucre, saler, poivrer. Couvrir la sauteuse, baisser le feu à moyen et cuire environ 10 minutes. Remettre les champignons et réchauffer le tout 1 à 2 minutes.
 
-Garnir de persil haché et servir chaud.
-Calories : 362 kcal (18%)
-
-Glucides : 51 g (17%)
-
-Protéines : 15 g (30%)
-
-Lipides : 13 g (20%)
-
-Lipides saturés : 2 g (10%)
-
-Graisses polyinsaturées : 2 g
-
-Graisses monoinsaturées : 8 g
-
-Sodium : 874 mg (36%)
-
-Potassium : 1433 mg (41%)
-
-Fibre : 14 g (56%)
-
-Sucre : 12 g (13%)
-
-Vitamine A : 550 IU (11%)
-
-Vitamine C : 56.1 mg (68%)
-
-Calcium : 170 mg (17%)
-
-Fer : 8.1 mg (45%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Menus végétariens - Semaine du 24 décembre
-  Haricots blancs à la tomate
-  Menu végétarien . Semaine du 23 mars 2020
-  Salade de semoule, avocat et haricots blancs
-  Haricots blancs croustillants aux blettes et oeuf poché
-  Fettuccini aux champignons et topinambours
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Garnir de persil haché et servir chaud.</instructions>
 	</recipe>
 	<recipe id="966">
 		<title>Poêlée de mangue poivrée</title>
@@ -89095,7 +88823,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="622">
 		<title>Pâtes aux aubergines et tomates</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/pates-aubergines-tomates/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -89376,150 +89109,66 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
-	<recipe id="159">
+	<recipe id="1422">
 		<title>Pâtes aux carottes</title>
-		<link>https://menu-vegetarien.com/pates-aux-carottes/</link>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>500</amount>
-				<unit>g</unit>
-				<item>carottes</item>
-				<key>carotte,</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>l</unit>
-				<item>bouillon de légumes</item>
-				<key>bouillon de légumes</key>
-			</ingredient>
-			<ingredient>
 				<amount>400</amount>
 				<unit>g</unit>
-				<item>pâtes farfalle</item>
+				<item>farfalle</item>
 				<key>farfalle</key>
 			</ingredient>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
+				<amount>4</amount>
+				<item>carottes</item>
+				<key>carottes</key>
 			</ingredient>
 			<ingredient>
-				<amount>10</amount>
-				<unit>cl</unit>
+				<amount>1</amount>
+				<item>gousse d'ail</item>
+				<key>gousse d'ail</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
 				<item>crème fraîche</item>
 				<key>crème fraîche</key>
 			</ingredient>
 			<ingredient>
 				<amount>1/2</amount>
-				<unit>cs</unit>
-				<item>curry</item>
-				<key>càs curry</key>
+				<unit>cc</unit>
+				<item>cumin</item>
+				<key>cumin</key>
 			</ingredient>
 			<ingredient>
 				<amount>1/2</amount>
-				<unit>cc</unit>
-				<item>cumin</item>
-				<key>càc cumin</key>
+				<unit>cs</unit>
+				<item>curry</item>
+				<key>curry</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<item>gousse d'ail</item>
-				<key>gousse d'ail,</key>
+				<item>cube de bouillon de légumes</item>
+				<key>cube de bouillon de légumes</key>
+			</ingredient>
+			<ingredient>
+				<amount>15</amount>
+				<unit>ml</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Pâtes aux carottes - menu-vegetarien.com
+		<instructions>Plonger les carottes coupées en dés dans l’eau bouillante avec le bouillon cube et le cumin, pendant 20 minutes. Égoutter.
 
+Pendant ce temps, cuire les farfalle pendant 7 minutes. Égoutter.
 
-Les pâtes
-Imprimer 
-
-Evaluez cette recette !
-Recette ultra simple pour un goût très original, peu d'ingrédients, voilà ce qu'il faut pour faire plaisir à tout le monde un soir de la semaine.
-
-Type de plat Plat principal
-
-Cuisine Automne, Hiver, Moins de 30 minutes, Printemps, Eté
-
-Mots-clés Cuisine rapide, Cuisine simple, Cuisine pour tous
-
- Temps de préparation 5 minutes
-
- Temps de cuisson 25 minutes
-
- Temps total 30 minutes
-
- Portions
-personnes
-
- Calories 552kcal
-Cuire les carottes 20 mn dans le bouillon de légumes. Egoutter.
-
-Pendant ce temps, faire cuire les farfalle le temps indiqué sur le paquet et égoutter. Remettre les farfalle dans la casserole, ajouter la crème, le curry, le cumin et l'ail, assaisonner et mélanger.
-
-Faire chauffer l'huile d'olive dans une poêle. Faire griller les dés de carottes légèrement pendant 3 minutes.
-
-Mettre les carottes avec les farfalle, mélanger et servir.
-Calories : 552 kcal (28%)
-
-Glucides : 85 g (28%)
-
-Protéines : 14 g (28%)
-
-Lipides : 16 g (25%)
-
-Lipides saturés : 7 g (35%)
-
-Graisses polyinsaturées : 1 g
-
-Graisses monoinsaturées : 3 g
-
-Choléstérol : 36 mg (12%)
-
-Sodium : 230 mg (10%)
-
-Potassium : 423 mg (12%)
-
-Fibre : 7 g (28%)
-
-Sucre : 9 g (10%)
-
-Vitamine A : 21700 IU (434%)
-
-Vitamine C : 26.4 mg (32%)
-
-Calcium : 60 mg (6%)
-
-Fer : 2.5 mg (14%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Soupe de pâtes aux pois chiches
-  Curry de poireaux
-  Haricots blancs d'hiver
-  Orecchiette cacio e pepe aux panais
-  Pâtes à l'emmental râpé et persil
-  Pâtes aux haricots blancs
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Frire les dés de carottes dans un peu d’huile d’olive pendant 3 minutes puis ajouter les farfalle, la crème, le curry. Mélanger et laisser cuire quelques minutes. Ajouter l’ail haché. Mélanger et servir aussitôt.</instructions>
 	</recipe>
 	<recipe id="625">
 		<title>Pâtes aux courgettes et maïs</title>
@@ -89880,6 +89529,7 @@ Ajouter les pâtes et l’eau de cuisson réservée, et mélanger. Retirer du fe
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/pates-girolles-haricots-blancs/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
@@ -89891,6 +89541,8 @@ Ajouter les pâtes et l’eau de cuisson réservée, et mélanger. Retirer du fe
 				<key>haricots blancs cuits</key>
 			</ingredient>
 			<ingredient>
+				<amount>30</amount>
+				<unit>ml</unit>
 				<item>huile d'olive</item>
 				<key>huile d'olive</key>
 			</ingredient>
@@ -89919,7 +89571,7 @@ Ajouter les pâtes et l’eau de cuisson réservée, et mélanger. Retirer du fe
 			<ingredient>
 				<amount>250</amount>
 				<unit>g</unit>
-				<item>pâtes bucatini ou spaghettis</item>
+				<item>bucatini</item>
 				<key>pâtes bucatini ou spaghettis</key>
 			</ingredient>
 			<ingredient>
@@ -95296,6 +94948,7 @@ Servir le quinoa avec le vert et les côtes de blettes. Ajouter les pignons de p
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/quinoa-champignons/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
@@ -95313,8 +94966,8 @@ Servir le quinoa avec le vert et les côtes de blettes. Ajouter les pignons de p
 				<key>bouillon de légumes</key>
 			</ingredient>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
+				<amount>1</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -95775,10 +95428,23 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Quinoa aux courgettes et pignons de pin</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
+			<ingredient>
+				<amount>250</amount>
+				<unit>g</unit>
+				<item>quinoa</item>
+				<key>quinoa</key>
+			</ingredient>
+			<ingredient>
+				<amount>20</amount>
+				<unit>g</unit>
+				<item>pignons de pin</item>
+				<key>pignons de pin</key>
+			</ingredient>
 			<ingredient>
 				<amount>2</amount>
 				<unit>cs</unit>
@@ -95786,15 +95452,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>huile d'olive</key>
 			</ingredient>
 			<ingredient>
-				<amount>2</amount>
+				<amount>3</amount>
 				<item>courgettes</item>
 				<key>courgettes</key>
-			</ingredient>
-			<ingredient>
-				<amount>150</amount>
-				<unit>g</unit>
-				<item>quinoa</item>
-				<key>quinoa</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
@@ -95803,20 +95463,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>jus de citron</key>
 			</ingredient>
 			<ingredient>
-				<amount>2</amount>
-				<unit>cc</unit>
+				<amount>1/2</amount>
+				<unit>cs</unit>
 				<item>zeste de citron</item>
 				<key>zeste de citron</key>
 			</ingredient>
 			<ingredient>
-				<amount>60</amount>
-				<unit>g</unit>
-				<item>pignons de pin</item>
-				<key>pignons de pin</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<unit>cc</unit>
+				<amount>1</amount>
+				<unit>cs</unit>
 				<item>aneth</item>
 				<key>aneth</key>
 			</ingredient>
@@ -96455,6 +96109,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Quinoa brocoli</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -97463,7 +97120,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="673">
 		<title>Quinoa à l’orientale</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/quinoa-orientale/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -99814,7 +99476,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="399">
 		<title>Ragoût de pois chiches aux courgettes</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/ragout-pois-chiches-courgettes/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -101892,7 +101558,7 @@ Au printemps, vous pouvez utiliser des artichauts poivrade au lieu des artichaut
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/risotto-champignons-oeuf-poche/</link>
-		<rating>1.0/5 étoiles</rating>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
@@ -105969,12 +105635,17 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="932">
 		<title>Riz au curcuma et noix de cajou</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/riz-curcuma-noix-cajou/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
+				<amount>1</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -105998,7 +105669,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>300</amount>
 				<unit>g</unit>
-				<item>riz jasmin</item>
+				<item>riz basmati ou jasmin</item>
 				<key>riz jasmin,</key>
 			</ingredient>
 			<ingredient>
@@ -106020,86 +105691,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>raisins secs</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Riz au curcuma et noix de cajou - Menu végétarien
+		<instructions>Faire chauffer l'huile d'olive dans une casserole moyenne à feu moyen. Ajouter l'échalote et faire revenir 3 à 4 minutes. Ajouter le garam masala et le curcuma.
 
-
-Recettes indiennes . Recettes vegan
-Imprimer 
-
-Evaluez cette recette !
-Type de plat Plat principal
-
-Cuisine Indienne, Automne, Hiver, Vegan, Moins de 30 minutes, Printemps, Eté 
- Temps de préparation 5 minutes
-
- Temps de cuisson 25 minutes
-
- Temps total 30 minutes
-
- Portions
-personnes
-
- Calories 448kcal
-Faire chauffer l'huile d'olive dans une casserole moyenne à feu moyen. Ajouter l'échalote et faire revenir 3 à 4 minutes. Ajouter le garam masala et le curcuma.
-
-Incorporer le riz, le bouillon de légumes, les noix de cajou et les raisins secs, saler. Porter à ébullition, puis couvrir et réduire le feu au minimum. Laisser mijoter, couvert, jusqu'à ce que tout le liquide soit absorbé, environ 15 minutes. Retirer du feu et laisser reposer 10 minutes (voir plus si vous avez le temps) toujours à couvert. Egrainer et servir.
-Calories : 448 kcal (22%)
-
-Glucides : 73 g (24%)
-
-Protéines : 10 g (20%)
-
-Lipides : 13 g (20%)
-
-Lipides saturés : 2 g (10%)
-
-Graisses polyinsaturées : 2 g
-
-Graisses monoinsaturées : 8 g
-
-Sodium : 168 mg (7%)
-
-Potassium : 319 mg (9%)
-
-Fibre : 3 g (12%)
-
-Sucre : 7 g (8%)
-
-Vitamine A : 150 IU (3%)
-
-Vitamine C : 1.7 mg (2%)
-
-Calcium : 60 mg (6%)
-
-Fer : 4.3 mg (24%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Noix de cajou
-  Riz thaï aux légumes et noix de cajou
-  Nouilles de riz, légumes croquants, crème de noix de cajou
-  Riz et chou-rouge à l'asiatique
-  Salade carottes et noix de cajou
-  Malai Kofta
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Incorporer le riz, le bouillon de légumes, les noix de cajou et les raisins secs, saler. Porter à ébullition, puis couvrir et réduire le feu au minimum. Laisser mijoter, couvert, jusqu'à ce que tout le liquide soit absorbé, environ 15 minutes. Retirer du feu et laisser reposer 10 minutes (voir plus si vous avez le temps) toujours à couvert. Égrainer et servir.</instructions>
 	</recipe>
 	<recipe id="700">
 		<title>Riz au fenouil, petits pois et carottes</title>
@@ -107382,9 +106976,19 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="190">
 		<title>Riz indien aux carottes</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/riz-indien-carottes/</link>
+		<rating>4.0/5 étoiles</rating>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
+			<ingredient>
+				<amount>250</amount>
+				<unit>g</unit>
+				<item>riz basmati</item>
+				<key>riz basmati</key>
+			</ingredient>
 			<ingredient>
 				<amount>4</amount>
 				<unit>cs</unit>
@@ -107393,13 +106997,19 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<item>oignon émincé</item>
+				<item>oignon</item>
 				<key>oignon émincé</key>
 			</ingredient>
 			<ingredient>
 				<amount>20</amount>
 				<item>noix de cajou</item>
 				<key>noix de cajou</key>
+			</ingredient>
+			<ingredient>
+				<amount>60</amount>
+				<unit>g</unit>
+				<item>raisins secs</item>
+				<key>raisins secs</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -107436,54 +107046,19 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>2</amount>
 				<unit>cs</unit>
-				<item>coriandre hachée</item>
+				<item>coriandre</item>
 				<key>càs de coriandre hachée</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Riz indien aux carottes - menu-vegetarien
-s
+		<instructions>Faire cuire le riz le temps indiqué sur le paquet ou 12 minutes.
 
-Recettes indiennes
-Cette recette végétarienne de riz indien aux carottes vont emportera très loin de chez vous. Peu épicé, elle plaira également aux enfants grâce à la douceur de la carotte et le sucré des noix de cajou et des raisins.
-
-Ingrédients
-
-Pour 4 personnes 
-250g riz basmati
- 60g de raisins secs
-Préparation de la recette
-
-Faire cuire le riz le temps indiqué sur le paquet ou 12 minutes.
  Faire chauffer l’huile d’olive dans une poêle. Ajouter l’oignon. Les faire cuire 10 minutes ou jusqu’à ce qu’ils commencent à dorer. Assaisonner. Ajoutez les noix de cajou, les raisins secs et continuer pendant 5 minutes. Réserver.
+
  Dans la même poêle, mettre les graines de moutarde, le laurier, la cannelle, les clous de girofle, faire sauter jusqu’à ce que la moutarde crépite. Ajouter les feuilles de curry et faire sauter pendant 30 secondes. Ajouter les carottes râpées. Bien mélanger. Faire pendant environ 3 minutes à feu moyen. Ajouter le riz, assaisonner, mélanger.
+
  Ajouter enfin les oignons frits, les noix de cajou et les raisins secs et terminer par la coriandre.
- Vous pouvez le servir avec un yaourt ou de la raita.
 
-Vous aimerez aussi
-
-  Riz à l'aneth et haricots blancs
-  Malai Kofta
-  Riz et chou-rouge à l'asiatique
-  Peau de pastèque à l'asiatique
-  Nouilles de riz, légumes croquants, crème de noix de cajou
-  Röstis de courge musquée au curry
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+ Vous pouvez le servir avec un yaourt ou de la raita.</instructions>
 	</recipe>
 	<recipe id="1295">
 		<title>Riz mélo lupin tournesol - purée de carottes</title>
@@ -108965,12 +108540,19 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>miel</key>
 			</ingredient>
 			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>POUR LA RICOTTA</item>
+				<key>POUR LA RICOTTA</key>
+			</ingredient>
+			<ingredient>
 				<amount>250</amount>
 				<unit>g</unit>
 				<item>ricotta</item>
 				<key>ricotta</key>
 			</ingredient>
-			<ingredient/>
 			<ingredient>
 				<amount>1</amount>
 				<unit>cc</unit>
@@ -110304,6 +109886,7 @@ Si vous avez le temps, n'hésitez pas à laisser reposer la salade 20 à 30 minu
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-boulgour-myrtille/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
@@ -110337,8 +109920,17 @@ Si vous avez le temps, n'hésitez pas à laisser reposer la salade 20 à 30 minu
 				<key>feta</key>
 			</ingredient>
 			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>SAUCE</item>
+				<key>SAUCE</key>
+			</ingredient>
+			<ingredient>
 				<amount>4</amount>
-				<item>feuilles de menthe</item>
+				<unit>cs</unit>
+				<item>menthe</item>
 				<key>feuilles de menthe, hachée</key>
 			</ingredient>
 			<ingredient>
@@ -110350,7 +109942,7 @@ Si vous avez le temps, n'hésitez pas à laisser reposer la salade 20 à 30 minu
 			<ingredient>
 				<amount>1</amount>
 				<unit>cs</unit>
-				<item>jus de citron frais</item>
+				<item>jus de citron</item>
 				<key>jus de citron frais</key>
 			</ingredient>
 		</ingredient-list>
@@ -110362,7 +109954,12 @@ Dans un saladier, mettre le boulgour, le concombre coupé en dés, les myrtilles
 	</recipe>
 	<recipe id="705">
 		<title>Salade boulgour, persil, amandes et abricots</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-boulgour-persil-amandes-abricots/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -110387,6 +109984,14 @@ Dans un saladier, mettre le boulgour, le concombre coupé en dés, les myrtilles
 				<amount>8</amount>
 				<item>abricots secs</item>
 				<key>abricots secs,</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>75</amount>
@@ -111128,12 +110733,16 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="706">
 		<title>Salade chaude de chou rouge aux patates douces</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-chaude-de-chou-rouge-aux-patates-douces/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>15 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>300</amount>
-				<unit>g</unit>
+				<amount>1</amount>
 				<item>patate douce</item>
 				<key>patate douce,</key>
 			</ingredient>
@@ -112964,10 +112573,13 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade de boulgour aux dattes et olives</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>150</amount>
+				<amount>200</amount>
 				<unit>g</unit>
 				<item>boulgour</item>
 				<key>boulgour</key>
@@ -113008,6 +112620,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>persil haché</key>
 			</ingredient>
 			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
+			</ingredient>
+			<ingredient>
 				<amount>60</amount>
 				<unit>ml</unit>
 				<item>huile d'olive</item>
@@ -113020,6 +112640,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>jus de citron</key>
 			</ingredient>
 		</ingredient-list>
+		<instructions>Cuire le boulgour selon les indications du paquet. Laisser refroidir. 
+
+Pendant ce temps, mélanger les ingrédients de la vinaigrette avec un peu de sel. 
+
+Mettre le boulgour dans un saladier, ajouter les autres ingrédients (sauf le persil), arroser de vinaigrette, bien mélanger et terminer par le persil.</instructions>
 	</recipe>
 	<recipe id="1361">
 		<title>Salade de boulgour aux fruits</title>
@@ -113095,7 +112720,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="173">
 		<title>Salade de boulgour et vinaigrette au citron</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-boulgour-vinaigrette-citron/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -113105,20 +112735,18 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>boulgour</key>
 			</ingredient>
 			<ingredient>
-				<amount>450</amount>
-				<unit>g</unit>
+				<amount>1</amount>
 				<item>chou-fleur</item>
 				<key>chou-fleur,</key>
 			</ingredient>
 			<ingredient>
-				<amount>400</amount>
-				<unit>g</unit>
-				<item>patate douce</item>
+				<amount>2</amount>
+				<item>patates douces</item>
 				<key>patate douce,</key>
 			</ingredient>
 			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
+				<amount>1</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -113134,9 +112762,16 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>pomme,</key>
 			</ingredient>
 			<ingredient>
-				<amount>4</amount>
-				<unit>cs</unit>
-				<item>persil</item>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>bouquet de persil</item>
 				<key>càs persil,</key>
 			</ingredient>
 			<ingredient>
@@ -113152,7 +112787,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<item>citron</item>
+				<item>citron - jus</item>
 				<key>citron,</key>
 			</ingredient>
 			<ingredient>
@@ -115772,6 +115407,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade de haricots blancs à la turque</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
@@ -115787,7 +115423,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>haricots blancs</key>
 			</ingredient>
 			<ingredient>
-				<amount>4</amount>
+				<amount>3</amount>
 				<item>tomates</item>
 				<key>tomates</key>
 			</ingredient>
@@ -115797,12 +115433,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>concombre</key>
 			</ingredient>
 			<ingredient>
-				<amount>1/2</amount>
-				<item>bouquet de persil</item>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>persil</item>
 				<key>bouquet de persil</key>
 			</ingredient>
 			<ingredient>
-				<amount>1/2</amount>
+				<amount>3</amount>
+				<unit>cs</unit>
 				<item>bouquet d'aneth</item>
 				<key>bouquet d'aneth</key>
 			</ingredient>
@@ -115816,6 +115454,10 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<amount>4</amount>
 				<item>œufs</item>
 				<key>œufs</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
 			</ingredient>
 			<ingredient>
 				<item>PICKLE</item>
@@ -115839,8 +115481,8 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>jus de citron</key>
 			</ingredient>
 			<ingredient>
-				<amount>1</amount>
-				<unit>cc</unit>
+				<amount>1/2</amount>
+				<unit>cs</unit>
 				<item>vinaigre</item>
 				<key>vinaigre</key>
 			</ingredient>
@@ -115856,7 +115498,10 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade de haricots rouges, maïs et avocat</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>5.0/5 étoiles</rating>
+		<preptime>15 minutes</preptime>
 		<yields>4</yields>
+		<image format="jpeg"><![CDATA[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]]></image>
 		<ingredient-list>
 			<ingredient>
 				<amount>200</amount>
@@ -115907,6 +115552,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>citrons verts</key>
 			</ingredient>
 		</ingredient-list>
+		<instructions>La veille, faire tremper les haricots. Les cuire selon la recette de base et les laisser refroidir.
+
+Préparer tous les légumes comme indiqué dans la liste. Mélanger tous les ingrédient,s servir cette salade bien fraîche.</instructions>
 	</recipe>
 	<recipe id="713">
 		<title>Salade de laitue, orange et noix de pécan</title>
@@ -116080,11 +115728,11 @@ Vous aimerez aussi
 		<title>Salade de lentilles d'été</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
-			<ingredient/>
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
@@ -116124,6 +115772,10 @@ Vous aimerez aussi
 				<unit>cs</unit>
 				<item>menthe</item>
 				<key>menthe</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
 			</ingredient>
 			<ingredient>
 				<item>VINAIGRETTE</item>
@@ -116457,8 +116109,13 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		</ingredient-list>
 	</recipe>
 	<recipe id="220">
-		<title>Salade de lentilles et myrtilles, vinaigrette chili-citron vert</title>
+		<title>Salade de lentilles et myrtilles</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-lentilles-myrtilles-vinaigrette-chili-citron-vert/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -116512,6 +116169,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>myrtilles</item>
 				<key>myrtilles</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>45</amount>
@@ -116615,6 +116280,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade de lentilles et necatarines</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -116622,6 +116290,16 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>lentilles beluga</item>
 				<key>lentilles beluga</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>nectarines</item>
+				<key>nectarines</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>concombre</item>
+				<key>concombre</key>
 			</ingredient>
 			<ingredient>
 				<amount>1/2</amount>
@@ -116647,14 +116325,8 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>feta</key>
 			</ingredient>
 			<ingredient>
-				<amount>2</amount>
-				<item>nectarines</item>
-				<key>nectarines</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>concombre</item>
-				<key>concombre</key>
+				<item>-</item>
+				<key>-</key>
 			</ingredient>
 			<ingredient>
 				<item>VINAIGRETTE</item>
@@ -117025,7 +116697,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="263">
 		<title>Salade de lentilles, betteraves et grenade</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-lentilles-betteraves-grenade/</link>
+		<rating>3.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>20 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -117086,93 +116763,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>oignon rouge,</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Salade de lentilles, betteraves et grenade - Menu végétarien
-
-Recettes vegan . Recettes d'hiver
-Imprimer 
-
-Evaluez cette recette !
-De la couleur dans cette recette d’hiver pleine de saveurs. Lentilles, betteraves, raifort, grenade et zeste d’orange, voilà de quoi faire le plein de vitamines et faire plaisir à ses papilles au passage !
-
-Type de plat Plat principal
-
-Cuisine Automne, Hiver, Vegan, Moins de 30 minutes, Faible en calories, Sans gluten, Légumineuses
-
-Mots-clés Régime, Sucré salé
-
- Temps de préparation 10 minutes
-
- Temps de cuisson 20 minutes
-
- Temps total 30 minutes
-
- Portions
-personnes
-
- Calories 267kcal
-Cuire les lentilles selon les indications du paquet ou 20 minutes. Egoutter.
+		<instructions>Cuire les lentilles selon les indications du paquet ou 20 minutes. Égoutter.
 
 Pendant ce temps, dans un bol, mélanger le vinaigre, l’huile, le raifort, la moutarde et le le jus d’orange avec du sel.
 
-Mettre les lentilles dans un saladier, arroser de vinaigrette. Ajouter la menthe, les graines de grenade, les betteraves, l’oignon, saler, poivrer. Mélanger et servir avec les zeste d’orange.
-Choisissez des betteraves rouges et dorées si vous en trouvez.
-Calories : 267 kcal (13%)
-
-Glucides : 40 g (13%)
-
-Protéines : 15 g (30%)
-
-Lipides : 12 g (18%)
-
-Lipides saturés : 2 g (10%)
-
-Graisses polyinsaturées : 1 g
-
-Graisses monoinsaturées : 8 g
-
-Sodium : 288 mg (12%)
-
-Potassium : 334 mg (10%)
-
-Fibre : 17 g (68%)
-
-Sucre : 12 g (13%)
-
-Vitamine A : 250 IU (5%)
-
-Vitamine C : 16.5 mg (20%)
-
-Calcium : 30 mg (3%)
-
-Fer : 5.9 mg (33%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Salade de quinoa, lentilles et pommes
-  Lentilles beluga au céleri-rave et noix de pécan
-  Salade de lentilles et légumes d’été
-  Marmite de betteraves et champignons, façon bourguignon
-  Courge farcie aux lentilles, yaourt et grenade
-  Salade de lentilles, roquette et tomates séchées
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Mettre les lentilles dans un saladier, arroser de vinaigrette. Ajouter la menthe, les graines de grenade, les betteraves, l’oignon, saler, poivrer. Mélanger et servir avec les zeste d’orange.</instructions>
+		<modifications>Choisissez des betteraves rouges et dorées si vous en trouvez.</modifications>
 	</recipe>
 	<recipe id="1380">
 		<title>Salade de lentilles, chou-fleur et figues</title>
@@ -117777,6 +117373,9 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade de millet pilaf d'été</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -117799,7 +117398,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
-				<item>oignon haché</item>
+				<item>oignon</item>
 				<key>oignon haché</key>
 			</ingredient>
 			<ingredient>
@@ -117845,7 +117444,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="878">
 		<title>Salade de patates douces rôties</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-patates-douces-roties/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -117863,7 +117467,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>400</amount>
 				<unit>g</unit>
-				<item>haricots rouges cuits</item>
+				<item>haricots rouges</item>
 				<key>haricots rouges cuits,</key>
 			</ingredient>
 			<ingredient>
@@ -117887,6 +117491,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>cs</unit>
 				<item>persil</item>
 				<key>càs persil,</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
@@ -120907,6 +120519,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-quinoa-haricots-noirs-mangue/</link>
+		<rating>4.0/5 étoiles</rating>
 		<preptime>5 minutes</preptime>
 		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
@@ -120941,19 +120554,27 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			</ingredient>
 			<ingredient>
 				<amount>2</amount>
-				<item>oignons verts émincés</item>
+				<item>oignons verts</item>
 				<key>oignons verts émincés</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
 				<unit>cs</unit>
-				<item>coriandre fraîche hachée</item>
+				<item>coriandre</item>
 				<key>coriandre fraîche hachée</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
 				<unit>cs</unit>
-				<item>vinaigre</item>
+				<item>vinaigre de vin</item>
 				<key>vinaigre</key>
 			</ingredient>
 			<ingredient>
@@ -120979,6 +120600,9 @@ Laisser refroidir le quinoa avant d'ajouter les autres ingrédients et d'arroser
 		<title>Salade de quinoa, lentilles et pommes</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -120988,9 +120612,16 @@ Laisser refroidir le quinoa avant d'ajouter les autres ingrédients et d'arroser
 				<key>quinoa</key>
 			</ingredient>
 			<ingredient>
-				<amount>1/2</amount>
-				<item>oignon rouge</item>
-				<key>oignon rouge</key>
+				<amount>150</amount>
+				<unit>g</unit>
+				<item>lentilles vertes</item>
+				<key>lentilles vertes</key>
+			</ingredient>
+			<ingredient>
+				<amount>150</amount>
+				<unit>g</unit>
+				<item>carottes</item>
+				<key>carottes</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -120998,10 +120629,13 @@ Laisser refroidir le quinoa avant d'ajouter les autres ingrédients et d'arroser
 				<key>pomme granny smith</key>
 			</ingredient>
 			<ingredient>
-				<amount>150</amount>
-				<unit>g</unit>
-				<item>carottes</item>
-				<key>carottes</key>
+				<amount>1/2</amount>
+				<item>oignon rouge</item>
+				<key>oignon rouge</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
 			</ingredient>
 			<ingredient>
 				<item>VINAIGRETTE</item>
@@ -122116,6 +121750,66 @@ Site web
 Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
+	</recipe>
+	<recipe id="1340">
+		<title>Salade de tomates, pois chiches et orecchiettes</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
+		<yields>4</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>320</amount>
+				<unit>g</unit>
+				<item>orecchiette</item>
+				<key>orecchiette</key>
+			</ingredient>
+			<ingredient>
+				<amount>300</amount>
+				<unit>g</unit>
+				<item>tomates cerises</item>
+				<key>tomates cerises</key>
+			</ingredient>
+			<ingredient>
+				<amount>80</amount>
+				<unit>g</unit>
+				<item>pois chiches</item>
+				<key>pois chiches</key>
+			</ingredient>
+			<ingredient>
+				<amount>4</amount>
+				<unit>cs</unit>
+				<item>basilic</item>
+				<key>basilic</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>gousses d'ail</item>
+				<key>gousses d'ail</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>vinaigre balsamique</item>
+				<key>vinaigre balsamique</key>
+			</ingredient>
+			<ingredient>
+				<amount>3</amount>
+				<unit>cs</unit>
+				<item>huile d'olive</item>
+				<key>huile d'olive</key>
+			</ingredient>
+		</ingredient-list>
 	</recipe>
 	<recipe id="491">
 		<title>Salade de topinambour, poire, chèvre et noix</title>
@@ -123472,7 +123166,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="707">
 		<title>Salade d’haricots verts, figues et mozzarella</title>
+		<category>Accompagnement</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-haricots-verts-figues-mozzarella/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>5 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -123510,6 +123209,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>càs basilic,</key>
 			</ingredient>
 			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
+			</ingredient>
+			<ingredient>
 				<amount>3</amount>
 				<unit>cs</unit>
 				<item>vinaigre balsamique</item>
@@ -123528,73 +123235,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>huile d’olive</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Salade d'haricots verts, figues et mozzarella - Menu végétarien
-
-Recettes végétariennes
-Imprimer 
-
-Evaluez cette recette !
-Type de plat Accompagnement
-
-Cuisine Automne, Moins de 30 minutes, Faible en calories, Sans gluten, Eté 
- Temps de préparation 10 minutes
-
- Temps de cuisson 5 minutes
-
- Temps total 15 minutes
-
- Portions
-personnes
-
- Calories 390kcal
-Vinaigrette
-Blanchir les haricots pendant 2-3 minutes. Égoutter puis rincer à l'eau froide. Réserver.
+		<instructions>Blanchir les haricots pendant 2-3 minutes. Égoutter puis rincer à l'eau froide. Réserver.
 
 Fouetter ensemble les ingrédients de la vinaigrette.
 
-Dans un saladier, mettre les haricots verts, les quartiers de figues, l'échalote, la mozzarella, les noisettes, arroser de vinaigrette et terminer par le basilic.
-Calories : 390 kcal (20%)
-
-Glucides : 25 g (8%)
-
-Protéines : 11 g (22%)
-
-Lipides : 29 g (45%)
-
-Lipides saturés : 7 g (35%)
-
-Graisses polyinsaturées : 3 g
-
-Graisses monoinsaturées : 16 g
-
-Choléstérol : 25 mg (8%)
-
-Sodium : 330 mg (14%)
-
-Potassium : 388 mg (11%)
-
-Fibre : 5 g (20%)
-
-Sucre : 17 g (19%)
-
-Vitamine A : 650 IU (13%)
-
-Vitamine C : 11.6 mg (14%)
-
-Calcium : 220 mg (22%)
-
-Fer : 1.6 mg (9%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  One pot d'été quinoa et haricots blancs
-  One Pot haricots rouges et blettes, sauce beurre de cacahuètes
-  Epeautre aux haricots verts et tomates cerises
-  Salade de lentilles et légumes d’été
-  Salade tomates, abricots
-  Chili d’haricots blancs et maïs</instructions>
+Dans un saladier, mettre les haricots verts, les quartiers de figues, l'échalote, la mozzarella, les noisettes, arroser de vinaigrette et terminer par le basilic.</instructions>
 	</recipe>
 	<recipe id="433">
 		<title>Salade d’hiver au blé dur et oranges</title>
@@ -123895,7 +123540,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="908">
 		<title>Salade d’hiver au quinoa, chou kale et poires</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-hiver-quinoa-chou-kale-poires/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -123938,6 +123588,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>g</unit>
 				<item>fromage de chèvre</item>
 				<key>fromage de chèvre,</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
 			</ingredient>
 			<ingredient>
 				<amount>60</amount>
@@ -124216,12 +123874,52 @@ Mettre le riz et les lentilles dans un saladier. Ajouter les choux de Bruxelles,
 	</recipe>
 	<recipe id="211">
 		<title>Salade d’orzo aux courgettes et tomates cerises</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-orzo-courgettes-tomates-cerises/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>75</amount>
-				<unit>ml</unit>
+				<item>SALADE</item>
+				<key>SALADE</key>
+			</ingredient>
+			<ingredient>
+				<amount>250</amount>
+				<unit>g</unit>
+				<item>orzo</item>
+				<key>orzo</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<unit>cs</unit>
+				<item>huile d’olive</item>
+				<key>huile d’olive</key>
+			</ingredient>
+			<ingredient>
+				<amount>1</amount>
+				<item>courgette</item>
+				<key>courgette,</key>
+			</ingredient>
+			<ingredient>
+				<amount>250</amount>
+				<unit>g</unit>
+				<item>tomates cerises</item>
+				<key>tomates cerises,</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>VINAIGRETTE</item>
+				<key>VINAIGRETTE</key>
+			</ingredient>
+			<ingredient>
+				<amount>10</amount>
+				<unit>cl</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
@@ -124253,29 +123951,6 @@ Mettre le riz et les lentilles dans un saladier. Ajouter les choux de Bruxelles,
 				<unit>cc</unit>
 				<item>cumin</item>
 				<key>càc cumin</key>
-			</ingredient>
-			<ingredient>
-				<amount>250</amount>
-				<unit>g</unit>
-				<item>orzo</item>
-				<key>orzo</key>
-			</ingredient>
-			<ingredient>
-				<amount>15</amount>
-				<unit>ml</unit>
-				<item>huile d’olive</item>
-				<key>huile d’olive</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<item>courgette</item>
-				<key>courgette,</key>
-			</ingredient>
-			<ingredient>
-				<amount>250</amount>
-				<unit>g</unit>
-				<item>tomates cerises</item>
-				<key>tomates cerises,</key>
 			</ingredient>
 		</ingredient-list>
 		<instructions>Recette végétarienne - Salade d’orzo aux courgettes et tomates cerises - Menu végétarien
@@ -124514,13 +124189,18 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="709">
 		<title>Salade d’orzo et haricots rouges</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-orzo-haricots-noirs/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
 				<amount>250</amount>
 				<unit>g</unit>
-				<item>pâtes orzo</item>
+				<item>orzo</item>
 				<key>orzo</key>
 			</ingredient>
 			<ingredient>
@@ -124538,7 +124218,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>400</amount>
 				<unit>g</unit>
-				<item>haricots rouges cuits</item>
+				<item>haricots rouges</item>
 				<key>haricots rouges cuits,</key>
 			</ingredient>
 			<ingredient>
@@ -124556,6 +124236,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>cs</unit>
 				<item>persil</item>
 				<key>càs persil,</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>SAUCE</item>
+				<key>SAUCE</key>
 			</ingredient>
 			<ingredient>
 				<amount>20</amount>
@@ -124581,94 +124269,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>gousse d'ail,</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Salade d'orzo et haricots rouges - Menu végétarien
-
-
-Les pâtes
-Imprimer 
-
-Evaluez cette recette !
-Une salade au goût du Mexique avec ses haricots rouges, son maïs et son avocat. Facile, rapide et délicieuses, vous l'ajouterez forcément à vos favoris !
-
-Type de plat Plat principal
-
-Cuisine Vegan, Moins de 30 minutes, Printemps, Eté, Légumineuses
-
-Mots-clés Cuisine rapide, Cuisine simple, Cuisine plaisir, Veggie kids, Cuisine pour tous
-
- Temps de préparation 5 minutes
-
- Temps de cuisson 15 minutes
-
- Temps total 20 minutes
-
- Portions
-personnes
-
- Calories 488kcal
-Sauce
-Cuire l'orzo selon les instructions du paquet. Égoutter et rincer. Mettre dans un saladier avec le maïs, les tomates cerises, les haricots rouges.
+		<instructions>Cuire l'orzo selon les instructions du paquet. Égoutter et rincer. Mettre dans un saladier avec le maïs, les tomates cerises, les haricots rouges.
 
 Pendant ce temps, fouetter ensemble les ingrédients de la sauce.
 
-Servir l'orzo avec les quartiers d'avocat, arroser de sauce et terminer par le persil.
-Calories : 488 kcal (24%)
-
-Glucides : 82 g (27%)
-
-Protéines : 16 g (32%)
-
-Lipides : 13 g (20%)
-
-Lipides saturés : 1 g (5%)
-
-Graisses polyinsaturées : 0.3 g
-
-Graisses monoinsaturées : 0.1 g
-
-Sodium : 396 mg (17%)
-
-Potassium : 699 mg (20%)
-
-Fibre : 13 g (52%)
-
-Sucre : 7 g (8%)
-
-Vitamine A : 850 IU (17%)
-
-Vitamine C : 29.7 mg (36%)
-
-Calcium : 50 mg (5%)
-
-Fer : 4.5 mg (25%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Chili végétarien facile
-  Salade de quinoa rouge d'été
-  Salade d'été aux pois chiches, sauce tahin
-  Riz à l'aneth et haricots blancs
-  Salade de petit épeautre aux fraises
-  Salade de quinoa, asperges et petits pois
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Servir l'orzo avec les quartiers d'avocat, arroser de sauce et terminer par le persil.</instructions>
 	</recipe>
 	<recipe id="452">
 		<title>Salade d’été aux pois chiches, sauce tahin</title>
@@ -125168,12 +124773,13 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade grecque</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
-				<amount>200</amount>
+				<amount>250</amount>
 				<unit>g</unit>
 				<item>pâtes</item>
 				<key>pâtes</key>
@@ -125347,7 +124953,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="488">
 		<title>Salade haricots rouges et mangue</title>
+		<category>Entrée</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-haricots-noirs-mangue/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -125732,6 +125342,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade méditerranéenne au quinoa</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
@@ -126464,7 +126075,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="200">
 		<title>Salade quinoa, pois chiches à la marocaine</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-quinoa-pois-chiches-marocaine/</link>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -126487,7 +126103,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>pois chiches cuits</item>
+				<item>pois chiches</item>
 				<key>pois chiches cuits</key>
 			</ingredient>
 			<ingredient>
@@ -126509,20 +126125,28 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>càs persil,</key>
 			</ingredient>
 			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>SAUCE</item>
+				<key>SAUCE</key>
+			</ingredient>
+			<ingredient>
 				<amount>1/2</amount>
 				<unit>cc</unit>
 				<item>cumin</item>
 				<key>càc cumin</key>
 			</ingredient>
 			<ingredient>
-				<amount>60</amount>
-				<unit>ml</unit>
+				<amount>4</amount>
+				<unit>cs</unit>
 				<item>huile d’olive</item>
 				<key>huile d’olive</key>
 			</ingredient>
 			<ingredient>
-				<amount>30</amount>
-				<unit>ml</unit>
+				<amount>2</amount>
+				<unit>cs</unit>
 				<item>jus de citron</item>
 				<key>citron, jusde</key>
 			</ingredient>
@@ -126539,85 +126163,11 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<key>0,25 càs curry</key>
 			</ingredient>
 		</ingredient-list>
-		<instructions>Recette végétarienne - Salade quinoa, pois chiches à la marocaine - Menu végétarien
+		<instructions>Cuire le quinoa en suivant les instructions sur l’emballage. Laisser refroidir. 
 
-Recettes vegan . Recettes orientales
-Imprimer 
-
-Evaluez cette recette !
-Couleur, texture et croquant pour cette salade de pois chiches et de quinoa inspirée du Maroc. Carottes, persil, raisins secs dorés viennent compléter cette recette très rapide à réaliser.
-
-Type de plat Plat principal
-
-Cuisine Vegan, Moins de 30 minutes, Sans gluten, Printemps, Eté, Légumineuses
-
- Temps de préparation 10 minutes
-
- Temps de cuisson 10 minutes
-
- Temps total 20 minutes
-
- Portions
-personnes
-
- Calories 481kcal
-Vinaigrette
-Cuire le quinoa en suivant les instructions sur l’emballage. Laisser refroidir. 
 Fouetter ensemble les ingrédients de la sauce. 
-Mélanger tous les ingrédients et arroser de sauce.
-Calories : 481 kcal (24%)
 
-Glucides : 57 g (19%)
-
-Protéines : 13 g (26%)
-
-Lipides : 24 g (37%)
-
-Lipides saturés : 3 g (15%)
-
-Sodium : 190 mg (8%)
-
-Potassium : 747 mg (21%)
-
-Fibre : 9 g (36%)
-
-Sucre : 8 g (9%)
-
-Vitamine A : 10976 IU (220%)
-
-Vitamine C : 13 mg (16%)
-
-Calcium : 87 mg (9%)
-
-Fer : 4 mg (22%)
-
-Les informations nutritionnelles sont données pour 1 personne, sur la base d'un apport de 2 000kcal par jour.
-
-Vous aimerez aussi
-
-  Salade citronnée aux pois chiches et fraises
-  Soupe marocaine et pois chiches croustillants
-  Salade de quinoa, lentilles et pommes
-  Salade de quinoa, asperges et petits pois
-  Salade d'été aux pois chiches, sauce tahin
-  Salade d'épeautre aux pois chiches
-Laisser un commentaire Annuler la réponse
-
-Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont indiqués avec *
-
- Notez la recette   Notez la recette          
-
-Commentaire 
-
-Nom * 
-
-E-mail * 
-
-Site web 
-
-Prévenez-moi par e-mail en cas de réponse à mon commentaire.
-
-Δ</instructions>
+Mélanger tous les ingrédients et arroser de sauce.</instructions>
 	</recipe>
 	<recipe id="1415">
 		<title>Salade roquette, pommes de terre</title>
@@ -126775,6 +126325,7 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 		<title>Salade Tex Mex</title>
 		<category>Plat principal</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>2.0/5 étoiles</rating>
 		<preptime>10 minutes</preptime>
 		<cooktime>10 minutes</cooktime>
 		<yields>4</yields>
@@ -126782,13 +126333,13 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>pâtes farfalle</item>
+				<item>farfalle</item>
 				<key>pâtes farfalle</key>
 			</ingredient>
 			<ingredient>
 				<amount>200</amount>
 				<unit>g</unit>
-				<item>haricots noirs</item>
+				<item>haricots rouges</item>
 				<key>haricots noirs</key>
 			</ingredient>
 			<ingredient>
@@ -126817,12 +126368,6 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<amount>3</amount>
 				<item>oignons verts</item>
 				<key>oignons verts</key>
-			</ingredient>
-			<ingredient>
-				<amount>30</amount>
-				<unit>g</unit>
-				<item>coriandre</item>
-				<key>coriandre</key>
 			</ingredient>
 			<ingredient>
 				<item>-</item>
@@ -126867,12 +126412,6 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>cc</unit>
 				<item>sirop d'agave</item>
 				<key>sirop d'agave</key>
-			</ingredient>
-			<ingredient>
-				<amount>1</amount>
-				<unit>cs</unit>
-				<item>eau</item>
-				<key>eau</key>
 			</ingredient>
 			<ingredient>
 				<amount>1</amount>
@@ -127256,7 +126795,12 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 	</recipe>
 	<recipe id="864">
 		<title>Salade ultra protéinée</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/salade-ultra-proteinee/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>25 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -127282,6 +126826,14 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 				<unit>cs</unit>
 				<item>câpres</item>
 				<key>càs câpres</key>
+			</ingredient>
+			<ingredient>
+				<item>-</item>
+				<key>-</key>
+			</ingredient>
+			<ingredient>
+				<item>SAUCE</item>
+				<key>SAUCE</key>
 			</ingredient>
 			<ingredient>
 				<amount>30</amount>
@@ -133993,6 +133545,9 @@ Ajouter le lait de coco et laisser cuire encore 5 minutes. Mixer et ajouter un p
 		<title>Soupe de lentilles corail</title>
 		<category>Entrée</category>
 		<cuisine>Végétarienne</cuisine>
+		<rating>4.0/5 étoiles</rating>
+		<preptime>10 minutes</preptime>
+		<cooktime>1/2 hours</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -134034,6 +133589,13 @@ Ajouter le lait de coco et laisser cuire encore 5 minutes. Mixer et ajouter un p
 				<key>bouillon</key>
 			</ingredient>
 		</ingredient-list>
+		<instructions>Éplucher et émincer l’oignon. Peler et couper en cubes les carottes. Rincer les lentilles corail.
+
+Dans une casserole, faire suer l’oignon dans l’huile d’olive avec une pincée de sel. Une fois translucide, ajouter les dés de carottes et le curry. Poursuivre la cuisson pendant 5 min en remuant. 
+
+Verser le lait de coco puis le bouillon et les lentilles. Porter à ébullition et laisser mijoter à couvert pendant 25 minutes jusqu’à ce que les lentilles soient bien tendres. 
+
+Pour finir, mixer la soupe avec un mixeur plongeant, rectifier l’assaisonnement si nécessaire. Servir bien chaud.</instructions>
 	</recipe>
 	<recipe id="818">
 		<title>Soupe de légumes</title>
@@ -141270,7 +140832,12 @@ Vous aimerez aussi
 	</recipe>
 	<recipe id="248">
 		<title>Spaghettis crémeux aux champignons et poireaux</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
 		<link>https://menu-vegetarien.com/spaghettis-cremeux-champignons-poireaux/</link>
+		<rating>2.0/5 étoiles</rating>
+		<preptime>5 minutes</preptime>
+		<cooktime>15 minutes</cooktime>
 		<yields>4</yields>
 		<ingredient-list>
 			<ingredient>
@@ -141293,7 +140860,7 @@ Vous aimerez aussi
 			<ingredient>
 				<amount>300</amount>
 				<unit>g</unit>
-				<item>champignons</item>
+				<item>champignons de Paris</item>
 				<key>champignons,</key>
 			</ingredient>
 			<ingredient>
@@ -145516,129 +145083,6 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 
 Δ</instructions>
 	</recipe>
-	<recipe id="1349">
-		<title>Tarte au oignons, camembert et figues</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<yields>8</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>40</amount>
-				<unit>g</unit>
-				<item>parmesan</item>
-				<key>parmesan</key>
-			</ingredient>
-			<ingredient>
-				<amount>15</amount>
-				<unit>g</unit>
-				<item>noix</item>
-				<key>noix</key>
-			</ingredient>
-			<ingredient>
-				<amount>100</amount>
-				<unit>g</unit>
-				<item>farine</item>
-				<key>farine</key>
-			</ingredient>
-			<ingredient>
-				<amount>400</amount>
-				<unit>g</unit>
-				<item>camembert</item>
-				<key>camembert</key>
-			</ingredient>
-			<ingredient>
-				<amount>55</amount>
-				<unit>g</unit>
-				<item>beurre</item>
-				<key>beurre</key>
-			</ingredient>
-			<ingredient>
-				<item>mesclun</item>
-				<key>mesclun</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<item>figues</item>
-				<key>figues</key>
-			</ingredient>
-			<ingredient>
-				<amount>240</amount>
-				<unit>g</unit>
-				<item>oignons</item>
-				<key>oignons</key>
-			</ingredient>
-			<ingredient>
-				<amount>260</amount>
-				<unit>g</unit>
-				<item>figues</item>
-				<key>figues</key>
-			</ingredient>
-			<ingredient>
-				<amount>40</amount>
-				<unit>ml</unit>
-				<item>huile de tournesol</item>
-				<key>huile de tournesol</key>
-			</ingredient>
-			<ingredient>
-				<amount>50</amount>
-				<unit>ml</unit>
-				<item>vinaigre balsamique</item>
-				<key>vinaigre balsamique</key>
-			</ingredient>
-			<ingredient>
-				<amount>30</amount>
-				<unit>g</unit>
-				<item>sucre en poudre</item>
-				<key>sucre en poudre</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<item>gouttes de tabasco</item>
-				<key>gouttes de tabasco</key>
-			</ingredient>
-			<ingredient>
-				<amount>150</amount>
-				<unit>g</unit>
-				<item>graines de sésame</item>
-				<key>graines de sésame</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>moutarde</item>
-				<key>moutarde</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>sucre</item>
-				<key>sucre</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>jaunes d'œufs</item>
-				<key>jaunes d'œufs</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<unit>cs</unit>
-				<item>vinaigre de vin</item>
-				<key>vinaigre de vin</key>
-			</ingredient>
-			<ingredient>
-				<amount>100</amount>
-				<unit>ml</unit>
-				<item>huile de tournesol</item>
-				<key>huile de tournesol</key>
-			</ingredient>
-			<ingredient>
-				<amount>150</amount>
-				<unit>ml</unit>
-				<item>huile de noisettes</item>
-				<key>huile de noisettes</key>
-			</ingredient>
-		</ingredient-list>
-	</recipe>
 	<recipe id="1347">
 		<title>Tarte au potiron à la cannelle</title>
 		<category>Dessert</category>
@@ -146688,6 +146132,129 @@ Dans un bol battre les œufs, la ricotta, le lait et l’ail ensemble jusqu’à
 Mettre les morceaux de courge sur la pâte, ajouter le mélange de ricotta. Garnir avec figues et le fromage de chèvre restant.
 
 Mettre au four pendant environ 40 minutes. Ajouter le reste de basilic et servir.</instructions>
+	</recipe>
+	<recipe id="1349">
+		<title>Tarte aux oignons, camembert et figues</title>
+		<category>Plat principal</category>
+		<cuisine>Végétarienne</cuisine>
+		<yields>8</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>40</amount>
+				<unit>g</unit>
+				<item>parmesan</item>
+				<key>parmesan</key>
+			</ingredient>
+			<ingredient>
+				<amount>15</amount>
+				<unit>g</unit>
+				<item>noix</item>
+				<key>noix</key>
+			</ingredient>
+			<ingredient>
+				<amount>100</amount>
+				<unit>g</unit>
+				<item>farine</item>
+				<key>farine</key>
+			</ingredient>
+			<ingredient>
+				<amount>400</amount>
+				<unit>g</unit>
+				<item>camembert</item>
+				<key>camembert</key>
+			</ingredient>
+			<ingredient>
+				<amount>55</amount>
+				<unit>g</unit>
+				<item>beurre</item>
+				<key>beurre</key>
+			</ingredient>
+			<ingredient>
+				<item>mesclun</item>
+				<key>mesclun</key>
+			</ingredient>
+			<ingredient>
+				<amount>4</amount>
+				<item>figues</item>
+				<key>figues</key>
+			</ingredient>
+			<ingredient>
+				<amount>240</amount>
+				<unit>g</unit>
+				<item>oignons</item>
+				<key>oignons</key>
+			</ingredient>
+			<ingredient>
+				<amount>260</amount>
+				<unit>g</unit>
+				<item>figues</item>
+				<key>figues</key>
+			</ingredient>
+			<ingredient>
+				<amount>40</amount>
+				<unit>ml</unit>
+				<item>huile de tournesol</item>
+				<key>huile de tournesol</key>
+			</ingredient>
+			<ingredient>
+				<amount>50</amount>
+				<unit>ml</unit>
+				<item>vinaigre balsamique</item>
+				<key>vinaigre balsamique</key>
+			</ingredient>
+			<ingredient>
+				<amount>30</amount>
+				<unit>g</unit>
+				<item>sucre en poudre</item>
+				<key>sucre en poudre</key>
+			</ingredient>
+			<ingredient>
+				<amount>4</amount>
+				<item>gouttes de tabasco</item>
+				<key>gouttes de tabasco</key>
+			</ingredient>
+			<ingredient>
+				<amount>150</amount>
+				<unit>g</unit>
+				<item>graines de sésame</item>
+				<key>graines de sésame</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>moutarde</item>
+				<key>moutarde</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>sucre</item>
+				<key>sucre</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<item>jaunes d'œufs</item>
+				<key>jaunes d'œufs</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>cs</unit>
+				<item>vinaigre de vin</item>
+				<key>vinaigre de vin</key>
+			</ingredient>
+			<ingredient>
+				<amount>100</amount>
+				<unit>ml</unit>
+				<item>huile de tournesol</item>
+				<key>huile de tournesol</key>
+			</ingredient>
+			<ingredient>
+				<amount>150</amount>
+				<unit>ml</unit>
+				<item>huile de noisettes</item>
+				<key>huile de noisettes</key>
+			</ingredient>
+		</ingredient-list>
 	</recipe>
 	<recipe id="743">
 		<title>Tarte aux poireaux et haricots blancs</title>
@@ -153677,57 +153244,6 @@ Prévenez-moi par e-mail en cas de réponse à mon commentaire.
 Pendant ce temps, préchauffer le four à 200° et huiler un plat pouvant contenir les tomates. Découper le haut des tomates en formant des couvercles de 1 cm d’épaisseur et les réserver. Les évider, saler, poivrer.
 
 Farcir les tomates de risotto puis couvrir chacune avec son couvercle. Répartir les tomates dans le plat et enfourner pour 25 à 30 minutes.</instructions>
-	</recipe>
-	<recipe id="1340">
-		<title>Tomates, pois chiches, orecchiettes, basilic</title>
-		<category>Plat principal</category>
-		<cuisine>Végétarienne</cuisine>
-		<preptime>5 minutes</preptime>
-		<cooktime>10 minutes</cooktime>
-		<yields>4</yields>
-		<ingredient-list>
-			<ingredient>
-				<amount>320</amount>
-				<unit>g</unit>
-				<item>orecchiette</item>
-				<key>orecchiette</key>
-			</ingredient>
-			<ingredient>
-				<amount>300</amount>
-				<unit>g</unit>
-				<item>tomates cerises</item>
-				<key>tomates cerises</key>
-			</ingredient>
-			<ingredient>
-				<amount>80</amount>
-				<unit>g</unit>
-				<item>pois chiches</item>
-				<key>pois chiches</key>
-			</ingredient>
-			<ingredient>
-				<amount>4</amount>
-				<unit>cs</unit>
-				<item>basilic</item>
-				<key>basilic</key>
-			</ingredient>
-			<ingredient>
-				<amount>2</amount>
-				<item>gousses d'ail</item>
-				<key>gousses d'ail</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>vinaigre balsamique</item>
-				<key>vinaigre balsamique</key>
-			</ingredient>
-			<ingredient>
-				<amount>3</amount>
-				<unit>cs</unit>
-				<item>huile d'olive</item>
-				<key>huile d'olive</key>
-			</ingredient>
-		</ingredient-list>
 	</recipe>
 	<recipe id="836">
 		<title>Topinambour, brie à la truffe et miel</title>
