@@ -6,6 +6,7 @@ pub mod recipe;
 use std::collections::HashMap;
 use std::collections::HashSet;
 
+use include_flate::flate;
 use recipe::Recipe;
 
 pub fn load(debug: bool) -> (HashSet<String>, HashSet<String>, HashMap<String, Recipe>) {
@@ -13,8 +14,8 @@ pub fn load(debug: bool) -> (HashSet<String>, HashSet<String>, HashMap<String, R
     let mut categories = HashSet::new();
     let mut cuisines = HashSet::new();
 
-    let recipes_data = include_str!("data/recipes.xml");
-    let result = recipe::read_from_str(recipes_data).unwrap();
+    flate!(static RECIPES_DATA: str from "src/data/recipes.xml");
+    let result = recipe::read_from_str(&RECIPES_DATA).unwrap();
     for recipe in result.recipe {
         let title = recipe.title.clone();
         if recipe.category.is_some() {
