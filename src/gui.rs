@@ -5,7 +5,7 @@ use iced::{
 };
 
 use std::collections::BTreeMap;
-use std::collections::{HashMap, HashSet};
+use std::collections::HashMap;
 
 pub fn run_gui() {
     let mut settings = Settings::default();
@@ -25,8 +25,6 @@ struct GourmandWebViewer {
     state1: text_input::State,
     state2: text_input::State,
     state3: text_input::State,
-    categories: HashSet<String>,
-    cuisines: HashSet<String>,
     recipes: HashMap<String, Recipe>,
     found: usize,
 }
@@ -65,8 +63,6 @@ impl Sandbox for GourmandWebViewer {
             state1: text_input::State::new(),
             state2: text_input::State::new(),
             state3: text_input::State::new(),
-            categories,
-            cuisines,
             recipes,
             found: 0,
         }
