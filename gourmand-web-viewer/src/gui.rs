@@ -45,11 +45,11 @@ impl Sandbox for GourmandWebViewer {
     fn new() -> Self {
         let (categories, cuisines, recipes) = gourmand_web_viewer::load_json();
         let mut cuisines_buttons = BTreeMap::new();
-        for c in cuisines.clone() {
+        for c in cuisines {
             cuisines_buttons.insert(c, button::State::new());
         }
         let mut categories_buttons = BTreeMap::new();
-        for c in categories.clone() {
+        for c in categories {
             categories_buttons.insert(c, button::State::new());
         }
 

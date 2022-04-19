@@ -26,13 +26,13 @@ pub fn run_cli(opt: Opt) {
         let (categories, cuisines, recipes) = load_xml(false);
         match opt.command.as_deref() {
             Some("generate") => {
-                let file = File::create("gourmand-web-viewer-cli/src/data/recipes.json")
+                let file = File::create("gourmand-web-viewer/src/data/recipes.json")
                     .expect("Cannot create output file");
                 serde_json::to_writer(file, &recipes).expect("Cannot write to output file");
-                let file = File::create("gourmand-web-viewer-cli/src/data/categories.json")
+                let file = File::create("gourmand-web-viewer/src/data/categories.json")
                     .expect("Cannot create output file");
                 serde_json::to_writer(file, &categories).expect("Cannot write to output file");
-                let file = File::create("gourmand-web-viewer-cli/src/data/cuisines.json")
+                let file = File::create("gourmand-web-viewer/src/data/cuisines.json")
                     .expect("Cannot create output file");
                 serde_json::to_writer(file, &cuisines).expect("Cannot write to output file");
             }

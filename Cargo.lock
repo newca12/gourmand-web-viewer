@@ -1085,7 +1085,6 @@ dependencies = [
  "serde-xml-rs",
  "serde_derive",
  "serde_json",
- "structopt",
 ]
 
 [[package]]
