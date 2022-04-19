@@ -13,18 +13,23 @@ The purpose of [edla.org](http://www.edla.org) is to promote the state of the ar
 
 ## Web version ##
 You can try the [demo online](http://edla.org/GourmandWebViewer)
-or built it yourself (replace src/data/recipes.xml with your own Gourmand export) :  
+or built it yourself (replace gourmand-web-viewer-cli/src/data/recipes.xml with your own Gourmand export) :  
+to be done once :
 ```
 rustup target add wasm32-unknown-unknown
-cargo install -f wasm-bindgen-cli --version 0.2.78
-cargo build --release --target wasm32-unknown-unknown
+cargo install -f wasm-bindgen-cli --version 0.2.69
+```
+to be done each time recipes.xml is updated
+```
+cargo run --bin gourmand-web-viewer-cli -- --cli --command generate
+cargo build --release --package gourmand-web-viewer --target wasm32-unknown-unknown
 wasm-bindgen target/wasm32-unknown-unknown/release/gourmand-web-viewer.wasm --out-dir GourmandWebViewer --web
 ```
 
 ## A GUI is also available ##
 To launch the GUI 
 ```
-cargo run
+cargo run --bin gourmand-web-viewer
 ``` 
 
 ### License ###
