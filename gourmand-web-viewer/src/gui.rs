@@ -70,22 +70,34 @@ impl Sandbox for GourmandWebViewer {
     }
 
     fn title(&self) -> String {
-        String::from("Gourmand web viewer 0.1")
+        String::from("Gourmand web viewer 0.2.0")
     }
 
     fn update(&mut self, message: Self::Message) {
         match message {
             Message::ToggleFilterCategory(title) => {
-                self.category_filter.insert(
-                    title.clone(),
-                    !self.category_filter.get(&title).unwrap_or(&false),
-                );
+                for (title_from_list, _state) in self.categories_buttons.iter_mut() {
+                    if title.eq(title_from_list) {
+                        self.category_filter.insert(
+                            title.clone(),
+                            !self.category_filter.get(&title).unwrap_or(&false),
+                        );
+                    } else {
+                        self.category_filter.insert(title_from_list.clone(), false);
+                    }
+                }
             }
             Message::ToggleFilterCuisine(title) => {
-                self.cuisine_filter.insert(
-                    title.clone(),
-                    !self.cuisine_filter.get(&title).unwrap_or(&false),
-                );
+                for (title_from_list, _state) in self.cuisines_buttons.iter_mut() {
+                    if title.eq(title_from_list) {
+                        self.cuisine_filter.insert(
+                            title.clone(),
+                            !self.cuisine_filter.get(&title).unwrap_or(&false),
+                        );
+                    } else {
+                        self.cuisine_filter.insert(title_from_list.clone(), false);
+                    }
+                }
             }
             Message::Input1Changed(new_value) => {
                 self.input1 = new_value.to_ascii_lowercase();
