@@ -27,7 +27,6 @@ struct GourmandWebViewer {
     state2: text_input::State,
     state3: text_input::State,
     recipes: HashMap<String, Recipe>,
-    found: usize,
 }
 
 #[derive(Debug, Clone)]
@@ -65,7 +64,6 @@ impl Sandbox for GourmandWebViewer {
             state2: text_input::State::new(),
             state3: text_input::State::new(),
             recipes,
-            found: 0,
         }
     }
 
@@ -202,7 +200,7 @@ impl Sandbox for GourmandWebViewer {
         );
         let recipes1 = self.recipes.clone();
 
-        let result1: Vec<_> = recipes1
+        let mut result1: Vec<_> = recipes1
             .iter()
             .filter(|&(_, v)| {
                 let mut selected = false;
@@ -277,10 +275,8 @@ impl Sandbox for GourmandWebViewer {
             })
             .collect();
 
-        let mut result = result1.clone();
-
-        self.found = result.len();
-        let result = result
+        result1.sort_by(|r1, r2| r1.0.cmp(r2.0));
+        let result = result1
             .iter_mut()
             .fold(Column::new(), |column, recipe| -> Column<Message> {
                 column.push(Text::new(recipe.0))
@@ -294,7 +290,7 @@ impl Sandbox for GourmandWebViewer {
                 .color([0.7, 0.7, 0.7]),
         );
         let row4 = Row::new().push(total).push(
-            Text::new(&self.found.to_string())
+            Text::new(result1.len().to_string())
                 .horizontal_alignment(HorizontalAlignment::Center)
                 .color([0.7, 0.7, 0.7]),
         );
