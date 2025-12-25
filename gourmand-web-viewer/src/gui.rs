@@ -1,31 +1,43 @@
-use gourmand_web_viewer::recipe::Recipe;
-use iced::HorizontalAlignment;
-use iced::{
-    button, text_input, Button, Column, Container, Element, Length, Row, Sandbox, Settings, Text,
-    TextInput,
-};
+pub mod style;
 
+use gourmand_web_viewer::recipe::Recipe;
+use iced::{
+    Element, Length, Size, Task, alignment,
+    widget::{Column, Container, Row, Text, button, text_input},
+};
 use std::collections::BTreeMap;
 use std::collections::HashMap;
 
+use crate::gui::style::{button_filter, button_filter_inactive};
+
 pub fn run_gui() {
-    let mut settings = Settings::default();
-    settings.window.size = (525u32, 533u32);
-    GourmandWebViewer::run(settings).unwrap();
+    let app = iced::application(
+        GourmandWebViewer::new,
+        GourmandWebViewer::update,
+        GourmandWebViewer::view,
+    )
+    .theme(GourmandWebViewer::theme)
+    .settings(iced::Settings {
+        ..Default::default()
+    })
+    .title(GourmandWebViewer::title)
+    .window(iced::window::Settings {
+        size: Size::new(525f32, 800f32),
+        exit_on_close_request: true,
+        ..Default::default()
+    });
+    app.run().unwrap();
 }
 
 #[derive(Debug)]
 struct GourmandWebViewer {
-    categories_buttons: BTreeMap<String, button::State>,
-    cuisines_buttons: BTreeMap<String, button::State>,
+    categories_buttons: BTreeMap<String, bool>,
+    cuisines_buttons: BTreeMap<String, bool>,
     category_filter: HashMap<String, bool>,
     cuisine_filter: HashMap<String, bool>,
     input1: String,
     input2: String,
     input3: String,
-    state1: text_input::State,
-    state2: text_input::State,
-    state3: text_input::State,
     recipes: HashMap<String, Recipe>,
 }
 
@@ -38,40 +50,39 @@ enum Message {
     Input3Changed(String),
 }
 
-impl Sandbox for GourmandWebViewer {
-    type Message = Message;
-
-    fn new() -> Self {
+impl GourmandWebViewer {
+    fn new() -> (GourmandWebViewer, Task<Message>) {
         let (categories, cuisines, recipes) = gourmand_web_viewer::load_json();
-        let mut cuisines_buttons = BTreeMap::new();
-        for c in cuisines {
-            cuisines_buttons.insert(c, button::State::new());
-        }
-        let mut categories_buttons = BTreeMap::new();
-        for c in categories {
-            categories_buttons.insert(c, button::State::new());
-        }
 
-        Self {
-            categories_buttons,
-            cuisines_buttons,
-            category_filter: HashMap::new(),
-            cuisine_filter: HashMap::new(),
-            input1: String::new(),
-            input2: String::new(),
-            input3: String::new(),
-            state1: text_input::State::new(),
-            state2: text_input::State::new(),
-            state3: text_input::State::new(),
-            recipes,
-        }
+        let categories_buttons: BTreeMap<String, bool> =
+            categories.into_iter().map(|c| (c, false)).collect();
+        let cuisines_buttons: BTreeMap<String, bool> =
+            cuisines.into_iter().map(|c| (c, false)).collect();
+
+        (
+            Self {
+                categories_buttons,
+                cuisines_buttons,
+                category_filter: HashMap::new(),
+                cuisine_filter: HashMap::new(),
+                input1: String::new(),
+                input2: String::new(),
+                input3: String::new(),
+                recipes,
+            },
+            Task::none(),
+        )
     }
 
     fn title(&self) -> String {
         String::from("Gourmand web viewer 0.2.0")
     }
 
-    fn update(&mut self, message: Self::Message) {
+    fn theme(&self) -> iced::Theme {
+        iced::Theme::Light
+    }
+
+    pub fn update(&mut self, message: Message) -> Task<Message> {
         match message {
             Message::ToggleFilterCategory(title) => {
                 for (title_from_list, _state) in self.categories_buttons.iter_mut() {
@@ -107,244 +118,184 @@ impl Sandbox for GourmandWebViewer {
                 self.input3 = new_value.to_ascii_lowercase();
             }
         }
+        Task::none()
     }
 
-    fn view(&mut self) -> Element<Message> {
+    fn view(&self) -> Element<'_, Message> {
         let mut categorie_filter = Row::new();
         let mut cuisine_filter = Row::new();
 
-        for (title, state) in self.categories_buttons.iter_mut() {
-            if *self.category_filter.get(title).unwrap_or(&false) {
-                categorie_filter = categorie_filter
-                    .push(
-                        Button::new(
-                            state,
-                            Text::new(title)
-                                .horizontal_alignment(HorizontalAlignment::Center)
-                                .size(16),
-                        )
-                        .padding(8)
-                        .on_press(Message::ToggleFilterCategory(title.to_string()))
-                        .style(style::Button::Selected),
+        for (title, _state) in self.categories_buttons.iter() {
+            let is_selected = *self.category_filter.get(title).unwrap_or(&false);
+            categorie_filter = categorie_filter
+                .push(
+                    button(
+                        Text::new(title.as_str())
+                            .align_x(alignment::Horizontal::Center)
+                            .size(16),
                     )
-                    .padding(8);
-            } else {
-                categorie_filter = categorie_filter
-                    .push(
-                        Button::new(
-                            state,
-                            Text::new(title)
-                                .horizontal_alignment(HorizontalAlignment::Center)
-                                .size(16),
-                        )
-                        .padding(8)
-                        .on_press(Message::ToggleFilterCategory(title.to_string()))
-                        .style(style::Button::UnSelected),
-                    )
-                    .padding(8);
-            }
+                    .padding(8)
+                    .on_press(Message::ToggleFilterCategory(title.to_string()))
+                    .style(if is_selected {
+                        button_filter
+                    } else {
+                        button_filter_inactive
+                    }),
+                )
+                .padding(8);
         }
 
-        for (title, state) in self.cuisines_buttons.iter_mut() {
-            if *self.cuisine_filter.get(title).unwrap_or(&false) {
-                cuisine_filter = cuisine_filter
-                    .push(
-                        Button::new(
-                            state,
-                            Text::new(title)
-                                .horizontal_alignment(HorizontalAlignment::Center)
-                                .size(16),
-                        )
-                        .padding(8)
-                        .on_press(Message::ToggleFilterCuisine(title.to_string()))
-                        .style(style::Button::Selected),
+        for (title, _state) in self.cuisines_buttons.iter() {
+            let is_selected = *self.cuisine_filter.get(title).unwrap_or(&false);
+            cuisine_filter = cuisine_filter
+                .push(
+                    button(
+                        Text::new(title.as_str())
+                            .align_x(alignment::Horizontal::Center)
+                            .size(16),
                     )
-                    .padding(8);
-            } else {
-                cuisine_filter = cuisine_filter
-                    .push(
-                        Button::new(
-                            state,
-                            Text::new(title)
-                                .horizontal_alignment(HorizontalAlignment::Center)
-                                .size(16),
-                        )
-                        .padding(8)
-                        .on_press(Message::ToggleFilterCuisine(title.to_string()))
-                        .style(style::Button::UnSelected),
-                    )
-                    .padding(8);
-            }
+                    .padding(8)
+                    .on_press(Message::ToggleFilterCuisine(title.to_string()))
+                    .style(if is_selected {
+                        button_filter
+                    } else {
+                        button_filter_inactive
+                    }),
+                )
+                .padding(8);
         }
 
         let filter1 = self.input1.clone();
-        let text_input1 = TextInput::new(
-            &mut self.state1,
-            "Ingredient 1",
-            &self.input1,
-            Message::Input1Changed,
-        );
         let filter2 = self.input2.clone();
-        let text_input2 = TextInput::new(
-            &mut self.state2,
-            "Ingredient 2",
-            &self.input2,
-            Message::Input2Changed,
-        );
         let filter3 = self.input3.clone();
-        let text_input3 = TextInput::new(
-            &mut self.state3,
-            "Ingredient 3",
-            &self.input3,
-            Message::Input3Changed,
-        );
-        let recipes1 = self.recipes.clone();
+
+        let text_input1 = text_input("Ingredient 1", &filter1)
+            .on_input(Message::Input1Changed)
+            .size(20);
+        let text_input2 = text_input("Ingredient 2", &filter2)
+            .on_input(Message::Input2Changed)
+            .size(20);
+        let text_input3 = text_input("Ingredient 3", &filter3)
+            .on_input(Message::Input3Changed)
+            .size(20);
+
+        let recipes1 = &self.recipes;
+
+        let any_cuisine_selected = self.cuisine_filter.values().any(|&v| v);
+        let any_category_selected = self.category_filter.values().any(|&v| v);
 
         let mut result1: Vec<_> = recipes1
             .iter()
             .filter(|&(_, v)| {
-                let mut selected = false;
-                for (_, select) in self.cuisine_filter.clone() {
-                    if select {
-                        selected = true
-                    }
+                if !any_cuisine_selected {
+                    return true;
                 }
-                !selected
-                    || (v.clone().cuisine.is_some()
-                        && *self
-                            .cuisine_filter
-                            .get(&v.clone().cuisine.unwrap())
-                            .unwrap_or(&false))
-            })
-            .filter(|&(_, v)| {
-                let mut selected = false;
-                for (_, select) in self.category_filter.clone() {
-                    if select {
-                        selected = true
-                    }
+                if let Some(cuisine) = &v.cuisine {
+                    *self.cuisine_filter.get(cuisine).unwrap_or(&false)
+                } else {
+                    false
                 }
-                !selected
-                    || (v.clone().category.is_some()
-                        && *self
-                            .category_filter
-                            .get(&v.clone().category.unwrap())
-                            .unwrap_or(&false))
-                // &&
             })
             .filter(|&(_, v)| {
-                v.clone()
-                    .ingredient_list
-                    .unwrap()
-                    .ingredients
-                    .iter()
-                    .any(|e| {
-                        e.key
-                            .as_ref()
-                            .unwrap()
-                            .to_ascii_lowercase()
-                            .contains(&filter1)
-                    })
+                if !any_category_selected {
+                    return true;
+                }
+                if let Some(category) = &v.category {
+                    *self.category_filter.get(category).unwrap_or(&false)
+                } else {
+                    false
+                }
             })
             .filter(|&(_, v)| {
-                v.clone()
-                    .ingredient_list
-                    .unwrap()
-                    .ingredients
-                    .iter()
-                    .any(|e| {
-                        e.key
-                            .as_ref()
-                            .unwrap()
-                            .to_ascii_lowercase()
-                            .contains(&filter2)
+                if filter1.is_empty() {
+                    return true;
+                }
+                if let Some(list) = &v.ingredient_list {
+                    list.ingredients.iter().any(|e| {
+                        if let Some(key) = &e.key {
+                            key.to_ascii_lowercase().contains(&filter1)
+                        } else {
+                            false
+                        }
                     })
+                } else {
+                    false
+                }
             })
             .filter(|&(_, v)| {
-                v.clone()
-                    .ingredient_list
-                    .unwrap()
-                    .ingredients
-                    .iter()
-                    .any(|e| {
-                        e.key
-                            .as_ref()
-                            .unwrap()
-                            .to_ascii_lowercase()
-                            .contains(&filter3)
+                if filter2.is_empty() {
+                    return true;
+                }
+                if let Some(list) = &v.ingredient_list {
+                    list.ingredients.iter().any(|e| {
+                        if let Some(key) = &e.key {
+                            key.to_ascii_lowercase().contains(&filter2)
+                        } else {
+                            false
+                        }
                     })
+                } else {
+                    false
+                }
+            })
+            .filter(|&(_, v)| {
+                if filter3.is_empty() {
+                    return true;
+                }
+                if let Some(list) = &v.ingredient_list {
+                    list.ingredients.iter().any(|e| {
+                        if let Some(key) = &e.key {
+                            key.to_ascii_lowercase().contains(&filter3)
+                        } else {
+                            false
+                        }
+                    })
+                } else {
+                    false
+                }
             })
             .collect();
 
         result1.sort_by(|r1, r2| r1.0.cmp(r2.0));
+
         let result = result1
-            .iter_mut()
+            .iter()
             .fold(Column::new(), |column, recipe| -> Column<Message> {
-                column.push(Text::new(recipe.0))
+                column.push(Text::new(recipe.0.as_str()).size(20))
             });
+
         let input1 = Column::new().push(text_input1).padding(4);
         let input2 = Column::new().push(text_input2).padding(4);
         let input3 = Column::new().push(text_input3).padding(4);
+
         let total = Column::new().push(
             Text::new("Total:")
-                .horizontal_alignment(HorizontalAlignment::Center)
+                .align_x(alignment::Horizontal::Left)
+                .size(20)
                 .color([0.7, 0.7, 0.7]),
         );
         let row4 = Row::new().push(total).push(
             Text::new(result1.len().to_string())
-                .horizontal_alignment(HorizontalAlignment::Center)
+                .align_x(alignment::Horizontal::Right)
+                .size(20)
                 .color([0.7, 0.7, 0.7]),
         );
-        let content = Column::new()
-            .push(categorie_filter)
-            .push(cuisine_filter)
-            .push(input1)
-            .push(input2)
-            .push(input3)
-            .push(row4)
-            .push(result);
+        let content = iced::widget::scrollable(
+            Column::new()
+                .push(categorie_filter)
+                .push(cuisine_filter)
+                .push(input1)
+                .push(input2)
+                .push(input3)
+                .push(row4)
+                .push(result),
+        );
 
         Container::new(content)
             .width(Length::Fill)
             .height(Length::Fill)
-            .center_x()
+            .align_x(alignment::Horizontal::Center)
+            .style(crate::gui::style::main_container)
             .into()
-    }
-}
-
-mod style {
-    use iced::{button, Background, Color, Vector};
-
-    pub enum Button {
-        Selected,
-        UnSelected,
-    }
-
-    impl button::StyleSheet for Button {
-        fn active(&self) -> button::Style {
-            button::Style {
-                background: Some(Background::Color(match self {
-                    Button::Selected => Color::from_rgb(0.11, 0.42, 0.87),
-                    Button::UnSelected => Color::from_rgb(0.87, 0.87, 0.87),
-                })),
-                border_radius: 12.0,
-                shadow_offset: Vector::new(1.0, 1.0),
-                text_color: match self {
-                    Button::Selected => Color::WHITE,
-                    Button::UnSelected => Color::BLACK,
-                },
-                ..button::Style::default()
-            }
-        }
-
-        fn hovered(&self) -> button::Style {
-            button::Style {
-                text_color: match self {
-                    Button::Selected => Color::from_rgb(0.87, 0.87, 0.87),
-                    Button::UnSelected => Color::from_rgb(0.11, 0.42, 0.87),
-                },
-                shadow_offset: Vector::new(1.0, 2.0),
-                ..self.active()
-            }
-        }
     }
 }

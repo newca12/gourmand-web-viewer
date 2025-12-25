@@ -1,6 +1,6 @@
 use std::fs::File;
-use std::io::prelude::*;
 use std::io::LineWriter;
+use std::io::prelude::*;
 use std::path::PathBuf;
 
 use gourmand_web_viewer_cli::check;
@@ -9,8 +9,6 @@ use structopt::StructOpt;
 #[derive(StructOpt, Debug)]
 #[structopt(name = "basic")]
 pub struct Opt {
-    #[structopt(long)]
-    pub cli: bool,
     #[structopt(short, long)]
     pub command: Option<String>,
     #[structopt(short, long, parse(from_os_str))]

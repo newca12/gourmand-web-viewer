@@ -18,13 +18,13 @@ You can try the [demo online](https://edla.org/GourmandWebViewer) or built it yo
 to be done once :
 ```
 rustup target add wasm32-unknown-unknown
-cargo install -f wasm-bindgen-cli --version 0.2.69
+cargo install -f wasm-bindgen-cli
 ```
 to be done each time recipes.xml is updated  
 ```
-cargo run --bin gourmand-web-viewer-cli -- --cli --command generate
+cargo run --bin gourmand-web-viewer-cli -- --command generate
 cargo build --release --package gourmand-web-viewer --target wasm32-unknown-unknown
-wasm-bindgen target/wasm32-unknown-unknown/release/gourmand-web-viewer.wasm --out-dir GourmandWebViewer --web
+
 ```
 
 ## A GUI is also available ##
@@ -35,10 +35,10 @@ cargo run --bin gourmand-web-viewer
 
 ## Other CLI commands ##
 ```
-cargo run --bin gourmand-web-viewer-cli -- --cli --help
-cargo run --bin gourmand-web-viewer-cli -- --cli --command list
-cargo run --bin gourmand-web-viewer-cli -- --cli --command debug
+cargo run --bin gourmand-web-viewer-cli -- --help
+cargo run --bin gourmand-web-viewer-cli -- --command list
+cargo run --bin gourmand-web-viewer-cli -- --command debug
 ```
 
 ### License ###
-© 2022 Olivier ROLAND. Distributed under the GPLv3 License.
+© 2022-2025 Olivier ROLAND. Distributed under the GPLv3 License.
