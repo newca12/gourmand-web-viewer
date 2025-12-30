@@ -15,15 +15,16 @@ jobs:
       - run: |
           echo build
           rustup target add wasm32-unknown-unknown
-          cargo install -f wasm-bindgen-cli
-          cargo build --release --package gourmand-web-viewer --target wasm32-unknown-unknown
-          wasm-bindgen target/wasm32-unknown-unknown/release/gourmand-web-viewer.wasm --out-dir GourmandWebViewer --web
+          cargo install --locked trunk
+          cd gourmand-web-viewer
+          trunk build --release
+          cd ..
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'GourmandWebViewer'
+          source-directory: 'gourmand-web-viewer/dist'
           target-directory: 'GourmandWebViewer'
           destination-github-username: 'newca12'
           destination-repository-name: 'newca12.github.com'
